@@ -13,6 +13,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Collect language files
+        run: cd static/languages/; tar -zcvf ../../languages.tgz *; cd ../..
+        shell: bash
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
