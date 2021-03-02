@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Collect language files
-        run: cd static/languages/; tar -zcvf ../../languages.tgz *; cd ../..
+        run: cd static/languages/; tar -zcvf ../../languages.tar.gz *; cd ../..
         shell: bash
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
