@@ -1,0 +1,77 @@
+{
+	"title": "TapAndFish",
+	"menus": {
+		"fishing": "Fishing",
+		"become_fisher": "Diventa un host fisher",
+		"learn": "Learn to fish",
+		"signin": "Accedi",
+		"signup": "Registrati",
+		"account": "Account",
+		"create_event": "Crea evento"
+	},
+	"footer": {
+		"about_us": "Chi siamo",
+		"how_it_works": "Come funziona",
+		"blog": "Blog",
+		"contacts": "Contatti"
+	},
+	"banners": {
+		"boat_owner": {
+			"text": "Sei il proprietario della barca?",
+			"button": "Stima i miei profitti"
+		}
+	},
+	"contacts": {
+		"title": "Contatti",
+		"headline": "Lorem ipsum dolor sit amet.",
+		"description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"form": {
+			"full_name": "Nome e cognome:",
+			"phone": "Tel:",
+			"email": "Email:",
+			"message": "Messaggio:",
+			"send": "Invia"
+		},
+		"privacy_notice": "* 100% Privacy garantita, leggi la nostra <a href=\"/terms/#privacy\" target=\"_blank\">Privacy Policy</a>."
+	},
+	"forms": {
+		"name": "Nome",
+		"surname": "Cognome",
+		"email": "Email",
+		"emailConfirmation": "Conferma email",
+		"password": "Password",
+		"passwordconfirmation": "Conferma password",
+		"nameError": "Inserisci un nome valido",
+		"surnameError": "Inserisci un cognome valido",
+		"emailError": "Inserisci un'indirizzo email valido",
+		"emailUsed": "L'email inserita è già utilizzata da un'account",
+		"emailConfirmationError": "Gli indirizzi email non corrispondono",
+		"passwordError": "La password deve essere lunga almeno 6 caratteri e deve contenere almeno una lettera maiuscola, una minuscola e un numero",
+		"passwordConfirmationError": "Le password non corrispondono",
+		"acceptTerms": "Dichiaro di accettare i <a href='/terms' target='_blank'>Termini di Servizio e l'Informativa sulla Privacy</a>",
+		"acceptTermsError": "You must accept the terms",
+		"signupUnknownError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto",
+		"signupSuccess": "La registrazione è avvenuta con successo! Ti è stata inviata una mail per verificare il tuo account. Finché l'account non sarà verificato non potrai inserire alcun annuncio o prenotarne di esistenti",
+		"signinUnknownError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto",
+		"signinError": "Indirizzo email o password errati",
+		"recoverUnknownError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto",
+		"recoverSuccess": "Se vi è un account associato a questa email, un link di recupero è stato mandato per poter resettare la password.",
+		"changePropic": "Cambia immagine profilo",
+		"changePropicDescription": "Seleziona un'immagine dal tuo dispositivo e caricala come nuova immagine del profilo.<br />Sono supportati PNG, JPEG, la dimensione massima per il file è di 3MB",
+		"changePropicUnknownError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi.",
+		"changePropicSizeError": "L'immagine caricata è troppo grande, la dimensione massima è di 3MB",
+		"changePropicRatioError": "L'immagine profilo deve essere circa quadrata",
+		"changePropicFormatError": "Puoi caricare solo file PNG e JPEG",
+		"chooseFile": "Seleziona file",
+		"browse": "Naviga",
+		"close": "Chiudi",
+		"saveChanges": "Salva modifiche",
+		"oldPasswordError": "La nuova password deve essere diversa dalla vecchia password.",
+		"date_from": "Dal",
+		"date_to": "Al",
+		"search": "Cerca",
+		"upload": "Carica"
+	},
+	"signup": "Registrati",
+	"signin": "Accedi"
+}

@@ -37,6 +37,10 @@
 	ul {
 		font-size: 1.3em;
 	}
+
+	li span {
+		margin-right: 10px;
+	}
 </style>
 
 
@@ -46,7 +50,7 @@
 
 		<ul>
 			{#each Object.entries(languages) as [langcode, lang]}
-				<li><a href={`/${langcode}/`}>{lang.name}</a></li>
+				<li><a href={`/${langcode}/`}><span class="flag-icon flag-icon-{lang.flag}"></span>{lang.name}</a></li>
 			{/each}
 		</ul>
 
@@ -66,8 +70,8 @@
 				<input type="text" placeholder="en.json" bind:value={newlang.file}>
 			</div>
 			<div>
-				<label>Flag file:</label>
-				<input type="text" placeholder="en.svg" bind:value={newlang.flag}>
+				<label>Flag code:</label>
+				<input type="text" placeholder="gb" bind:value={newlang.flag}>
 			</div>
 			<div>
 				<button>Add</button>

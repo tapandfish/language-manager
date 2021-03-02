@@ -16,8 +16,11 @@
 		} catch(e) {}
 
 		const this_lang = languages[langcode];
+		if(!this_lang) {
+			this.redirect(302, '/');
+		}
 
-		return { lang, english, this_lang };
+		return { lang, english, this_lang, langcode };
 	}
 </script>
 
@@ -25,7 +28,7 @@
 	import { onMount } from 'svelte';
 	import Displayer from '../../components/Displayer.svelte';
 
-	export let lang, english, this_lang;
+	export let lang, english, this_lang, langcode;
 
 	function save() {
 		console.log('saving...')
@@ -36,7 +39,7 @@
 			headers: {
 				'Content-Type': 'application/json'
 			},
-			body: JSON.stringify(lang)
+			body: JSON.stringify({langcode, newfile:lang})
 		});
 		console.log('saved...')
 	}
@@ -55,11 +58,15 @@
 		font-size: 2em;
 		margin: 1.5em auto;
 	}
+
+	h1 span {
+		margin-right: 10px;
+	}
 </style>
 
 <main>
 	<div class="container">
-		<h1>{this_lang.name}</h1>
+		<h1><span class="flag-icon flag-icon-{this_lang.flag}"></span>{this_lang.name}</h1>
 
 		<Displayer english={english} bind:data={lang} />
 

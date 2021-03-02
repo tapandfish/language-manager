@@ -1,1 +1,1 @@
-export default {en:{name:"English",file:"en.json",flag:"en.svg"},it:{name:"Italiano",file:"it.json",flag:"it.svg"}};
+export default {en:{name:"English",file:"en.json",flag:"gb"},it:{name:"Italiano",file:"it.json",flag:"it"}};

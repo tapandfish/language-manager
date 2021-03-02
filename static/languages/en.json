@@ -1,8 +1,4 @@
 {
-	"langcodes": {
-        "it": "Italiano",
-        "en": "English"
-    },
     "title": "TapAndFish",
     "menus": {
         "fishing": "Fishing",
