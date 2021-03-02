@@ -23,5 +23,5 @@ jobs:
           prerelease: true
           title: "Development Build"
           files: |
-            ./languages.tgz
+            ./languages.tar.gz
             src/_languages.js
