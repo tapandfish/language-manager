@@ -5,6 +5,7 @@ import * as sapper from '@sapper/server';
 
 import { json } from 'body-parser';
 
+process.env.PORT = 1234;
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
 
