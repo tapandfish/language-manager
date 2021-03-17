@@ -70,7 +70,9 @@
 		"date_from": "Dal",
 		"date_to": "Al",
 		"search": "Cerca",
-		"upload": "Carica"
+		"upload": "Carica",
+		"emailconfirmation": "Conferma email",
+		"passwordConfirmation": "Conferma password"
 	},
 	"signup": "Registrati",
 	"signin": "Accedi"
