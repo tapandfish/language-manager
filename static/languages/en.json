@@ -1,77 +1,83 @@
 {
-    "title": "TapAndFish",
-    "menus": {
-        "fishing": "Fishing",
-        "become_fisher": "Become a host fisher",
-        "learn": "Learn to fish",
-        "signin": "Sign in",
-        "signup": "Create account",
-        "account": "Account",
-        "create_event": "Create event"
-    },
-    "footer": {
-        "about_us": "About us",
-        "how_it_works": "How it works",
+	"title": "TapAndFish",
+	"menus": {
+		"fishing": "Fishing",
+		"become_fisher": "Become a host fisher",
+		"learn": "Learn to fish",
+		"signin": "Sign in",
+		"signup": "Create account",
+		"account": "Account",
+		"create_event": "Create event"
+	},
+	"footer": {
+		"about_us": "About us",
+		"how_it_works": "How it works",
 		"blog": "Blog",
-        "contacts": "Contacts"
-    },
-    "banners": {
-        "boat_owner": {
-            "text": "Do you own a boat?",
-            "button": "Estimate my profits"
-        }
-    },
-    "contacts": {
-        "title": "Contacts",
-        "headline": "Lorem ipsum dolor sit amet.",
-        "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "form": {
-            "full_name": "Full name:",
-            "phone": "Phone:",
-            "email": "Email:",
-            "message": "Message:",
-            "send": "Send"
-        },
-        "privacy_notice": "* 100% Privacy Guaranteed, view our <a href=\"/terms/#privacy\" target=\"_blank\">Privacy Policy</a> here."
-    },
-    "forms": {
-        "name": "Name",
-        "surname": "Surname",
-        "email": "Email",
-        "emailconfirmation": "Confirm email",
-        "password": "Password",
-        "passwordConfirmation": "Confirm password",
-        "nameError": "Insert a valid name",
-        "surnameError": "Insert a valid surname",
-        "emailError": "Insert a valid email address",
-        "emailUsed": "This email address is already in use",
-        "emailConfirmationError": "The two email addresses are not equal",
-        "passwordError": "The password must be at least 6 characters long and must include an uppercase letter, a lowercase letter and a number",
-        "passwordConfirmationError": "The two passwords are not equal",
-        "acceptTerms": "I do accept TapAndFish's <a href='/terms' target='_blank'>Terms of Service and Privacy Policy</a>",
-        "acceptTermsError": "You must accept the terms",
-        "signupUnknownError": "A major unknown exception has been raised during your registration. Please try again later, maybe after reloading the page. If the error persist please contact support",
-        "signupSuccess": "Your account has been created successfully, but it hasn't been verified yet. We've sent you an email with a link to complete the verification process. As soon as your account will be verified, you will be able to create or join trips",
-        "signinUnknownError": "A major unknown exception has been raised while trying to sign in. Please try again later, maybe after reloading the page. If the error persist please contact support",
-        "signinError": "Wrong email or password",
-        "recoverUnknownError": "A major unknown exception has been raised during your registration. Please try again later, maybe after reloading the page. If the error persist please contact support",
-        "recoverSuccess": "If there is an account linked to this email address, a recovery link has been sent in order to reset the password.",
-        "changePropic": "Change profile picture",
-        "changePropicDescription": "Select an image from your device and upload it as your new profile picture.<br />PNG, JPEG are supported, maximum file size is 3MB",
-        "changePropicUnknownError": "A major unknown exception has been raised while trying to update your profile picture. Please try again later.",
-        "changePropicSizeError": "The provided image is too big, 3MB is maximum",
-        "changePropicRatioError": "The profile picture must be \"sort of\" squared",
-        "changePropicFormatError": "You can only upload PNG and JPEG files",
-        "chooseFile": "Choose file",
-        "browse": "Browse",
-        "close": "Close",
-        "saveChanges": "Save changes",
-        "oldPasswordError": "Your new password must be different from the old password.",
-        "date_from": "From",
-        "date_to": "To",
-        "search": "Search",
-        "upload": "Upload"
-    },
+		"contacts": "Contacts"
+	},
+	"banners": {
+		"boat_owner": {
+			"text": "Do you own a boat?",
+			"button": "Estimate my profits"
+		}
+	},
+	"contacts": {
+		"title": "Contacts",
+		"headline": "Lorem ipsum dolor sit amet.",
+		"description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"form": {
+			"full_name": "Full name:",
+			"phone": "Phone:",
+			"email": "Email:",
+			"message": "Message:",
+			"send": "Send"
+		},
+		"privacy_notice": "* 100% Privacy Guaranteed, view our <a href=\"/terms/#privacy\" target=\"_blank\">Privacy Policy</a> here."
+	},
+	"forms": {
+		"name": "Name",
+		"surname": "Surname",
+		"email": "Email",
+		"emailconfirmation": "Confirm email",
+		"password": "Password",
+		"passwordConfirmation": "Confirm password",
+		"nameError": "Insert a valid name",
+		"surnameError": "Insert a valid surname",
+		"emailError": "Insert a valid email address",
+		"emailUsed": "This email address is already in use",
+		"emailConfirmationError": "The two email addresses are not equal",
+		"passwordError": "The password must be at least 6 characters long and must include an uppercase letter, a lowercase letter and a number",
+		"passwordConfirmationError": "The two passwords are not equal",
+		"acceptTerms": "I do accept TapAndFish's <a href='/terms' target='_blank'>Terms of Service and Privacy Policy</a>",
+		"acceptTermsError": "You must accept the terms",
+		"signupUnknownError": "A major unknown exception has been raised during your registration. Please try again later, maybe after reloading the page. If the error persist please contact support",
+		"signupSuccess": "Your account has been created successfully, but it hasn't been verified yet. We've sent you an email with a link to complete the verification process. As soon as your account will be verified, you will be able to create or join trips",
+		"signinUnknownError": "A major unknown exception has been raised while trying to sign in. Please try again later, maybe after reloading the page. If the error persist please contact support",
+		"signinError": "Wrong email or password",
+		"recoverUnknownError": "A major unknown exception has been raised during your registration. Please try again later, maybe after reloading the page. If the error persist please contact support",
+		"recoverSuccess": "If there is an account linked to this email address, a recovery link has been sent in order to reset the password.",
+		"changePropic": "Change profile picture",
+		"changePropicDescription": "Select an image from your device and upload it as your new profile picture.<br />PNG, JPEG are supported, maximum file size is 3MB",
+		"changePropicUnknownError": "A major unknown exception has been raised while trying to update your profile picture. Please try again later.",
+		"changePropicSizeError": "The provided image is too big, 3MB is maximum",
+		"changePropicRatioError": "The profile picture must be \"sort of\" squared",
+		"changePropicFormatError": "You can only upload PNG and JPEG files",
+		"chooseFile": "Choose file",
+		"browse": "Browse",
+		"close": "Close",
+		"saveChanges": "Save changes",
+		"oldPasswordError": "Your new password must be different from the old password.",
+		"date_from": "From",
+		"date_to": "To",
+		"search": "Search",
+		"upload": "Upload"
+	},
 	"signup": "Create account",
-	"signin": "Login"
+	"signin": "Login",
+	"user": "User",
+	"verification": {
+		"success": "Your account has been successfully activated. Now you don't have any feature limitation",
+	    "already_done": "Your account has already been activated",
+		"error": "The verification token is either wrong or expired. Please try sending another verification mail from your account page"
+	}
 }

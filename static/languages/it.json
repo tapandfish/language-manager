@@ -75,5 +75,11 @@
 		"passwordConfirmation": "Conferma password"
 	},
 	"signup": "Registrati",
-	"signin": "Accedi"
+	"signin": "Accedi",
+	"user": "Utente",
+	"verification": {
+		"success": "Il tuo account è stato attivato con successo. Adesso non hai più limitazioni",
+	    "already_done": "Il tuo account è già stato attivato",
+		"error": "Il token di verifica è errato o scaduto. Per favore prova a mandare un'altra email di verifica dalla pagina del tuo account"
+	}
 }
