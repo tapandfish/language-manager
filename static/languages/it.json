@@ -76,10 +76,44 @@
 	},
 	"signup": "Registrati",
 	"signin": "Accedi",
-	"user": "Utente",
 	"verification": {
 		"success": "Il tuo account è stato attivato con successo. Adesso non hai più limitazioni",
-	    "already_done": "Il tuo account è già stato attivato",
+		"already_done": "Il tuo account è già stato attivato",
 		"error": "Il token di verifica è errato o scaduto. Per favore prova a mandare un'altra email di verifica dalla pagina del tuo account"
+	},
+	"user": {
+		"verification": {
+			"banner": "Il tuo account non è ancora stato verificato e di conseguenza alcune delle funzionalità della piattaforma ti risulteranno bloccate. Per favore controlla le mail in arrivo sulla tua casella di posta per ottenere il link di verifica. Se hai bisogno di reinviare l'email puoi premere il seguente pulsante:",
+			"sendButton": "Invia email",
+			"sent": "L'email di verifica è stata inviata.",
+			"sendError": "Un errore improvviso è stato riscontrato durante l'invio dell'email di verifica. Riprova più tardi."
+		},
+		"menu": {
+			"details": "Informazioni personali",
+			"events": "I miei eventi",
+			"security": "Sicurezza account",
+			"payment": "Dettagli pagamento",
+			"boats": "Le mie barche"
+		},
+		"tabs": {
+			"info": {
+				"title": "Impostazioni email",
+				"yourEmail": "La tua email",
+				"variousEmailsCheckbox": "Ricevi offerte, suggerimenti e varie email dalla piattaforma",
+				"importantEmailsCheckbox": "Ricevi email riguardo nuove funzionalità della piattaforma, miglioramenti e aggiornamenti di sicurezza",
+				"emailDisclaimer": "Continuerai a ricevere email riguardo la sicurezza del tuo account e aggiornamenti dei Termini di Servizio. Questo tipo di email non può essere disattivato. Se desideri eliminare il tuo account contattaci.",
+				"button": "Aggiorna informazioni"
+			},
+			"sessions": {
+				"title": "Sessioni attive",
+				"description": "La lista seguente contiene tutte le sessioni attive sul tuo account. Se vedi una sessione che non riconosci o che ti sembra sospetta per favore revocala. Per ragioni di sicurezza consigliamo anche di cambiare password subito dopo.",
+				"reload": "AGGIORNA",
+				"thisDevice": "Questo dispositivo",
+				"noLocation": "Posizione non disponibile",
+				"revoked": "Revocato",
+				"extremeError": "Si è verificato un errore tentando di caricare le sessioni attive. Per favore riprova più tardi. Se il problema persiste contattare il supporto."
+			}
+		},
+		"title": "Utente"
 	}
 }

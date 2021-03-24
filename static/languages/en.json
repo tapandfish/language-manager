@@ -74,10 +74,44 @@
 	},
 	"signup": "Create account",
 	"signin": "Login",
-	"user": "User",
 	"verification": {
 		"success": "Your account has been successfully activated. Now you don't have any feature limitation",
 	    "already_done": "Your account has already been activated",
 		"error": "The verification token is either wrong or expired. Please try sending another verification mail from your account page"
+	},
+	"user": {
+		"title": "User",
+		"verification": {
+			"banner": "Your account hasn't been verified yet so that some features have been blocked to you. Please check your email inbox for the verification link. If you need to resend the verification email, you can press the following button:",
+			"sendButton": "Send email",
+			"sent": "The verification email has been sent.",
+		    "sendError": "An unexpected exception has been raised while sending the email. Please try again later."
+		},
+        "menu": {
+            "details": "Personal details",
+            "events": "My events",
+            "security": "Account security",
+            "payment": "Payment info",
+            "boats": "My boats"
+        },
+		"tabs": {
+			"info": {
+				"title": "Email settings",
+				"yourEmail": "Your email",
+				"variousEmailsCheckbox": "Receive offers, suggestions and various emails from the platform",
+				"importantEmailsCheckbox": "Receive emails about new platform features, improvements and security updates",
+				"emailDisclaimer": "You will still receive critical emails regarding your account security or changes in the Terms of Service. This cannot be disabled. If you wish to delete your account please contact us.",
+				"button": "Update settings"
+			},
+	        "sessions": {
+	            "title": "Active sessions",
+	            "description": "The following list contains every active session on this account. If you see an unrecognized or suspicious session please revoke it. For security reasons we also suggest you to change your password immediately after.",
+	            "reload": "RELOAD",
+	            "thisDevice": "This device",
+	            "noLocation": "Location not available",
+	            "revoked": "Revoked",
+	            "extremeError": "There was an error while trying to retrieve active sessions. Please try again later. If the problem persists please contact support."
+	        }
+		}
 	}
 }
