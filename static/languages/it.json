@@ -102,7 +102,9 @@
 				"variousEmailsCheckbox": "Ricevi offerte, suggerimenti e varie email dalla piattaforma",
 				"importantEmailsCheckbox": "Ricevi email riguardo nuove funzionalità della piattaforma, miglioramenti e aggiornamenti di sicurezza",
 				"emailDisclaimer": "Continuerai a ricevere email riguardo la sicurezza del tuo account e aggiornamenti dei Termini di Servizio. Questo tipo di email non può essere disattivato. Se desideri eliminare il tuo account contattaci.",
-				"button": "Aggiorna informazioni"
+				"button": "Aggiorna informazioni",
+				"success": "Le tue impostazioni email sono state aggiornate con successo. Se hai cambiato il tuo indirizzo email ricorda che devi verificare il nuovo indirizzo.",
+				"extremeError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto."
 			},
 			"sessions": {
 				"title": "Sessioni attive",

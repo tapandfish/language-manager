@@ -101,7 +101,9 @@
 				"variousEmailsCheckbox": "Receive offers, suggestions and various emails from the platform",
 				"importantEmailsCheckbox": "Receive emails about new platform features, improvements and security updates",
 				"emailDisclaimer": "You will still receive critical emails regarding your account security or changes in the Terms of Service. This cannot be disabled. If you wish to delete your account please contact us.",
-				"button": "Update settings"
+				"button": "Update settings",
+				"success": "Your email settings has been successfully updated. If you changed your email remember that you have to verify the new one.",
+        		"extremeError": "A major unknown exception has been raised while updating your email settings. Please try again later, maybe after reloading the page. If the error persist please contact support."
 			},
 	        "sessions": {
 	            "title": "Active sessions",
