@@ -116,6 +116,23 @@
 				"extremeError": "Si è verificato un errore tentando di caricare le sessioni attive. Per favore riprova più tardi. Se il problema persiste contattare il supporto."
 			}
 		},
-		"title": "Utente"
+		"title": "Utente",
+		"revert": {
+			"title": "Ripristina account",
+			"invalid": "Questo link non è valido, se il problema persiste per favore contatta il supporto.",
+			"description": "Per favore reimposta la password del tuo account, in modo che nessuno possa più accedervi senza autorizzazione. Consigliamo di controllare i dettagli del tuo account, in caso qualcuno li abbia cambiati.",
+			"unknownError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto",
+			"button": "Ripristina"
+		}
+	},
+	"pages": {
+		"recover": {
+			"title": "Recupera account",
+			"description": "Se hai dimenticato la tua password, puoi provare a recuperare il tuo account con il tuo indirizzo email.",
+			"resetDescription": "Reimposta la password per accedere al tuo account.",
+			"button": "Recupera",
+			"success": "Se vi è un account associato a questa email, un link di recupero è stato mandato per poter resettare la password.",
+			"error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto"
+		}
 	}
 }

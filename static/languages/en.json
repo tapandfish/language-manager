@@ -76,7 +76,7 @@
 	"signin": "Login",
 	"verification": {
 		"success": "Your account has been successfully activated. Now you don't have any feature limitation",
-	    "already_done": "Your account has already been activated",
+		"already_done": "Your account has already been activated",
 		"error": "The verification token is either wrong or expired. Please try sending another verification mail from your account page"
 	},
 	"user": {
@@ -85,15 +85,15 @@
 			"banner": "Your account hasn't been verified yet so that some features have been blocked to you. Please check your email inbox for the verification link. If you need to resend the verification email, you can press the following button:",
 			"sendButton": "Send email",
 			"sent": "The verification email has been sent.",
-		    "sendError": "An unexpected exception has been raised while sending the email. Please try again later."
+			"sendError": "An unexpected exception has been raised while sending the email. Please try again later."
 		},
-        "menu": {
-            "details": "Personal details",
-            "events": "My events",
-            "security": "Account security",
-            "payment": "Payment info",
-            "boats": "My boats"
-        },
+		"menu": {
+			"details": "Personal details",
+			"events": "My events",
+			"security": "Account security",
+			"payment": "Payment info",
+			"boats": "My boats"
+		},
 		"tabs": {
 			"info": {
 				"title": "Email settings",
@@ -103,17 +103,34 @@
 				"emailDisclaimer": "You will still receive critical emails regarding your account security or changes in the Terms of Service. This cannot be disabled. If you wish to delete your account please contact us.",
 				"button": "Update settings",
 				"success": "Your email settings has been successfully updated. If you changed your email remember that you have to verify the new one.",
-        		"extremeError": "A major unknown exception has been raised while updating your email settings. Please try again later, maybe after reloading the page. If the error persist please contact support."
+				"extremeError": "A major unknown exception has been raised while updating your email settings. Please try again later, maybe after reloading the page. If the error persist please contact support."
 			},
-	        "sessions": {
-	            "title": "Active sessions",
-	            "description": "The following list contains every active session on this account. If you see an unrecognized or suspicious session please revoke it. For security reasons we also suggest you to change your password immediately after.",
-	            "reload": "RELOAD",
-	            "thisDevice": "This device",
-	            "noLocation": "Location not available",
-	            "revoked": "Revoked",
-	            "extremeError": "There was an error while trying to retrieve active sessions. Please try again later. If the problem persists please contact support."
-	        }
+			"sessions": {
+				"title": "Active sessions",
+				"description": "The following list contains every active session on this account. If you see an unrecognized or suspicious session please revoke it. For security reasons we also suggest you to change your password immediately after.",
+				"reload": "RELOAD",
+				"thisDevice": "This device",
+				"noLocation": "Location not available",
+				"revoked": "Revoked",
+				"extremeError": "There was an error while trying to retrieve active sessions. Please try again later. If the problem persists please contact support."
+			}
+		},
+		"revert" : {
+			"title": "Restore account",
+			"invalid": "This link is invalid, if the problem persists please contact support.",
+			"description": "Please reset your password, so that no one can log in without authorization. We also suggest checking your details in case something was changed by someone.",
+			"unknownError": "A major unknown exception has been raised during your account recover. Please try again later, maybe after reloading the page. If the error persist please contact support",
+			"button": "Restore"
+		}
+	},
+	"pages": {
+		"recover": {
+			"title": "Account recovery",
+			"description": "If you forgot your password, you can try recovering your account with your email address.",
+			"error": "A major unknown exception has been raised during your registration. Please try again later, maybe after reloading the page. If the error persist please contact support",
+			"success": "If there is an account linked to this email address, a recovery link has been sent in order to reset the password.",
+			"button": "Recover",
+			"resetDescription": "Reset your password to access your account."
 		}
 	}
 }
