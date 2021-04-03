@@ -1,6 +1,6 @@
 # Language manager
 
-This project has been bodged together in a couple of hours. It provides an easy to use platform to update language files. Note that this is very specific to the [TapAndFish](https://tapandfish.com) platform, but if you want to clone and use this for your project there shouldn't be any big problem.
+This project has been bodged together in a couple of hours. It provides an easy to use platform to update language files. Note that this is very specific to the [TapAndFish](https://tapandfish.com) platform (and in fact contains its language files), but if you want to clone and use this for your project there shouldn't be any big problem.
 
 ## How this works
 
