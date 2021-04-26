@@ -214,11 +214,38 @@
 				"list": [
 					"Become a host fisher! Leave the rest to us!",
 					"Start your business! We'll help you manage it!",
-					"You are not a professional? Earn by saving some money! Share the expenses or rent your boat, with or without a captain!"
+					"Not a professional? Earn by saving some money! Share the expenses or rent your boat, with or without a captain!"
 				]
 			},
 			"parallax": "Pick TapAndFish[br]our team of experts will make fishing your dream job!",
 			"ambassadors": "Our TapAndFish brand ambassadors"
+		},
+		"gofishing": {
+			"title": "Go fishing",
+			"header": "Fishing has never been that easy!",
+			"question": "What is TapAndFish?",
+			"description": "It's the leading platform to search and book charters and fishing guides.[br]TapAndFish is also promoting sharing economy: the price for the majority of events is set with the intent of splitting the expenses between participants.",
+			"hosts": {
+				"question": "Are you looking for a private or professional fisher?",
+				"private": {
+					"description": "Private host fisher:",
+					"list": [
+						"Every event is tagged with <kbd>private user</kbd>",
+						"After you've seen the price, you can message the host, to ask for some proof of expenses and get more info on the event.",
+						"Bookings and payments can be canceled up to 48 hours before the event. Our client support is always available."
+					]
+				},
+				"professional": {
+					"description": "Professional host fisher:",
+					"list": [
+						"Every event is tagged with <kbd>professional user</kbd>",
+						"The price considers a guaranteed experience with included insurance.",
+						"Bookings and payments can be canceled up to 48 hours before the event. Our client support is always available.",
+						"You can message freely with all our guides to request a tailored experience!"
+					]
+				}
+			},
+			"users_say": "What users say about us"
 		}
 	},
 	"cards": {

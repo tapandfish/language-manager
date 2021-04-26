@@ -221,6 +221,33 @@
 			"action": "Prenota la tua prima esperienza",
 			"parallax": "Affidati a TapAndFish[br]il nostro team di esperti farà della pesca il lavoro dei tuoi sogni!",
 			"ambassadors": "I nostri brand ambassador Tap and Fish"
+		},
+		"gofishing": {
+			"hosts": {
+				"private": {
+					"list": {
+						"0": "Ogni evento riporta in descrizione <kbd>utente privato</kbd>",
+						"1": "Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
+						"2": "La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
+					},
+					"description": "Host fisher privato:"
+				},
+				"professional": {
+					"list": {
+						"0": "Ogni evento riporta in descrizione <kbd>utente professionista</kbd>",
+						"1": "Il prezzo dell'evento tiene conto di un’esperienza garantita al 100% con servizi assicurativi inclusi",
+						"2": "La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
+						"3": "Puoi messaggiare gratuitamente con tutte le nostre guide per richiedere soluzioni taylormade!"
+					},
+					"description": "Host fisher professionista:"
+				},
+				"question": "Stai cercando un host fisher privato o professionista?"
+			},
+			"title": "Fishing",
+			"header": "Con TapAndFish pescare non è mai stato così semplice!",
+			"question": "Che cos’è TapAndFish?",
+			"description": "È la piattaforma leader per la ricerca e la prenotazione di charter e guide di pesca.[br]TapAndFish, inoltre, è promotore della sharing economy: il prezzo della maggior parte degli eventi, infatti, viene stabilito con l'obiettivo di ripartire le spese fra i partecipanti.",
+			"users_say": "Cosa dicono gli utenti"
 		}
 	},
 	"cards": {
