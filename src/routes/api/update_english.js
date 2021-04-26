@@ -26,7 +26,7 @@ function generate_type_definition_object(data) {
 }
 
 function stringify(obj) {
-	const elements = ['current :string'];
+	const elements = [];
 	for(let key in obj) {
 		if (typeof obj[key] === 'string') {
 			elements.push(`${key} ${obj[key]}`);
@@ -41,6 +41,7 @@ function stringify(obj) {
 }
 
 function generate_type_definition(data) {
+	data.current = 'string';
 	const obj = generate_type_definition_object(data);
 	const definition = stringify(obj);
 	return 'export type LangFile = ' + definition;
