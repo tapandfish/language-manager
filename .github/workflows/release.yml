@@ -25,3 +25,4 @@ jobs:
           files: |
             ./languages.tar.gz
             src/_languages.js
+            src/_lang_type.ts

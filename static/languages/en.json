@@ -15,10 +15,30 @@
 		"blog": "Blog",
 		"contacts": "Contacts"
 	},
-	"banners": {
+	"ctas": {
+		"become_host": {
+			"text": "Do you want to be[br]a host fisher?",
+			"button": "Estimate my profits ->"
+		},
 		"boat_owner": {
 			"text": "Do you own a boat?",
-			"button": "Estimate my profits"
+			"button": "Estimate my profits ->"
+		},
+		"book_now": {
+			"text": "Are you curious to learn[br]all the experiences TapAndFish[br]has to offer?",
+			"button": "Book a fishing experience[br]near you ->"
+		},
+		"insurance_banner": {
+			"text": "Protected insurance and payments",
+			"button": "Book a fishing experience"
+		},
+		"discover_estimate": {
+			"text": "Are you a fisher? Would you like to join TapAndFish's Team?[br]Sign up now as a professional or private charter and publish your first event!",
+			"button": "Learn more and estimate your profits ->"
+		},
+		"first_time": {
+			"text": "First time on TapAndFish?",
+			"button": "Book now an experience with our Ambassadors: they will share their secrets for breathtaking adventures!"
 		}
 	},
 	"contacts": {
@@ -115,7 +135,7 @@
 				"extremeError": "There was an error while trying to retrieve active sessions. Please try again later. If the problem persists please contact support."
 			}
 		},
-		"revert" : {
+		"revert": {
 			"title": "Restore account",
 			"invalid": "This link is invalid, if the problem persists please contact support.",
 			"description": "Please reset your password, so that no one can log in without authorization. We also suggest checking your details in case something was changed by someone.",

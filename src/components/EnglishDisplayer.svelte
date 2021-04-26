@@ -1,14 +1,30 @@
 <script>
+	import { onMount } from 'svelte';
+	onMount(() => {
+		console.log(Array.isArray(data))
+	})
+
 	export let data;
 
+	function set(value) {
+		if (!Array.isArray(data)) {
+			const name = prompt('Field name:');
+			data[name] = value;
+		} else {
+			data.push(value);
+		}
+	}
+
 	function addString() {
-		const name = prompt('Field name:');
-		data[name] = '';
+		set('');
 	}
 
 	function addObject() {
-		const name = prompt('Field name:');
-		data[name] = {};
+		set({});
+	}
+	
+	function addArray() {
+		set([]);
 	}
 </script>
 
@@ -60,17 +76,31 @@
 	}
 </style>
 
-{#each Object.entries(data) as [key, _]}
-	<div class="entry">
-		<div class="key">{key}:</div>
-		{#if typeof data[key] !== 'string'}
-			<svelte:self bind:data={data[key]} />
-		{:else}
-			<div class="value"><textarea bind:value={data[key]} /></div>
-		{/if}
-	</div>
-{/each}
+{#if Array.isArray(data)}
+	{#each data as _, key}
+		<div class="entry">
+			<div class="key">{key}:</div>
+			{#if typeof data[key] !== 'string'}
+				<svelte:self bind:data={data[key]} />
+			{:else}
+				<div class="value"><textarea bind:value={data[key]} /></div>
+			{/if}
+		</div>
+	{/each}
+{:else}
+	{#each Object.entries(data) as [key, _]}
+		<div class="entry">
+			<div class="key">{key}:</div>
+			{#if typeof data[key] !== 'string'}
+				<svelte:self bind:data={data[key]} />
+			{:else}
+				<div class="value"><textarea bind:value={data[key]} /></div>
+			{/if}
+		</div>
+	{/each}
+{/if}
 <div class="button-container">
 	<button on:click={addString}>+ Add string</button>
 	<button on:click={addObject}>+ Add object</button>
+	<button on:click={addArray}>+ Add array</button>
 </div>

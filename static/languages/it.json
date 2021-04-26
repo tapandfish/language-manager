@@ -15,10 +15,30 @@
 		"blog": "Blog",
 		"contacts": "Contatti"
 	},
-	"banners": {
+	"ctas": {
+		"become_host": {
+			"text": "Vuoi diventare un[br]host fisher privato?",
+			"button": "Stima le mie entrate ->"
+		},
 		"boat_owner": {
 			"text": "Sei il proprietario della barca?",
-			"button": "Stima i miei profitti"
+			"button": "Stima i miei profitti ->"
+		},
+		"book_now": {
+			"text": "Sei curioso di scoprire[br]le esperienze offerte[br]su TapAndFish?",
+			"button": "Prenota un'uscita di pesca[br]vicino a te! ->"
+		},
+		"insurance_banner": {
+			"text": "Assicurazione e Pagamenti protetti",
+			"button": "Prenota un'uscita di pesca"
+		},
+		"discover_estimate": {
+			"text": "Sei un pescatore e vorresti fare parte del Team TapAndFish?[br]Registrati subito come guida professionista o privata e pubblica il tuo primo evento!",
+			"button": "Scopri di più e stima il tuo profitto ->"
+		},
+		"first_time": {
+			"text": "Prima volta su TapAndFish?",
+			"button": "Prenota un’esperienza con i nostri Ambassador: ti sveleranno segreti e trucchi per avventure mozzafiato!"
 		}
 	},
 	"contacts": {
