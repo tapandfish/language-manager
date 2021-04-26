@@ -195,6 +195,30 @@
 				"header": "Latest articles",
 				"action": "See all articles"
 			}
+		},
+		"about": {
+			"title": "About us",
+			"header": "TapAndFish: an Italian platform that takes you fishing all around the World",
+			"description": "With TapAndFish you can book your fishing trip fast and safely.",
+			"action": "Book your first experience",
+			"guest": {
+				"description": "If you are an enthusiast, we offer plenty of options:",
+				"list": [
+					"Share the expenses with a private fisher to be guided in unique and rare adventures",
+					"Book a charter or a professional guide: safety and quality guaranteed! A breathtaking fishing experience!",
+					"Fish, eat... and much more!"
+				]
+			},
+			"host": {
+				"description": "If you are an experienced fisher or a charter, choose TapAndFish:",
+				"list": [
+					"Become a host fisher! Leave the rest to us!",
+					"Start your business! We'll help you manage it!",
+					"You are not a professional? Earn by saving some money! Share the expenses or rent your boat, with or without a captain!"
+				]
+			},
+			"parallax": "Pick TapAndFish[br]our team of experts will make fishing your dream job!",
+			"ambassadors": "Our TapAndFish brand ambassadors"
 		}
 	},
 	"cards": {

@@ -197,6 +197,30 @@
 				"action": "Vedi tutti gli articoli"
 			},
 			"parallax": "Esperienze condivise – incontra pescatori in tutto il mondo, dividi le spese e preparati per un'esperienza unica!"
+		},
+		"about": {
+			"guest": {
+				"list": {
+					"0": "Condividi le spese con un pescatore privato per farti guidare alla ricerca di avventure uniche e rare",
+					"1": "Prenota un Charter o una guida professionista: sicurezza e qualità garantite. La pesca mozzafiato!",
+					"2": "Fish and Eat. Pesca, Mangia...e molto di più!"
+				},
+				"description": "Se sei un appassionato, ti offriamo moltissime opzioni:"
+			},
+			"host": {
+				"list": {
+					"0": "Diventa un host fisher! Al resto ci pensiamo noi!",
+					"1": "Lancia la tua attività! Ti aiuteremo a gestire il tuo business a 360 gradi",
+					"2": "Non sei un professionista? Guadagna Risparmiando! Condividi le spese o affitta la tua imbarcazione, con o senza capitano!"
+				},
+				"description": "Se sei un pescatore esperto o una guida di pesca, scegli TapAndFish:"
+			},
+			"title": "Chi siamo",
+			"header": "TapAndFish: una piattaforma tutta italiana che ti porta a pesca nel Mondo",
+			"description": "Con TapAndFish puoi prenotare il tuo viaggio o le tue battute di pesca in maniera rapida, efficace e sicura.",
+			"action": "Prenota la tua prima esperienza",
+			"parallax": "Affidati a TapAndFish[br]il nostro team di esperti farà della pesca il lavoro dei tuoi sogni!",
+			"ambassadors": "I nostri brand ambassador Tap and Fish"
 		}
 	},
 	"cards": {
