@@ -200,19 +200,19 @@
 		},
 		"about": {
 			"guest": {
-				"list": {
-					"0": "Condividi le spese con un pescatore privato per farti guidare alla ricerca di avventure uniche e rare",
-					"1": "Prenota un Charter o una guida professionista: sicurezza e qualità garantite. La pesca mozzafiato!",
-					"2": "Fish and Eat. Pesca, Mangia...e molto di più!"
-				},
+				"list": [
+					"Condividi le spese con un pescatore privato per farti guidare alla ricerca di avventure uniche e rare",
+					"Prenota un Charter o una guida professionista: sicurezza e qualità garantite. La pesca mozzafiato!",
+					"Fish and Eat. Pesca, Mangia...e molto di più!"
+				],
 				"description": "Se sei un appassionato, ti offriamo moltissime opzioni:"
 			},
 			"host": {
-				"list": {
-					"0": "Diventa un host fisher! Al resto ci pensiamo noi!",
-					"1": "Lancia la tua attività! Ti aiuteremo a gestire il tuo business a 360 gradi",
-					"2": "Non sei un professionista? Guadagna Risparmiando! Condividi le spese o affitta la tua imbarcazione, con o senza capitano!"
-				},
+				"list": [
+					"Diventa un host fisher! Al resto ci pensiamo noi!",
+					"Lancia la tua attività! Ti aiuteremo a gestire il tuo business a 360 gradi",
+					"Non sei un professionista? Guadagna Risparmiando! Condividi le spese o affitta la tua imbarcazione, con o senza capitano!"
+				],
 				"description": "Se sei un pescatore esperto o una guida di pesca, scegli TapAndFish:"
 			},
 			"title": "Chi siamo",
@@ -225,20 +225,20 @@
 		"gofishing": {
 			"hosts": {
 				"private": {
-					"list": {
-						"0": "Ogni evento riporta in descrizione <kbd>utente privato</kbd>",
-						"1": "Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
-						"2": "La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
-					},
+					"list": [
+						"Ogni evento riporta in descrizione <kbd>utente privato</kbd>",
+						"Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
+						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
+					],
 					"description": "Host fisher privato:"
 				},
 				"professional": {
-					"list": {
-						"0": "Ogni evento riporta in descrizione <kbd>utente professionista</kbd>",
-						"1": "Il prezzo dell'evento tiene conto di un’esperienza garantita al 100% con servizi assicurativi inclusi",
-						"2": "La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
-						"3": "Puoi messaggiare gratuitamente con tutte le nostre guide per richiedere soluzioni taylormade!"
-					},
+					"list": [
+						"Ogni evento riporta in descrizione <kbd>utente professionista</kbd>",
+						"Il prezzo dell'evento tiene conto di un’esperienza garantita al 100% con servizi assicurativi inclusi",
+						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
+						"Puoi messaggiare gratuitamente con tutte le nostre guide per richiedere soluzioni taylormade!"
+					],
 					"description": "Host fisher professionista:"
 				},
 				"question": "Stai cercando un host fisher privato o professionista?"

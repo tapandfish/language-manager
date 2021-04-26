@@ -2,7 +2,9 @@
 	export let data, english;
 
 	for(let key in english) {
-		if(typeof english[key] === 'object' && !data[key]) {
+		if(Array.isArray(english[key]) && !data[key]) {
+			data[key] = [];
+		} else if(typeof english[key] === 'object' && !data[key]) {
 			data[key] = {};
 		}
 	}
@@ -74,6 +76,7 @@
 				<svelte:self english={english[key]} bind:data={data[key]} />
 			{:else}
 				<div class="value"><textarea bind:value={data[key]} /></div>
+				<div class="english"><textarea disabled value={english[key]} /></div>
 			{/if}
 		</div>
 	{/each}
