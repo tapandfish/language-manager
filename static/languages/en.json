@@ -246,6 +246,59 @@
 				}
 			},
 			"users_say": "What users say about us"
+		},
+		"howitworks": {
+			"title": "How it works",
+			"guest": {
+				"nav": "How it works for the guest",
+				"list": [
+					{
+						"name": "Search",
+						"content": "Search the fisher who best fits your needs, for you there are a lot of opportunities, such as:",
+						"list": [
+							"<strong>Cheap events</strong> based on sharing expenses or on renting a boat, with or without a captain",
+							"<strong>Premium events</strong> with professional guides or charters."
+						]
+					},
+					{
+						"name": "Contact",
+						"content": "Contact your host with our booking and instant messaging systems.[br]We'll ask you to create an account to save your details and set up insurance."
+					},
+					{
+						"name": "Book",
+						"content": "After checking availability and agreeing on the event details with your host, book the event.[br]Authorize the payment and wait (24h max) for the host to accept your booking.[br]If the booking is accepted, the amount will be charged."
+					},
+					{
+						"name": "Review",
+						"content": "Review your experience giving a simple feedback.[br]This will help us improving our platform and providing a better service."
+					}
+				]
+			},
+			"host": {
+				"nav": "How it works for the host",
+				"list": [
+					{
+						"name": "Sign up",
+						"content": "Sign up for free on the platform (in case you own a boat we will ask for some details to ensure safe navigation)."
+					},
+					{
+						"name": "Publish",
+						"content": "Publish your ad: go to the host management page and click \"Create event\"; you will be guided step by step to make it as efficient as possible.[br]As soon as you fill in all the details, you will be able to publish it online and share it with the community."
+					},
+					{
+						"name": "Manage",
+						"content": "Manage all your bookings and transactions from a unique place.[br]We will help you collect feedback and will offer all the support in your <strong>host</strong> business."
+					},
+					{
+						"name": "Meet",
+						"content": "After accepting and validating bookings, you will receive the contact information of the guest to plan the details of the event (place and time of the meet, itinerary, gear, etc...).[br]Remember that the payment will be transferred on your account after the event."
+					},
+					{
+						"name": "Review",
+						"content": "Review your experience. Give a feedback to the gues and to our platform TapAndFish.[br]You will help us improve the booking system and the user experience!"
+					}
+				]
+			}
 		}
 	},
 	"cards": {

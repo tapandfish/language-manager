@@ -38,7 +38,7 @@
 		},
 		"first_time": {
 			"text": "Prima volta su TapAndFish?",
-			"button": "Prenota un’esperienza con i nostri Ambassador: ti sveleranno segreti e trucchi per avventure mozzafiato!"
+			"button": "Prenota un'esperienza con i nostri Ambassador: ti sveleranno segreti e trucchi per avventure mozzafiato!"
 		}
 	},
 	"contacts": {
@@ -235,7 +235,7 @@
 				"professional": {
 					"list": [
 						"Ogni evento riporta in descrizione <kbd>utente professionista</kbd>",
-						"Il prezzo dell'evento tiene conto di un’esperienza garantita al 100% con servizi assicurativi inclusi",
+						"Il prezzo dell'evento tiene conto di un'esperienza garantita al 100% con servizi assicurativi inclusi",
 						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
 						"Puoi messaggiare gratuitamente con tutte le nostre guide per richiedere soluzioni taylormade!"
 					],
@@ -245,9 +245,62 @@
 			},
 			"title": "Fishing",
 			"header": "Con TapAndFish pescare non è mai stato così semplice!",
-			"question": "Che cos’è TapAndFish?",
+			"question": "Che cos'è TapAndFish?",
 			"description": "È la piattaforma leader per la ricerca e la prenotazione di charter e guide di pesca.[br]TapAndFish, inoltre, è promotore della sharing economy: il prezzo della maggior parte degli eventi, infatti, viene stabilito con l'obiettivo di ripartire le spese fra i partecipanti.",
 			"users_say": "Cosa dicono gli utenti"
+		},
+		"howitworks": {
+			"guest": {
+				"list": [
+					{
+						"list": [
+							"<strong>Eventi economici</strong> basati sulla condivisione delle spese o sull'affitto dell'imbarcazione con o senza capitano",
+							"<strong>Eventi premium</strong> con guide o charter professionisti"
+						],
+						"name": "Cerca",
+						"content": "Cerca il pescatore che più si adatta alle tue esigenze, per te moltissime opportunità tra cui:"
+					},
+					{
+						"name": "Contatta",
+						"content": "Contatta il tuo Host attraverso i nostri sistemi di prenotazione e di messaggistica istantanea.[br]Ti chiederemo di creare un account per poter salvaguardare i tuoi dati e assicurarti in fase di contatto e pagamento."
+					},
+					{
+						"content": "Dopo aver verificato la disponibilità e aver concordato i dettagli dell'evento con il tuo Host, effettua la prenotazione.[br]A tal scopo, autorizza il  pagamento online e attendi (massimo 24h) l'accettazione della prenotazione da parte del proprietario.[br]Se la prenotazione viene accettata, l'importo viene addebitato sul tuo conto corrente bancario e ricevi le coordinate del proprietario della barca.",
+						"name": "Prenota"
+					},
+					{
+						"name": "Valuta",
+						"content": "Valuta la tua esperienza fornendo un semplice feedback. [br]Questo ci aiuterà a migliorare costantemente la nostra piattaforma e a offrire un servizio migliore."
+					}
+				],
+				"nav": "Come funziona per l'Ospite"
+			},
+			"host": {
+				"list": [
+					{
+						"name": "Registrati",
+						"content": "Registrati sulla Piattaforma gratuitamente (nel caso in cui disponessi di un'imbarcazione ti chiederemo di inserire alcuni dati affinchè tu possa navigare in sicurezza)."
+					},
+					{
+						"name": "Pubblica",
+						"content": "Pubblica il tuo Annuncio: entra nella tua area privata e clicca su \"Crea il tuo evento\"; verrai guidato automaticamente passo dopo passo per renderlo il più efficace possibile.[br]Una volta fornite tutte le informazioni potrai pubblicarlo on-line e condividerlo con il resto della community."
+					},
+					{
+						"name": "Gestisci",
+						"content": "Gestisci tutte le prenotazioni e le transazioni da un unico profilo.[br]Ti aiuteremo a raccogliere recensioni e a offrirti il supporto necessario alla tua attività di <strong>Host</strong>."
+					},
+					{
+						"name": "Incontra",
+						"content": "Dopo aver accettato e convalidato la prenotazione riceverai i contatti del locatario (telefono, e-mail) per stabilire gli ultimi dettagli dell'evento  (luogo e ora dell'appuntamento, definizione itinerario, attrezzatura, ecc..).[br]Ti ricordiamo che il pagamento sarà trasferito sul tuo conto successivamente alla conclusione dell'evento."
+					},
+					{
+						"name": "Valuta",
+						"content": "Valuta la tua esperienza. Offri un feedback al tuo ospite e alla nostra piattaforma TapAndFish.[br]Ci aiuterai a migliorare il sistema di prenotazione e l'esperienza dell'utente!"
+					}
+				],
+				"nav": "Come funziona per l'Host Fisher"
+			},
+			"title": "Come funziona"
 		}
 	},
 	"cards": {
