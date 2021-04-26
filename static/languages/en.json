@@ -18,23 +18,23 @@
 	"ctas": {
 		"become_host": {
 			"text": "Do you want to be[br]a host fisher?",
-			"button": "Estimate my profits ->"
+			"button": "Estimate my profits"
 		},
 		"boat_owner": {
 			"text": "Do you own a boat?",
-			"button": "Estimate my profits ->"
+			"button": "Estimate my profits"
 		},
 		"book_now": {
-			"text": "Are you curious to learn[br]all the experiences TapAndFish[br]has to offer?",
-			"button": "Book a fishing experience[br]near you ->"
+			"text": "Are you curious to learn all[br]the experiences TapAndFish[br]has to offer?",
+			"button": "Book a fishing experience[br]near you"
 		},
 		"insurance_banner": {
-			"text": "Protected insurance and payments",
+			"text": "Insurance and secure payments",
 			"button": "Book a fishing experience"
 		},
 		"discover_estimate": {
 			"text": "Are you a fisher? Would you like to join TapAndFish's Team?[br]Sign up now as a professional or private charter and publish your first event!",
-			"button": "Learn more and estimate your profits ->"
+			"button": "Learn more and estimate your profits"
 		},
 		"first_time": {
 			"text": "First time on TapAndFish?",
@@ -112,7 +112,8 @@
 			"events": "My events",
 			"security": "Account security",
 			"payment": "Payment info",
-			"boats": "My boats"
+			"boats": "My boats",
+			"logout": "Logout"
 		},
 		"tabs": {
 			"info": {
@@ -151,6 +152,58 @@
 			"success": "If there is an account linked to this email address, a recovery link has been sent in order to reset the password.",
 			"button": "Recover",
 			"resetDescription": "Reset your password to access your account."
+		},
+		"signin": {
+			"forgot_password": "Forgot password?"
+		},
+		"home": {
+			"discover": {
+				"header": "Discover more than 1000 experiences",
+				"action": "See all Experiences",
+				"description": "Book your Private or your Professional Host Fisher all over the world, chose the best experience that fits your need and get ready for unique adventures"
+			},
+			"fullscreen": {
+				"header": "Book your fishing experience",
+				"description": "Find professional guides and private fishers. Next to you",
+				"location": "Choose a location",
+				"date": "Pick a date",
+				"search": "Search"
+			},
+			"icons": {
+				"meet": "Meet",
+				"fish": "Fish",
+				"share": "Share"
+			},
+			"host_description": {
+				"private": {
+					"title": "Private Host Fisher:",
+					"description": "Share the costs with a local Fisherman, a cheap solution for a great fishing day! It is very easy: find a buddy, chat with him, agree on the shared price and go fishing!"
+				},
+				"professional": {
+					"title": "Professional Guides and Charters:",
+					"description": "Tayloramade solutions for an unforgettable experience, meet our certified guides and discover new techniques"
+				}
+			},
+			"image_gallery": {
+				"pre_header": "Amazing Landscapes for unforgettable fishing trips",
+				"header": "The most loved Fishing Destinations",
+				"action": "See all Destinations"
+			},
+			"parallax": "Shared experiences – meet your private fisher all over the world, share the costs and get ready for unique experiences!",
+			"post_gallery": {
+				"pre_header": "Fishing in the world",
+				"header": "Latest articles",
+				"action": "See all articles"
+			}
+		}
+	},
+	"cards": {
+		"ambassador": {
+			"badge": "Ambassador",
+			"reviews": "Reviews",
+			"users": "Users",
+			"experiences": "Offered experiences",
+			"worldwide": "TapAndFish WorldWide"
 		}
 	}
 }

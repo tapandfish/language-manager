@@ -26,7 +26,7 @@ function generate_type_definition_object(data) {
 }
 
 function stringify(obj) {
-	const elements = [];
+	const elements = ['current :string'];
 	for(let key in obj) {
 		if (typeof obj[key] === 'string') {
 			elements.push(`${key} ${obj[key]}`);

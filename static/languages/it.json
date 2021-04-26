@@ -18,15 +18,15 @@
 	"ctas": {
 		"become_host": {
 			"text": "Vuoi diventare un[br]host fisher privato?",
-			"button": "Stima le mie entrate ->"
+			"button": "Stima le mie entrate"
 		},
 		"boat_owner": {
 			"text": "Sei il proprietario della barca?",
-			"button": "Stima i miei profitti ->"
+			"button": "Stima i miei profitti"
 		},
 		"book_now": {
 			"text": "Sei curioso di scoprire[br]le esperienze offerte[br]su TapAndFish?",
-			"button": "Prenota un'uscita di pesca[br]vicino a te! ->"
+			"button": "Prenota un'uscita di pesca[br]vicino a te!"
 		},
 		"insurance_banner": {
 			"text": "Assicurazione e Pagamenti protetti",
@@ -34,7 +34,7 @@
 		},
 		"discover_estimate": {
 			"text": "Sei un pescatore e vorresti fare parte del Team TapAndFish?[br]Registrati subito come guida professionista o privata e pubblica il tuo primo evento!",
-			"button": "Scopri di più e stima il tuo profitto ->"
+			"button": "Scopri di più e stima il tuo profitto"
 		},
 		"first_time": {
 			"text": "Prima volta su TapAndFish?",
@@ -113,7 +113,8 @@
 			"events": "I miei eventi",
 			"security": "Sicurezza account",
 			"payment": "Dettagli pagamento",
-			"boats": "Le mie barche"
+			"boats": "Le mie barche",
+			"logout": "Logout"
 		},
 		"tabs": {
 			"info": {
@@ -153,6 +154,58 @@
 			"button": "Recupera",
 			"success": "Se vi è un account associato a questa email, un link di recupero è stato mandato per poter resettare la password.",
 			"error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto"
+		},
+		"signin": {
+			"forgot_password": "Forgot password?"
+		},
+		"home": {
+			"discover": {
+				"header": "Scopri più di 1000 esperienze",
+				"action": "Vedi tutte le esperienze",
+				"description": "Prenota un pescatore privato o professionista in tutto il mondo, scegli l'esperienza che incontra le tue necessità e preparati per avventure uniche"
+			},
+			"fullscreen": {
+				"header": "Prenota la tua esperienza di pesca",
+				"description": "Trova guide professioniste e pescatori privati. Vicino a te",
+				"location": "Scegli il luogo",
+				"date": "Scegli la data",
+				"search": "Cerca"
+			},
+			"icons": {
+				"meet": "Meet",
+				"fish": "Fish",
+				"share": "Share"
+			},
+			"host_description": {
+				"private": {
+					"title": "Host Fisher privato:",
+					"description": "Dividi i costi con un pescatore locale, una soluzione economica per una fantastica giornata di pesca! È molto semplice: trova un compagno, contattalo, mettetevi d'accordo sul costo e andate a pescare!"
+				},
+				"professional": {
+					"title": "Guide professioniste e charter:",
+					"description": "Soluzioni su misura per un'esperienza indimenticabile, conosci le nostre guide certificate e scopri nuove tecniche"
+				}
+			},
+			"image_gallery": {
+				"pre_header": "Panorami fantastici, per uscite di pesca indimenticabili",
+				"header": "Le destinazioni di pesca più amate",
+				"action": "Vedi tutte le destinazioni"
+			},
+			"post_gallery": {
+				"pre_header": "La pesca nel mondo",
+				"header": "Gli ultimi articoli",
+				"action": "Vedi tutti gli articoli"
+			},
+			"parallax": "Esperienze condivise – incontra pescatori in tutto il mondo, dividi le spese e preparati per un'esperienza unica!"
+		}
+	},
+	"cards": {
+		"ambassador": {
+			"badge": "Ambassador",
+			"reviews": "Recensioni",
+			"users": "Utenti",
+			"experiences": "Esperienze offerte",
+			"worldwide": "TapAndFish WorldWide"
 		}
 	}
 }
