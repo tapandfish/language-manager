@@ -301,6 +301,136 @@
 				"nav": "Come funziona per l'Host Fisher"
 			},
 			"title": "Come funziona"
+		},
+		"becomehost": {
+			"card": {
+				"start": "Inizia a guadagnare",
+				"header": "Scopri quanto puoi guadagnare",
+				"where": "Dove",
+				"technique": "Tecnica",
+				"sea": "Mare",
+				"river_lake": "Fiume o lago",
+				"food_fishing": "Food & Fishing",
+				"publish": "Pubblica annuncio"
+			},
+			"icons": [
+				{
+					"title": "Perché registrarsi[br]su TapAndFish?",
+					"content": "Sia che siate privati che professionista, avrete moltissimi vantaggi. Oltre a risparmiare o guadagnare, potrete crescere all’interno del nostro network e aspirare a diventare brand ambassador."
+				},
+				{
+					"title": "TapAndFish assicura[br]gli host fisher",
+					"content": "Assicuriamo tutti i nostri host fisher: l’annullamento dell’evento da parte dell’ospite può avvenire non oltre le 48 ore precedenti."
+				},
+				{
+					"title": "Ospiti[br]verificati",
+					"content": "Tutti i nostri ospiti sono regolarmente registrati sulla nostra piattaforma. Ci occuperemo personalmente delle transazioni e di garantire un sistema efficiente di prenotazioni."
+				}
+			],
+			"hosts": {
+				"private": {
+					"list": [
+						"Non sei una guida professionista?[br]Non c'è problema! Risparmia condividendo le spese: ti aiuteremo a trovare compagni di pesca grazie alla nostra rete",
+						"Pubblica il tuo primo annuncio definendo il prezzo e il numero di partecipanti e le spese da suddividere.",
+						"Ti offriremo inoltre tutto il supporto necessario per aiutarti a diventare un Brand Ambassador!"
+					],
+					"description": "Host fisher privato"
+				},
+				"public": {
+					"list": [
+						"Sei una guida professionista? Gestisci gratuitamente la tua attività sulla nostra piattaforma",
+						"Pubblica i tuoi annunci in tutta libertà, ti offriremo un area dedicata alle prenotazioni e ai pagamenti",
+						"Accettiamo la pubblicazione di ogni tipo di evento (crociere, viaggi, pernottamenti, esperienze gastronomiche), l'importante è pescare!"
+					],
+					"description": "Host fisher professionista"
+				}
+			},
+			"advantages": [
+				{
+					"data": [
+						{
+							"title": "Risparmio",
+							"content": "Il prezzo richiesto per uscita tiene conto delle tue spese (attrezzatura e carburante ad esempio)"
+						},
+						{
+							"title": "Una piattaforma tutta per te",
+							"content": "TapAndFish ti permette di avere un account e una pagina gratuita attraverso cui puoi pubblicare eventi e gestire i pagamenti."
+						},
+						{
+							"title": "Visibilità",
+							"content": "Se il tuo sogno è quello di diventare un fishing brand ambassador questo è il posto che fa per te! Accumulando recensioni positive raggiungerai il livello di *TapAndFish Pro Ambassador."
+						}
+					],
+					"name": "Vantaggi per gli host fisher privati"
+				},
+				{
+					"data": [
+						{
+							"title": "Worldwide connection",
+							"content": "TapAndFish lancia la tua attività in tutto il mondo rendendoti visibile a migliaia di potenziali clienti"
+						},
+						{
+							"title": "Una piattaforma gratuita",
+							"content": "TapAndFish ti permette di avere un account e una pagina gratuita attraverso cui puoi pubblicare eventi e gestire i pagamenti."
+						},
+						{
+							"title": "Messaggistica, pagamenti, business management e assistenza",
+							"content": "Questi e molti altri tool ti saranno garantiti fin da subito per far decollare la tua attività!"
+						}
+					],
+					"name": "Vantaggi per gli host fisher professionisti"
+				}
+			],
+			"tabs": {
+				"publish": {
+					"nav": "Pubblica[br]annuncio",
+					"header": "Pubblica l’annuncio:",
+					"content": "Crea il tuo profilo, definisci il pacchetto che vuoi offrire (tipologia di pesca, specie target, disponibilità). Ti ricordiamo di inserire foto ad alta risoluzione: riceverai sicuramente un numero maggiore di prenotazioni!",
+					"image_alt": "Pubblica annuncio"
+				},
+				"price": {
+					"nav": "Definisci il prezzo",
+					"header": "Definisci il prezzo",
+					"content": "Ti aiuteremo a determinare una richiesta corretta per rendere appetibile il tuo annuncio. Se sei un host fisher privato ti consigliamo di attribuire un prezzo congruo ai costi sostenuti.",
+					"image_alt": "Definisci prezzo"
+				},
+				"meet": {
+					"nav": "Incontra l'ospite[br] e \"cast your bait\"",
+					"header": "Incontra l’ospite e lancia la tua esca!",
+					"content": "Dopo l’esperienza ti verrà accreditato l’importo pattuito direttamente sul tuo account. TapAndFish, facile!",
+					"image_alt": "Ricevi pagamento"
+				},
+				"header": "Condividi le spese o diventa una guida tap andfish in 3 passaggi"
+			},
+			"ambassador": {
+				"list": [
+					{
+						"title": "Sponsorizzazione",
+						"content": "(forniremo, attraverso i nostri partner, diversi premi annuali legati alla vostra feedback performance. [a]Consulta le modalità[/a])"
+					},
+					{
+						"title": "Pacchetti premium",
+						"content": "(maggiore visibilità e vetrina personalizzata)"
+					},
+					{
+						"title": "Soluzioni booking tailormade"
+					},
+					{
+						"title": "Assistenza h24 da parte del nostro team"
+					},
+					{
+						"title": "Posizionamento ottimizzato",
+						"content": "(gli annunci sulla prima pagina di ricerca acquisiscono in media il 57% in più delle prenotazioni)"
+					}
+				],
+				"header": "Ogni pescatore Host[br]può diventare un [br]BRAND AMBASSADOR!",
+				"advantages": "I vantaggi:"
+			},
+			"title": "Diventa un host fisher",
+			"header": "Guadagna o risparmia con TapAndFish ed entra a far parte della nostra community!",
+			"for_privates": "<strong>TapAndFish per i PRIVATI: </strong>consente a tutti i pescatori privati di condividere con i membri della community le spese relative a una battuta di pesca e di vivere in compagnia avventure indimenticabili!",
+			"for_professionals": "<strong>TapAndFish per i PROFESSIONISTI: </strong>permette ai charter professionisti di creare un account gratuito e di gestire senza impegno la propria attività, semplicemente affidandosi al nostro team di esperti!",
+			"wanna_join": "Vuoi far parte della piattaforma?[br]Scegli il profilo che fa per te:"
 		}
 	},
 	"cards": {

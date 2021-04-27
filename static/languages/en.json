@@ -299,6 +299,136 @@
 					}
 				]
 			}
+		},
+		"becomehost": {
+			"title": "Become a host fisher",
+			"header": "Earn or save money with TapAndFish and join our community!",
+			"for_privates": "<strong>TapAndFish for PRIVATES:</strong> allows every private fisher to split with the community all the expenses of a fishing trip and to live amazing adventures together!",
+			"for_professionals": "<strong>TapAndFish for PROFESSIONALS:</strong> allows professional charters to create a free account and manage their business, with the help of our team of experts!",
+			"card": {
+				"start": "Start earning",
+				"header": "Learn how much you can earn",
+				"where": "Where",
+				"technique": "Technique",
+				"sea": "Sea",
+				"river_lake": "River or lake",
+				"food_fishing": "Food & Fishing",
+				"publish": "Publish ad"
+			},
+			"icons": [
+				{
+					"title": "Why joining[br]TapAndFish?",
+					"content": "Either you are a private or professional, you will get many advantages. Apart from saving or earning money, you will be able to grow in our network and aspire to become brand ambassador."
+				},
+				{
+					"title": "TapAndFish secures[br]host fishers",
+					"content": "We secure all our hosts: guests cannot cancel bookings after 48 hours from the event."
+				},
+				{
+					"title": "Verified[br]guests",
+					"content": "All of our guests are registered to the platform. We will take care of transactions and making sure the booking process will go smoothly."
+				}
+			],
+			"wanna_join": "Do you want to join the platform?[br]Pick the right profile for you:",
+			"hosts": {
+				"private": {
+					"description": "Private host fisher",
+					"list": [
+						"Not a professional guide?[br]Not a problem! Save some money splitting your expenses: we will help you find fishing buddies in our community",
+						"Publish your first ad defining the price, number of participants and expenses to split.",
+						"We will offer you all the support you need to become Brand Ambassador!"
+					]
+				},
+				"public": {
+					"description": "Professional host fisher",
+					"list": [
+						"Are you a professional guide? Manage your business on our platform!",
+						"Publish your ads freely, we will give you an area to manage bookings and payments.",
+						"We accept any kind of event (cruises, trips, gastronomic experiences), the important part is fishing!"
+					]
+				}
+			},
+			"advantages": [
+				{
+					"name": "Advantages for private hosts",
+					"data": [
+						{
+							"title": "Saving",
+							"content": "The cost of a fishing trip is based on your expenses (i.e. gear and fuel)"
+						},
+						{
+							"title": "A dedicated platform",
+							"content": "TapAndFish gives you an account and a page to publish your events and manage payments."
+						},
+						{
+							"title": "Visibility",
+							"content": "If your dream is to become a fishing brand ambassador, this is the right place for you! Collecting positive feedback you will get the status of TapAndFish Pro Ambassador"
+						}
+					]
+				},
+				{
+					"name": "Advantages for professionals",
+					"data": [
+						{
+							"title": "WorldWide connection",
+							"content": "TapAndFish gives you visibility to thousands of potential customers from all around the globe"
+						},
+						{
+							"title": "A dedicated platform",
+							"content": "TapAndFish gives you an account and a page to publish your events and manage payments."
+						},
+						{
+							"title": "Messaging, payments, business managment and support",
+							"content": "These and many more tools will be given to you to manage your business!"
+						}
+					]
+				}
+			],
+			"tabs": {
+				"header": "Split your expenses or become a guid in three easy steps",
+				"publish": {
+					"nav": "Publish[br]ad",
+					"header": "Publish your ad:",
+					"content": "Create a profile, define the package you want to offer (fishing technique, species, availability). Remember to attach high quality pictures: you will likely get more bookings!",
+					"image_alt": "Publish ad"
+				},
+				"price": {
+					"nav": "Define price",
+					"header": "Define the price",
+					"content": "We will help you determine the right price to make your ad desirable. If you are a private host we suggest you put the right cost for the expenses you have.",
+					"image_alt": "Define price"
+				},
+				"meet": {
+					"nav": "Meet the guest[br] and \"cast your bait\"",
+					"header": "Meet the guest and cast your bait!",
+					"content": "After the event, you will get the money on your account. TapAndFish, easy!",
+					"image_alt": "Get your money"
+				}
+			},
+			"ambassador": {
+				"header": "Every host fisher[br]can become a[br]BRAND AMBASSADOR!",
+				"advantages": "The advantages:",
+				"list": [
+					{
+						"title": "Sponsorships",
+						"content": "(we will provide, thanks to our partners, various annual prizes dependend on you performance, measured with feedbacks. [a]See how it works[/a])"
+					},
+					{
+						"title": "Premium packages",
+						"content": "(greater visibility and personalized showcase) "
+					},
+					{
+						"title": "Custom made booking solutions"
+					},
+					{
+						"title": "24/7 support with our team"
+					},
+					{
+						"title": "Optimized position",
+						"content": "(ads on the first results page get on average 57% more \nbookings)"
+					}
+				]
+			}
 		}
 	},
 	"cards": {
