@@ -7,12 +7,16 @@ function generate_type_definition_object(data) {
 		if(typeof data[key] === 'string') {
 			definition[key] = ':string';
 		} else if(Array.isArray(data[key])) {
-			const array_definition = {};
+			let array_definition = {};
 
-			for(let i in data[key]) {
-				const inner = generate_type_definition_object(data[key][i]);
-				for(let k in inner) {
-					array_definition[`${k}?`] = inner[k];
+			if(typeof data[key][0] === 'string') {
+				array_definition = 'string';
+			} else {
+				for(let i in data[key]) {
+					const inner = generate_type_definition_object(data[key][i]);
+					for(let k in inner) {
+						array_definition[`${k}?`] = inner[k];
+					}
 				}
 			}
 
@@ -31,7 +35,11 @@ function stringify(obj) {
 		if (typeof obj[key] === 'string') {
 			elements.push(`${key} ${obj[key]}`);
 		} else if(Array.isArray(obj[key])) {
-			elements.push(`${key} :Array<${stringify(obj[key][0])}>`);
+			if(typeof obj[key][0] === 'string') {
+				elements.push(`${key} :Array<string>`);
+			} else {
+				elements.push(`${key} :Array<${stringify(obj[key][0])}>`);
+			}
 		} else {
 			elements.push(`${key} :${stringify(obj[key])}`);
 		}
