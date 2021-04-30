@@ -91,10 +91,12 @@
 	{#each Object.entries(data) as [key, _]}
 		<div class="entry">
 			<div class="key">{key}:</div>
-			{#if typeof data[key] !== 'string'}
-				<svelte:self bind:data={data[key]} />
-			{:else}
-				<div class="value"><textarea bind:value={data[key]} /></div>
+			{#if data[key] !== null}
+				{#if typeof data[key] !== 'string'}
+					<svelte:self bind:data={data[key]} />
+				{:else}
+					<div class="value"><textarea bind:value={data[key]} /></div>
+				{/if}
 			{/if}
 		</div>
 	{/each}

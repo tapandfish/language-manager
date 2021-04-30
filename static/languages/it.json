@@ -441,5 +441,57 @@
 			"experiences": "Esperienze offerte",
 			"worldwide": "TapAndFish WorldWide"
 		}
+	},
+	"seo": {
+		"home": {
+			"title": "TapAndFish",
+			"header": null,
+			"description": "Prenota la tua esperienza di pesca. Trova guide professioniste e pescatori privati. Vicino a te"
+		},
+		"signin": {
+			"title": "TapAndFish - Accedi",
+			"header": "Accedi",
+			"description": "Entra nel tuo account TapAndFish. Meet, fish, share."
+		},
+		"signup": {
+			"title": "TapAndFish - Registrati",
+			"header": "Registrati",
+			"description": "Crea un nuovo account TapAndFish. Meet, fish, share."
+		},
+		"user": {
+			"title": "TapAndFish - Utente",
+			"header": "Utente",
+			"description": "Gestisci le tue impostazioni utente, email, password, sicurezza account."
+		},
+		"about": {
+			"title": "TapAndFish - Chi siamo",
+			"header": "Chi siamo",
+			"description": "TapAndFish: una piattaforma tutta italiana che ti porta a pesca nel Mondo. Con TapAndFish puoi prenotare il tuo viaggio o le tue battute di pesca in maniera rapida, efficace e sicura."
+		},
+		"become-host": {
+			"title": "TapAndFish - Diventa un host fisher",
+			"header": "Diventa un host fisher",
+			"description": "Guadagna o risparmia con TapAndFish ed entra a far parte della nostra community!"
+		},
+		"blog": {
+			"title": "TapAndFish - Blog",
+			"header": "Blog",
+			"description": ""
+		},
+		"contacts": {
+			"title": "TapAndFish - Contatti",
+			"header": "Contatti",
+			"description": "Contattaci, chiedi aiuto al supporto, forniscici feedback e aiutaci a migliorare la piattaforma per te!"
+		},
+		"go-fishing": {
+			"title": "TapAndFish - Fishing",
+			"header": "Fishing",
+			"description": "TapAndFish è la piattaforma leader per la ricerca e la prenotazione di charter e guide di pesca."
+		},
+		"how-it-works": {
+			"title": "TapAndFish - Come funziona",
+			"header": "Come funziona",
+			"description": "Scopri come funziona TapAndFish, sia per gli hosts, sia per gli ospiti, scopri quali sono i tuoi vantaggi e comincia a pescare!"
+		}
 	}
 }

@@ -439,5 +439,57 @@
 			"experiences": "Offered experiences",
 			"worldwide": "TapAndFish WorldWide"
 		}
+	},
+	"seo": {
+		"home": {
+			"title": "TapAndFish",
+			"header": null,
+			"description": "Book your fishing experience. Find professional guides and private fishers. Next to you"
+		},
+		"signin": {
+			"title": "TapAndFish - Sign in",
+			"header": "Signin",
+			"description": "Sign in into your TapAndFish account. Meet, fish, share."
+		},
+		"signup": {
+			"title": "TapAndFish - Create account",
+			"header": "Create account",
+			"description": "Create a new TapAndFish account. Meet, fish, share."
+		},
+		"user": {
+			"title": "TapAndFish - User",
+			"header": "User",
+			"description": "Manage your user settings, email, password, security."
+		},
+		"about": {
+			"title": "TapAndFish - About us",
+			"header": "About us",
+			"description": "TapAndFish: an Italian platform that takes you fishing all around the World. With TapAndFish you can book your fishing trip fast and safely."
+		},
+		"become-host": {
+			"title": "TapAndFish - Become a host fisher",
+			"header": "Become a host fisher",
+			"description": "Earn or save money with TapAndFish and join our community!"
+		},
+		"blog": {
+			"title": "TapAndFish - Blog",
+			"header": "Blog",
+			"description": ""
+		},
+		"contacts": {
+			"title": "TapAndFish - Contacts",
+			"header": "Contacts",
+			"description": "Contact us, ask for support, give us feedback and help us improve the platform for you!"
+		},
+		"go-fishing": {
+			"title": "TapAndFish - Go fishing",
+			"header": "Go fishing",
+			"description": "TapAndFish is the leading platform to search and book charters and fishing guides."
+		},
+		"how-it-works": {
+			"title": "TapAndFish - How it works",
+			"header": "How it works",
+			"description": "Learn how TapAndFish works for hosts and guests, learn your advantages and start fishing!"
+		}
 	}
 }
