@@ -468,7 +468,7 @@
 			"header": "Chi siamo",
 			"description": "TapAndFish: una piattaforma tutta italiana che ti porta a pesca nel Mondo. Con TapAndFish puoi prenotare il tuo viaggio o le tue battute di pesca in maniera rapida, efficace e sicura."
 		},
-		"become-host": {
+		"become_host": {
 			"title": "TapAndFish - Diventa un host fisher",
 			"header": "Diventa un host fisher",
 			"description": "Guadagna o risparmia con TapAndFish ed entra a far parte della nostra community!"
@@ -483,15 +483,25 @@
 			"header": "Contatti",
 			"description": "Contattaci, chiedi aiuto al supporto, forniscici feedback e aiutaci a migliorare la piattaforma per te!"
 		},
-		"go-fishing": {
+		"go_fishing": {
 			"title": "TapAndFish - Fishing",
 			"header": "Fishing",
 			"description": "TapAndFish è la piattaforma leader per la ricerca e la prenotazione di charter e guide di pesca."
 		},
-		"how-it-works": {
+		"how_it_works": {
 			"title": "TapAndFish - Come funziona",
 			"header": "Come funziona",
 			"description": "Scopri come funziona TapAndFish, sia per gli hosts, sia per gli ospiti, scopri quali sono i tuoi vantaggi e comincia a pescare!"
+		},
+		"recover": {
+			"title": "TapAndFish - Recupera account",
+			"header": "Recupera account",
+			"description": ""
+		},
+		"revert": {
+			"title": "TapAndFish - Recupera account",
+			"header": "Recupera account",
+			"description": ""
 		}
 	}
 }

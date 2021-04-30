@@ -466,7 +466,7 @@
 			"header": "About us",
 			"description": "TapAndFish: an Italian platform that takes you fishing all around the World. With TapAndFish you can book your fishing trip fast and safely."
 		},
-		"become-host": {
+		"become_host": {
 			"title": "TapAndFish - Become a host fisher",
 			"header": "Become a host fisher",
 			"description": "Earn or save money with TapAndFish and join our community!"
@@ -481,15 +481,25 @@
 			"header": "Contacts",
 			"description": "Contact us, ask for support, give us feedback and help us improve the platform for you!"
 		},
-		"go-fishing": {
+		"go_fishing": {
 			"title": "TapAndFish - Go fishing",
 			"header": "Go fishing",
 			"description": "TapAndFish is the leading platform to search and book charters and fishing guides."
 		},
-		"how-it-works": {
+		"how_it_works": {
 			"title": "TapAndFish - How it works",
 			"header": "How it works",
 			"description": "Learn how TapAndFish works for hosts and guests, learn your advantages and start fishing!"
+		},
+		"recover": {
+			"title": "TapAndFish - Recover account",
+			"header": "Recover account",
+			"description": ""
+		},
+		"revert": {
+			"title": "TapAndFish - Restore account",
+			"header": "Restore account",
+			"description": ""
 		}
 	}
 }
