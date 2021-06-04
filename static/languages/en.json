@@ -438,6 +438,12 @@
 			"users": "Users",
 			"experiences": "Offered experiences",
 			"worldwide": "TapAndFish WorldWide"
+		},
+		"event": {
+			"badge": "Host",
+			"reviews": "Reviews",
+			"starting_price": "Starting from",
+			"max_people": "Maximum people"
 		}
 	},
 	"seo": {
