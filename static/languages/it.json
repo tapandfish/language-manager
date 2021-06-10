@@ -445,13 +445,14 @@
 			"badge": "Host",
 			"reviews": "Recensioni",
 			"starting_price": "A partire da",
-			"max_people": "Posti massimi"
+			"max_people": "Posti massimi",
+			"technique": "Tecniche"
 		}
 	},
 	"seo": {
 		"home": {
 			"title": "TapAndFish",
-			"header": null,
+			"header": {},
 			"description": "Prenota la tua esperienza di pesca. Trova guide professioniste e pescatori privati. Vicino a te"
 		},
 		"signin": {

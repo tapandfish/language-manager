@@ -443,7 +443,8 @@
 			"badge": "Host",
 			"reviews": "Reviews",
 			"starting_price": "Starting from",
-			"max_people": "Maximum people"
+			"max_people": "Maximum people",
+			"technique": "Techniques"
 		}
 	},
 	"seo": {
