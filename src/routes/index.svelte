@@ -36,47 +36,82 @@
 <style>
 	ul {
 		font-size: 1.3em;
+		padding-left:20px;
+		color: #d0ffcc
 	}
 
-	li span {
+	li {
+		margin: 10px 0;
+	}
+
+	li a span {
 		margin-right: 10px;
+	}
+
+	a {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	button {
+		height: 30px;
+		border-radius: 6px;
+		border: none;
+		margin: 10px 4px;
+		padding: 0 30px;
+		cursor: pointer;
+		background: linear-gradient(135deg,#9580ff,#80ffea);
 	}
 </style>
 
 
 <main>
-	<div class="container">
+	<div class="side-bar">
 		<h1>Available languages:</h1>
+		<div class="list-container">
+			<ul>
+				{#each Object.entries(languages) as [langcode, lang]}
+					<li><a href={`/${langcode}/`}><span class="flag-icon flag-icon-{lang.flag}"></span>{lang.name}</a></li>
+				{/each}
+			</ul>
+		</div>
+		<div class="bottom">
+		</div>
+	</div>
+	<div class="container">
+		<center>
+			<h2>Add language:</h2>
 
-		<ul>
-			{#each Object.entries(languages) as [langcode, lang]}
-				<li><a href={`/${langcode}/`}><span class="flag-icon flag-icon-{lang.flag}"></span>{lang.name}</a></li>
-			{/each}
-		</ul>
-
-		<h2>Add language:</h2>
-
-		<form on:submit|preventDefault={add}>
-			<div>
-				<label>Language code:</label>
-				<input type="text" placeholder="en" bind:value={newlang.code}>
-			</div>
-			<div>
-				<label>Language name (in that language):</label>
-				<input type="text" placeholder="English" bind:value={newlang.name}>
-			</div>
-			<div>
-				<label>Language file:</label>
-				<input type="text" placeholder="en.json" bind:value={newlang.file}>
-			</div>
-			<div>
-				<label>Flag code:</label>
-				<input type="text" placeholder="gb" bind:value={newlang.flag}>
-			</div>
-			<div>
-				<button>Add</button>
-			</div>
-		</form>
-		<br />
+			<form on:submit|preventDefault={add}>
+				<div>
+					<label>Language code:</label>
+				</div>
+				<div>
+					<input type="text" placeholder="en" bind:value={newlang.code}>
+				</div>
+				<div>
+					<label>Language name (in that language):</label>
+				</div>
+				<div>
+					<input type="text" placeholder="English" bind:value={newlang.name}>
+				</div>
+				<div>
+					<label>Language file:</label>
+				</div>
+				<div>
+					<input type="text" placeholder="en.json" bind:value={newlang.file}>
+				</div>
+				<div>
+					<label>Flag code:</label>
+				</div>
+				<div>
+					<input type="text" placeholder="gb" bind:value={newlang.flag}>
+				</div>
+				<div>
+					<button>Add</button>
+				</div>
+			</form>
+		</center>
 	</div>
 </main>
+

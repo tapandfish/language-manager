@@ -1,5 +1,5 @@
 <script>
-	export let data, english;
+	export let data, english, location;
 
 	for(let key in english) {
 		if(Array.isArray(english[key]) && !data[key]) {
@@ -8,90 +8,67 @@
 			data[key] = {};
 		}
 	}
-
-	function addString() {
-		const name = prompt('Field name:');
-		data[name] = '';
-	}
-
-	function addObject() {
-		const name = prompt('Field name:');
-		data[name] = {};
-	}
 </script>
 
 <style>
 	.entry {
 		display: grid;
-		margin-left: 1em;
-		grid-template-columns: 1fr 4fr 4fr;
-		grid-column: 2 / -1;
-		border: solid 1px #666;
-		border-radius: 3px;
-		box-shadow: 4px 4px 10px #ddd;
-		padding: .3em;
-	}
-
-	.entry + .entry {
-		margin-top: 1em;
+		grid-template-columns: 250px auto auto;
+		width: 100%;
 	}
 
 	.key {
 		font-weight: bold;
 		grid-column: 1 / 2;
 		margin-right: .4em;
+		color: #eeb899;
+		padding: 0 14px;
+		line-height: 60px;
 	}
 
 	.value {
 		grid-column: 2 / 3;
 	}
 
+	.english {
+		grid-column: 3 / 4;
+	}
+
 	textarea {
 		width: 100%;
 		height: 100%;
-		display: block;
-		font-size: .9rem;
-		border: solid 1px #333;
-		border-radius: 3px;
-		padding: .2em .4em;
-	}
-
-	.button-container {
-		grid-column: 1 / -1;
-	}
-
-	button {
-		margin: .3em .5em 0 0;
-		display: inline-block;
-		width: auto;
-		padding: .5em 2em;
 	}
 </style>
 
-{#if Array.isArray(data)}
-	{#each english as _, key}
-		<div class="entry">
-			<div class="key">{key}:</div>
+<div>
+	<div class="sticky" id="root{location.replace(/\//g, '-').slice(0, -1)}">{location}</div>
+	{#if Array.isArray(data)}
+		{#each english as _, key}
 			{#if typeof english[key] !== 'string'}
-				<svelte:self english={english[key]} bind:data={data[key]} />
+				<svelte:self english={english[key]} bind:data={data[key]} location="{location + key + '/'}" />
+				<div class="sticky">{location}</div>
 			{:else}
-				<div class="value"><textarea bind:value={data[key]} /></div>
-				<div class="english"><textarea disabled value={english[key]} /></div>
-			{/if}
-		</div>
-	{/each}
-{:else}
-	{#each Object.entries(english) as [key, _]}
-		<div class="entry">
-			<div class="key">{key}:</div>
-			{#if english[key] !== null}
-				{#if typeof english[key] !== 'string'}
-					<svelte:self english={english[key]} bind:data={data[key]} />
-				{:else}
+				<div class="entry">
+					<div class="key">{key}:</div>
 					<div class="value"><textarea bind:value={data[key]} /></div>
 					<div class="english"><textarea disabled value={english[key]} /></div>
+				</div>
+			{/if}
+		{/each}
+	{:else}
+		{#each Object.entries(english) as [key, _]}
+			{#if english[key] !== null}
+				{#if typeof english[key] !== 'string'}
+					<svelte:self english={english[key]} bind:data={data[key]} location="{location + key + '/'}" />
+					<div class="sticky">{location}</div>
+				{:else}
+					<div class="entry">
+						<div class="key">{key}:</div>
+						<div class="value"><textarea bind:value={data[key]} /></div>
+						<div class="english"><textarea disabled value={english[key]} /></div>
+					</div>
 				{/if}
 			{/if}
-		</div>
-	{/each}
-{/if}
+		{/each}
+	{/if}
+</div>

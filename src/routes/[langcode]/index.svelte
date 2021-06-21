@@ -27,21 +27,33 @@
 <script>
 	import { onMount } from 'svelte';
 	import Displayer from '../../components/Displayer.svelte';
+	import List from '../../components/List.svelte';
 
 	export let lang, english, this_lang, langcode;
 
-	function save() {
-		console.log('saving...')
+	let notification;
+	let saving = false;
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+	}
+
+	async function save() {
+		if(saving) return;
 		if(!fetch) return;
-		console.log('sending info...')
-		fetch('/api/update_language', {
+		saving = true;
+
+		notification.classList.toggle('visible');
+		await fetch('/api/update_language', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
 			},
 			body: JSON.stringify({langcode, newfile:lang})
 		});
-		console.log('saved...')
+		await sleep(1000)
+		notification.classList.toggle('visible');
+		saving = false;
 	}
 
 	onMount(() => {
@@ -49,27 +61,23 @@
 	});
 </script>
 
-<style>
-	.container {
-		max-width: 900px;
-	}
-
-	button {
-		font-size: 2em;
-		margin: 1.5em auto;
-	}
-
-	h1 span {
-		margin-right: 10px;
-	}
-</style>
+<div id="save-notification" bind:this={notification}>
+	<i class='fa fa-circle-o-notch fa-spin'></i> Saving...
+</div>
 
 <main>
+	<div class="side-bar">
+		<h1>Language manager</h1>
+		<div class="list-container">
+			<List {lang} />
+		</div>
+		<div class="bottom">
+			<button on:click={save}>Save</button>
+		</div>
+	</div>
 	<div class="container">
-		<h1><span class="flag-icon flag-icon-{this_lang.flag}"></span>{this_lang.name}</h1>
+		<h2><span class="flag-icon flag-icon-{this_lang.flag}"></span>{this_lang.name}</h2>
 
-		<Displayer english={english} bind:data={lang} />
-
-		<button on:click={save}>Save</button>
+		<Displayer english={english} bind:data={lang} location="/" />
 	</div>
 </main>

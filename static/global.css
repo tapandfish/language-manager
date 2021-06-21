@@ -12,10 +12,6 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 }
 
-h1 {
-	font-size: 2em;
-}
-
 a {
 	color: inherit;
 }
@@ -40,75 +36,129 @@ code {
 }
 
 main {
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 100%;
+	overflow: auto;
+	height: 100vh;
+}
+
+.side-bar {
+	background: #1e1c26;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	padding: 15px 15px;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 50px auto 60px;
 }
 
 .container {
-	margin: 1em 0;
-	width: 90%;
-	max-width: 700px;
-	border-radius: 6px;
-	box-shadow: 3px 3px 10px 2px #ddd;
-	padding: 1em 2em;
+	background: #2b2a38;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	overflow: auto;
 }
 
-h1, h2 {
-	margin: 1em 0;
-	text-align: center;
-	text-decoration: underline;
-	color: #383e56;
+.side-bar, .container {
+	width: 100%;
+}
+
+.side-bar h1 {
+	font-size: 1.8em;
+	color: #8aff80;
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+	margin: 0;
+}
+
+.side-bar .list-container {
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+	height: 100%;
+	overflow: auto;
+}
+
+.side-bar .bottom {
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+	line-height: 60px;
+}
+
+.sticky {
+	color : #9580FF;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	background: #15131b;
+	position: sticky;
+	top: 0;
 }
 
 h2 {
-	font-size: 2em;
-	margin-top: 0;
-}
-
-a {
-	color: #fb743e;
-}
-
-a:hover {
-	opacity: .8;
-}
-
-form {
-	width: 100%;
-	max-width: 400px;
-	margin: 0 auto;
-}
-
-label {
-	display: block;
-	font-size: .9em;
-}
-
-form > div + div {
-	margin-top: .8em;
-}
-
-input {
-	width: 100%;
-	font-size: 1rem;
-	border: solid 1px #333;
-	border-radius: 3px;
-	padding: .4em 1em;
-}
-
-button {
-	background: #fb743e;
-	border: 0;
-	border-radius: 100vh;
-	padding: .8em 2.7em;
-	margin: 0 auto;
-	display: block;
-	cursor: pointer;
 	color: white;
+	margin: 20px 30px;
 }
 
-button:hover {
-	opacity: .8;
+h2 span {
+	margin-right: 10px;
+}
+
+.side-bar .bottom button {
+	font-size: 1.5rem;
+	margin: 20px auto;
+	height: 40px;
+	width: 90px;
+	display: block;
+	border: 0;
+	background: linear-gradient(135deg,#ffff80,#ff80bf);
+	border-radius: 6px;
+	color: #1e1c26;
+	cursor: pointer;
+}
+
+#save-notification {
+	position: fixed;
+	top: 14px;
+	right: 32px;
+	transform: translateX(260px);
+	height: 65px;
+	width: 200px;
+	background: red;
+	line-height: 65px;
+	font-size: 1.2rem;
+	text-align: center;
+	margin-right: 5px;
+	z-index: 100;
+	border-radius: 6px;
+	background: #1e1c26;
+	color: #ffff80;
+	transition: transform ease-in-out .2s;
+}
+
+#save-notification.visible {
+	transform: translateX(0px);
+}
+
+#save-notification i {
+	margin-right: 6px;
+}
+
+.container center h2 {
+	font-size: 2rem;
+	color: #eeb899
+}
+
+.container center {
+	padding-top: 100px;
+	color: white
+}
+
+.container center input {
+	font-size: 1em;
+	padding: 6px 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 4px;
 }

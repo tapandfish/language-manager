@@ -4,7 +4,7 @@
 		console.log(Array.isArray(data))
 	})
 
-	export let data;
+	export let data, location;
 
 	function set(value) {
 		if (!Array.isArray(data)) {
@@ -31,23 +31,17 @@
 <style>
 	.entry {
 		display: grid;
-		margin-left: 1em;
-		grid-template-columns: 1fr 8fr;
-		grid-column: 2 / 3;
-		border: solid 1px #666;
-		border-radius: 3px;
-		box-shadow: 4px 4px 10px #ddd;
-		padding: .3em;
-	}
-
-	.entry + .entry {
-		margin-top: 1em;
+		grid-template-columns: 250px auto;
+		width: 100%;
 	}
 
 	.key {
 		font-weight: bold;
 		grid-column: 1 / 2;
 		margin-right: .4em;
+		color: #eeb899;
+		padding: 0 14px;
+		line-height: 60px;
 	}
 
 	.value {
@@ -57,52 +51,65 @@
 	textarea {
 		width: 100%;
 		height: 100%;
-		display: block;
-		font-size: .9rem;
-		border: solid 1px #333;
-		border-radius: 3px;
-		padding: .2em .4em;
 	}
 
 	.button-container {
-		grid-column: 1 / -1;
+		height: 50px;
+		line-height: 50px;
+		padding-left: 30px;
 	}
 
-	button {
-		margin: .3em .5em 0 0;
-		display: inline-block;
-		width: auto;
-		padding: .5em 2em;
+	.button-container button {
+		height: 30px;
+		border-radius: 4px;
+		border: none;
+		margin: 0 4px;
+		padding: 0 14px;
+		cursor: pointer;
+	}
+
+	.button-container button:nth-child(1) {
+		background: linear-gradient(135deg,#ffff80,#ff80bf);
+	}
+	.button-container button:nth-child(2) {
+		background: linear-gradient(135deg,#9580ff,#80ffea);
+	}
+	.button-container button:nth-child(3) {
+		background: linear-gradient(135deg,#ff80bf,#9580ff);
 	}
 </style>
-
-{#if Array.isArray(data)}
-	{#each data as _, key}
-		<div class="entry">
-			<div class="key">{key}:</div>
+<div>
+	<div class="sticky" id="root{location.replace(/\//g, '-').slice(0, -1)}">{location}</div>
+	{#if Array.isArray(data)}
+		{#each data as _, key}
 			{#if typeof data[key] !== 'string'}
-				<svelte:self bind:data={data[key]} />
+				<svelte:self bind:data={data[key]} location="{location + key + '/'}" />
+				<div class="sticky">{location}</div>
 			{:else}
-				<div class="value"><textarea bind:value={data[key]} /></div>
+				<div class="entry">
+					<div class="key">{key}:</div>
+					<div class="value"><textarea bind:value={data[key]} /></div>
+				</div>
 			{/if}
-		</div>
-	{/each}
-{:else}
-	{#each Object.entries(data) as [key, _]}
-		<div class="entry">
-			<div class="key">{key}:</div>
+		{/each}
+	{:else}
+		{#each Object.entries(data) as [key, _]}
 			{#if data[key] !== null}
 				{#if typeof data[key] !== 'string'}
-					<svelte:self bind:data={data[key]} />
+					<svelte:self bind:data={data[key]} location="{location + key + '/'}" />
+					<div class="sticky">{location}</div>
 				{:else}
-					<div class="value"><textarea bind:value={data[key]} /></div>
+					<div class="entry">
+						<div class="key">{key}:</div>
+						<div class="value"><textarea bind:value={data[key]} /></div>
+					</div>
 				{/if}
 			{/if}
-		</div>
-	{/each}
-{/if}
-<div class="button-container">
-	<button on:click={addString}>+ Add string</button>
-	<button on:click={addObject}>+ Add object</button>
-	<button on:click={addArray}>+ Add array</button>
+		{/each}
+	{/if}
+	<div class="button-container">
+		<button on:click={addString}>+ Add string</button>
+		<button on:click={addObject}>+ Add object</button>
+		<button on:click={addArray}>+ Add array</button>
+	</div>
 </div>
