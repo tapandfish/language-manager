@@ -92,7 +92,11 @@
 		"search": "Cerca",
 		"upload": "Carica",
 		"emailconfirmation": "Conferma email",
-		"passwordConfirmation": "Conferma password"
+		"passwordConfirmation": "Conferma password",
+		"full_name": "Nome completo",
+		"preferred_name": "Nome preferito",
+		"optional": "(opzionale)",
+		"name_tooltip": "Il nome completo è il tuo nome legale, utilizzato nelle ricevute di pagamento. Il nome preferito è il nome utilizzato nell'interfaccia del sito, nelle email che ti invieremo e dal nostro team di supporto nel caso dovessi contattarli. Se non specifichi nessun nome preferito, verrà estratto dal nome completo."
 	},
 	"signup": "Registrati",
 	"signin": "Accedi",

@@ -67,7 +67,7 @@
 
 <main>
 	<div class="side-bar">
-		<h1>Language manager</h1>
+		<h1><a href="/" style="text-decoration:none">Language manager</a></h1>
 		<div class="list-container">
 			<List {lang} />
 		</div>

@@ -31,13 +31,13 @@
 		saving = true;
 
 		notification.classList.toggle('visible');
-		// await fetch('/api/update_english', {
-		// 	method: 'POST',
-		// 	headers: {
-		// 		'Content-Type': 'application/json'
-		// 	},
-		// 	body: JSON.stringify(lang)
-		// });
+		await fetch('/api/update_english', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(lang)
+		});
 		await sleep(1000)
 		notification.classList.toggle('visible');
 		saving = false;
@@ -54,7 +54,7 @@
 
 <main>
 	<div class="side-bar">
-		<h1>Language manager</h1>
+		<h1><a href="/" style="text-decoration:none">Language manager</a></h1>
 		<div class="list-container">
 			<List {lang} />
 		</div>
