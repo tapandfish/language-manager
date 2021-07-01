@@ -90,7 +90,11 @@
 		"date_from": "From",
 		"date_to": "To",
 		"search": "Search",
-		"upload": "Upload"
+		"upload": "Upload",
+		"full_name": "Full name",
+		"preferred_name": "Preferred name",
+		"optional": "(optional)",
+		"name_tooltip": "Full name is your full legal named, used for receipts. Preferred name is used in the website interface, emails and by our support team when you contact them. If you don't specify any preferred name, your first name will be extracted from your full name."
 	},
 	"signup": "Create account",
 	"signin": "Login",
