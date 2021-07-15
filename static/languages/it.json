@@ -7,7 +7,8 @@
 		"signin": "Accedi",
 		"signup": "Registrati",
 		"account": "Account",
-		"create_event": "Crea evento"
+		"create_event": "Crea evento",
+		"search_event": "Cerca evento"
 	},
 	"footer": {
 		"about_us": "Chi siamo",
@@ -96,7 +97,10 @@
 		"full_name": "Nome completo",
 		"preferred_name": "Nome preferito",
 		"optional": "(opzionale)",
-		"name_tooltip": "Il nome completo è il tuo nome legale, utilizzato nelle ricevute di pagamento. Il nome preferito è il nome utilizzato nell'interfaccia del sito, nelle email che ti invieremo e dal nostro team di supporto nel caso dovessi contattarli. Se non specifichi nessun nome preferito, verrà estratto dal nome completo."
+		"name_tooltip": "Il nome completo è il tuo nome legale, utilizzato nelle ricevute di pagamento. Il nome preferito è il nome utilizzato nell'interfaccia del sito, nelle email che ti invieremo e dal nostro team di supporto nel caso dovessi contattarli. Se non specifichi nessun nome preferito, verrà estratto dal nome completo.",
+		"hint": "Consigli utili",
+		"drag_n_drop": "Trascina un file per caricare oppure",
+		"propicNeedsVerified": "Il tuo account deve essere verificato perché tu possa cambiare immagine profilo."
 	},
 	"signup": "Registrati",
 	"signin": "Accedi",
@@ -113,24 +117,15 @@
 			"sendError": "Un errore improvviso è stato riscontrato durante l'invio dell'email di verifica. Riprova più tardi."
 		},
 		"menu": {
-			"details": "Informazioni personali",
-			"events": "I miei eventi",
-			"security": "Sicurezza account",
-			"payment": "Dettagli pagamento",
-			"boats": "Le mie barche",
+			"dashboard": "Dashboard",
+			"management": "Gestione Profilo",
+			"security": "Sicurezza Account",
+			"billing": "Pagamenti",
+			"reviews": "Recensioni",
+			"alerts": "Alert",
 			"logout": "Logout"
 		},
 		"tabs": {
-			"info": {
-				"title": "Impostazioni email",
-				"yourEmail": "La tua email",
-				"variousEmailsCheckbox": "Ricevi offerte, suggerimenti e varie email dalla piattaforma",
-				"importantEmailsCheckbox": "Ricevi email riguardo nuove funzionalità della piattaforma, miglioramenti e aggiornamenti di sicurezza",
-				"emailDisclaimer": "Continuerai a ricevere email riguardo la sicurezza del tuo account e aggiornamenti dei Termini di Servizio. Questo tipo di email non può essere disattivato. Se desideri eliminare il tuo account contattaci.",
-				"button": "Aggiorna informazioni",
-				"success": "Le tue impostazioni email sono state aggiornate con successo. Se hai cambiato il tuo indirizzo email ricorda che devi verificare il nuovo indirizzo.",
-				"extremeError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto."
-			},
 			"sessions": {
 				"title": "Sessioni attive",
 				"description": "La lista seguente contiene tutte le sessioni attive sul tuo account. Se vedi una sessione che non riconosci o che ti sembra sospetta per favore revocala. Per ragioni di sicurezza consigliamo anche di cambiare password subito dopo.",
@@ -139,6 +134,29 @@
 				"noLocation": "Posizione non disponibile",
 				"revoked": "Revocato",
 				"extremeError": "Si è verificato un errore tentando di caricare le sessioni attive. Per favore riprova più tardi. Se il problema persiste contattare il supporto."
+			},
+			"manage": {
+				"email": {
+					"title": "Impostazioni email",
+					"yourEmail": "La tua email",
+					"variousEmailsCheckbox": "Ricevi offerte, suggerimenti e varie email dalla piattaforma",
+					"importantEmailsCheckbox": "Ricevi email riguardo nuove funzionalità della piattaforma, miglioramenti e aggiornamenti di sicurezza",
+					"emailDisclaimer": "Continuerai a ricevere email riguardo la sicurezza del tuo account e aggiornamenti dei Termini di Servizio. Questo tipo di email non può essere disattivato. Se desideri eliminare il tuo account contattaci.",
+					"button": "Aggiorna informazioni",
+					"success": "Le tue impostazioni email sono state aggiornate con successo. Se hai cambiato il tuo indirizzo email ricorda che devi verificare il nuovo indirizzo.",
+					"extremeError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto.",
+					"subtitle": "Aggiorna i tuoi recapiti e le tue preferenze di ricezione email"
+				},
+				"info": {
+					"title": "Informazioni generali",
+					"subtitle": "Inserisci i tuoi dati per farti conoscere sulla piattaforma",
+					"extremeError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto.",
+					"success": "Le tue informazioni sono state aggiornate con successo."
+				},
+				"propic": {
+					"title": "Immagine profilo",
+					"subtitle": "Modifica la tua immagine profilo caricandone una nuova"
+				}
 			}
 		},
 		"title": "Utente",
@@ -148,7 +166,14 @@
 			"description": "Per favore reimposta la password del tuo account, in modo che nessuno possa più accedervi senza autorizzazione. Consigliamo di controllare i dettagli del tuo account, in caso qualcuno li abbia cambiati.",
 			"unknownError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto",
 			"button": "Ripristina"
-		}
+		},
+		"upgrade": {
+			"to_host": {
+				"message": "Sei un charter o hai una barca da affittare?",
+				"button": "Diventa un Host"
+			}
+		},
+		"profile_completion": "Completamento profilo"
 	},
 	"pages": {
 		"recover": {
