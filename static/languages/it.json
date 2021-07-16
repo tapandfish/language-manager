@@ -465,6 +465,12 @@
 			"for_privates": "<strong>TapAndFish per i PRIVATI: </strong>consente a tutti i pescatori privati di condividere con i membri della community le spese relative a una battuta di pesca e di vivere in compagnia avventure indimenticabili!",
 			"for_professionals": "<strong>TapAndFish per i PROFESSIONISTI: </strong>permette ai charter professionisti di creare un account gratuito e di gestire senza impegno la propria attività, semplicemente affidandosi al nostro team di esperti!",
 			"wanna_join": "Vuoi far parte della piattaforma?[br]Scegli il profilo che fa per te:"
+		},
+		"signup": {
+			"title": "Crea il tuo account",
+			"subtitle": "Inserisci i tuoi dati",
+			"already_registered": "Hai già un account?",
+			"login": "Accedi"
 		}
 	},
 	"cards": {

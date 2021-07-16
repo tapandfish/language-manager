@@ -437,6 +437,12 @@
 					}
 				]
 			}
+		},
+		"signup": {
+			"title": "Create your account",
+			"subtitle": "Insert your details",
+			"already_registered": "Already have an account?",
+			"login": "Sign in"
 		}
 	},
 	"cards": {
