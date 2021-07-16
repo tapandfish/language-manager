@@ -157,7 +157,8 @@
 					"title": "Immagine profilo",
 					"subtitle": "Modifica la tua immagine profilo caricandone una nuova"
 				}
-			}
+			},
+			"info": {}
 		},
 		"title": "Utente",
 		"revert": {
@@ -185,7 +186,11 @@
 			"error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto"
 		},
 		"signin": {
-			"forgot_password": "Forgot password?"
+			"forgot_password": "Forgot password?",
+			"no_account": "Non hai un account?",
+			"create_account": "Registrati",
+			"title": "Inserisci le credenziali",
+			"subtitle": "Accedi e gestisci il tuo account"
 		},
 		"home": {
 			"discover": {
