@@ -157,8 +157,7 @@
 					"title": "Immagine profilo",
 					"subtitle": "Modifica la tua immagine profilo caricandone una nuova"
 				}
-			},
-			"info": {}
+			}
 		},
 		"title": "Utente",
 		"revert": {

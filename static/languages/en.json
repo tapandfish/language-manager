@@ -7,7 +7,8 @@
 		"signin": "Sign in",
 		"signup": "Create account",
 		"account": "Account",
-		"create_event": "Create event"
+		"create_event": "Create event",
+		"search_event": "Search event"
 	},
 	"footer": {
 		"about_us": "About us",
@@ -94,7 +95,10 @@
 		"full_name": "Full name",
 		"preferred_name": "Preferred name",
 		"optional": "(optional)",
-		"name_tooltip": "Full name is your full legal named, used for receipts. Preferred name is used in the website interface, emails and by our support team when you contact them. If you don't specify any preferred name, your first name will be extracted from your full name."
+		"name_tooltip": "Full name is your full legal named, used for receipts. Preferred name is used in the website interface, emails and by our support team when you contact them. If you don't specify any preferred name, your first name will be extracted from your full name.",
+		"hint": "Hint",
+		"drag_n_drop": "Drop files anywhere to upload or",
+		"propicNeedsVerified": "You need to verify your account in order to change profile picture."
 	},
 	"signup": "Create account",
 	"signin": "Login",
@@ -112,23 +116,37 @@
 			"sendError": "An unexpected exception has been raised while sending the email. Please try again later."
 		},
 		"menu": {
-			"details": "Personal details",
-			"events": "My events",
-			"security": "Account security",
-			"payment": "Payment info",
-			"boats": "My boats",
+			"dashboard": "Dashboard",
+			"management": "Manage Profile",
+			"security": "Security",
+			"billing": "Billing",
+			"reviews": "Reviews",
+			"alerts": "Alerts",
 			"logout": "Logout"
 		},
 		"tabs": {
-			"info": {
-				"title": "Email settings",
-				"yourEmail": "Your email",
-				"variousEmailsCheckbox": "Receive offers, suggestions and various emails from the platform",
-				"importantEmailsCheckbox": "Receive emails about new platform features, improvements and security updates",
-				"emailDisclaimer": "You will still receive critical emails regarding your account security or changes in the Terms of Service. This cannot be disabled. If you wish to delete your account please contact us.",
-				"button": "Update settings",
-				"success": "Your email settings has been successfully updated. If you changed your email remember that you have to verify the new one.",
-				"extremeError": "A major unknown exception has been raised while updating your email settings. Please try again later, maybe after reloading the page. If the error persist please contact support."
+			"manage": {
+				"email": {
+					"title": "Email settings",
+					"yourEmail": "Your email",
+					"variousEmailsCheckbox": "Receive offers, suggestions and various emails from the platform",
+					"importantEmailsCheckbox": "Receive emails about new platform features, improvements and security updates",
+					"emailDisclaimer": "You will still receive critical emails regarding your account security or changes in the Terms of Service. This cannot be disabled. If you wish to delete your account please contact us.",
+					"button": "Update settings",
+					"success": "Your email settings have been successfully updated. If you changed your email remember that you have to verify the new one.",
+					"extremeError": "A major unknown exception has been raised while updating your email settings. Please try again later, maybe after reloading the page. If the error persist please contact support.",
+					"subtitle": "Update your email settings and preferences"
+				},
+				"info": {
+					"title": "General information",
+					"subtitle": "Insert your details so that people can get to know you",
+					"success": "Your email information has been successfully updated.",
+					"extremeError": "A major unknown exception has been raised while updating your information. Please try again later, maybe after reloading the page. If the error persist please contact support."
+				},
+				"propic": {
+					"title": "Profile picture",
+					"subtitle": "Update your profile picture by uploading a new one"
+				}
 			},
 			"sessions": {
 				"title": "Active sessions",
@@ -146,6 +164,13 @@
 			"description": "Please reset your password, so that no one can log in without authorization. We also suggest checking your details in case something was changed by someone.",
 			"unknownError": "A major unknown exception has been raised during your account recover. Please try again later, maybe after reloading the page. If the error persist please contact support",
 			"button": "Restore"
+		},
+		"profile_completion": "Profile completion",
+		"upgrade": {
+			"to_host": {
+				"message": "Are you a charter? Do you have a boat to rent?",
+				"button": "Become a Host"
+			}
 		}
 	},
 	"pages": {
