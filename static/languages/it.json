@@ -157,6 +157,18 @@
 					"title": "Immagine profilo",
 					"subtitle": "Modifica la tua immagine profilo caricandone una nuova"
 				}
+			},
+			"security": {
+				"password": {
+					"title": "Cambia password",
+					"error": "Si è verificato un errore durante il cambiamento della password. Per favore riprova più tardi.",
+					"success": "La tua password è stata modificata con successo.",
+					"old_password": "Vecchia password",
+					"new_password": "Nuova password",
+					"confirm_password": "Conferma la nuova password",
+					"button": "Salva",
+					"wrong_password": "Password errata"
+				}
 			}
 		},
 		"title": "Utente",

@@ -95,7 +95,7 @@
 		"full_name": "Full name",
 		"preferred_name": "Preferred name",
 		"optional": "(optional)",
-		"name_tooltip": "Full name is your full legal named, used for receipts. Preferred name is used in the website interface, emails and by our support team when you contact them. If you don't specify any preferred name, your first name will be extracted from your full name.",
+		"name_tooltip": "Full name is your full legal name, used for receipts. Preferred name is used in the website interface, emails and by our support team when you contact them. If you don't specify any preferred name, your first name will be extracted from your full name.",
 		"hint": "Hint",
 		"drag_n_drop": "Drop files anywhere to upload or",
 		"propicNeedsVerified": "You need to verify your account in order to change profile picture."
@@ -156,6 +156,18 @@
 				"noLocation": "Location not available",
 				"revoked": "Revoked",
 				"extremeError": "There was an error while trying to retrieve active sessions. Please try again later. If the problem persists please contact support."
+			},
+			"security": {
+				"password": {
+					"title": "Change password",
+					"error": "Some error occurred while trying to change your password. Please try again later.",
+					"success": "Your password has been successfully updated.",
+					"old_password": "Old password",
+					"new_password": "New password",
+					"confirm_password": "Confirm new password",
+					"button": "Change",
+					"wrong_password": "Wrong password"
+				}
 			}
 		},
 		"revert": {
