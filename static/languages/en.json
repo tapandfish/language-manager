@@ -140,7 +140,7 @@
 				"info": {
 					"title": "General information",
 					"subtitle": "Insert your details so that people can get to know you",
-					"success": "Your email information has been successfully updated.",
+					"success": "Your information has been successfully updated.",
 					"extremeError": "A major unknown exception has been raised while updating your information. Please try again later, maybe after reloading the page. If the error persist please contact support.",
 					"host": {
 						"username": "Host username",
