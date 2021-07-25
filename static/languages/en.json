@@ -153,7 +153,8 @@
 						"full_name_placeholder": "Name",
 						"description_placeholder": "Tell us something about you",
 						"phone_hint": "We do not share your phone number with anyone. We only require it to verify you are a real person and minimize the number of spam accounts. Email verification isn't necessarily enough.",
-						"username_hint": "This is your host unique identifier. Your host page will be available at https://tapandfish.com/host/[username]."
+						"username_hint": "This is your host unique identifier. Your host page will be available at https://tapandfish.com/host/[username].",
+						"username_error": "A username must be at least 6 characters long, and can only contain letters, numbers, dots and underscores"
 					}
 				},
 				"propic": {

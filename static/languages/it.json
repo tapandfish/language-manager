@@ -163,7 +163,8 @@
 						"full_name_placeholder": "Nome",
 						"description_placeholder": "Scrivi qualcosa su di te",
 						"phone_hint": "Non condividiamo il tuo numero di telefono con nessuno. Lo richiediamo solo per verificare che tu sia una persona reale e per minimizzare la quantità di account spam. La verifica tramite email non è sempre sufficiente.",
-						"username_hint": "Questo è il tuo identificativo da host. Il tuo profilo sarà visibile a https://tapandfish.com/host/[username]"
+						"username_hint": "Questo è il tuo identificativo da host. Il tuo profilo sarà visibile a https://tapandfish.com/host/[username]",
+						"username_error": "Uno username deve essere lungo almeno 6 caratteri e può contenere solamente lettere, numeri, punti e underscores"
 					}
 				},
 				"propic": {
