@@ -151,7 +151,20 @@
 					"title": "Informazioni generali",
 					"subtitle": "Inserisci i tuoi dati per farti conoscere sulla piattaforma",
 					"extremeError": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto.",
-					"success": "Le tue informazioni sono state aggiornate con successo."
+					"success": "Le tue informazioni sono state aggiornate con successo.",
+					"host": {
+						"username": "Username",
+						"full_name": "Nome pubblico",
+						"full_name_hint": "Questo è il nome che apparirà pubblicamente nella tuo profilo da host. Suggeriamo di NON utilizzare soprannomi o nomignoli.",
+						"languages": "Lingue",
+						"phone": "Telefono",
+						"description": "Inserisci la tua bio",
+						"username_placeholder": "Username",
+						"full_name_placeholder": "Nome",
+						"description_placeholder": "Scrivi qualcosa su di te",
+						"phone_hint": "Non condividiamo il tuo numero di telefono con nessuno. Lo richiediamo solo per verificare che tu sia una persona reale e per minimizzare la quantità di account spam. La verifica tramite email non è sempre sufficiente.",
+						"username_hint": "Questo è il tuo identificativo da host. Il tuo profilo sarà visibile a https://tapandfish.com/host/[username]"
+					}
 				},
 				"propic": {
 					"title": "Immagine profilo",

@@ -141,7 +141,20 @@
 					"title": "General information",
 					"subtitle": "Insert your details so that people can get to know you",
 					"success": "Your email information has been successfully updated.",
-					"extremeError": "A major unknown exception has been raised while updating your information. Please try again later, maybe after reloading the page. If the error persist please contact support."
+					"extremeError": "A major unknown exception has been raised while updating your information. Please try again later, maybe after reloading the page. If the error persist please contact support.",
+					"host": {
+						"username": "Host username",
+						"full_name": "Public host name",
+						"full_name_hint": "This is the name other people will see when looking at your host profile. We suggest using a formal name and no nicknames.",
+						"languages": "Languages",
+						"phone": "Phone number",
+						"description": "Insert your bio",
+						"username_placeholder": "Username",
+						"full_name_placeholder": "Name",
+						"description_placeholder": "Tell us something about you",
+						"phone_hint": "We do not share your phone number with anyone. We only require it to verify you are a real person and minimize the number of spam accounts. Email verification isn't necessarily enough.",
+						"username_hint": "This is your host unique identifier. Your host page will be available at https://tapandfish.com/host/[username]."
+					}
 				},
 				"propic": {
 					"title": "Profile picture",
