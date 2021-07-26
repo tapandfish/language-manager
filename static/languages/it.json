@@ -199,7 +199,8 @@
 				"button": "Diventa un Host"
 			},
 			"to_ambassador": {
-				"button": "Diventa un Brand Ambassador"
+				"button": "Diventa un Brand Ambassador",
+				"action": "Crea evento"
 			}
 		},
 		"profile_completion": "Completamento profilo"

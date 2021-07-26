@@ -198,7 +198,8 @@
 				"button": "Become a Host"
 			},
 			"to_ambassador": {
-				"button": "Upgrade to Brand Ambassador"
+				"button": "Upgrade to Brand Ambassador",
+				"action": "Create event"
 			}
 		}
 	},
