@@ -196,7 +196,16 @@
 		"upgrade": {
 			"to_host": {
 				"message": "Are you a charter? Do you have a boat to rent?",
-				"button": "Become a Host"
+				"button": "Become a Host",
+				"page": {
+					"title": "Become a host",
+					"subtitle": "Fill in your host info and start publishing events!",
+					"type_choice": "Are you a captain or a charter operator?",
+					"private": "Captain",
+					"private_tooltip": "Check this if you are a private guide and don't do charting/guiding as a profession.",
+					"professional": "Charter Operator",
+					"professional_tooltip": "Check this if you are a charter or a professional guide."
+				}
 			},
 			"to_ambassador": {
 				"button": "Upgrade to Brand Ambassador",

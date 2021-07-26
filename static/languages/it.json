@@ -197,7 +197,16 @@
 		"upgrade": {
 			"to_host": {
 				"message": "Sei un charter o hai una barca da affittare?",
-				"button": "Diventa un Host"
+				"button": "Diventa un Host",
+				"page": {
+					"title": "Diventa un Host",
+					"subtitle": "Inserisci tutte le tue informazioni e inizia a pubblicare eventi!",
+					"type_choice": "Sei un capitano o un charter operator?",
+					"private": "Capitano",
+					"private_tooltip": "Seleziona questa voce se sei una guida di pesca privata e non esegui attività di charter/guida professionalmente.",
+					"professional": "Charter Operator",
+					"professional_tooltip": "Seleziona questa voce se sei un charter o una guida professionista."
+				}
 			},
 			"to_ambassador": {
 				"button": "Diventa un Brand Ambassador",

@@ -62,7 +62,7 @@
 </script>
 
 <div id="save-notification" bind:this={notification}>
-	<i class='fa fa-circle-o-notch fa-spin'></i> Saving...
+	<i class='fas fa-circle-notch fa-spin'></i> Saving...
 </div>
 
 <main>
