@@ -98,7 +98,8 @@
 		"name_tooltip": "Full name is your full legal name, used for receipts. Preferred name is used in the website interface, emails and by our support team when you contact them. If you don't specify any preferred name, your first name will be extracted from your full name.",
 		"hint": "Hint",
 		"drag_n_drop": "Drop files anywhere to upload or",
-		"propicNeedsVerified": "You need to verify your account in order to change profile picture."
+		"propicNeedsVerified": "You need to verify your account in order to change profile picture.",
+		"usernameUsed": "This username is already in use"
 	},
 	"signup": "Create account",
 	"signin": "Login",
