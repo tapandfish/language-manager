@@ -196,6 +196,9 @@
 			"to_host": {
 				"message": "Are you a charter? Do you have a boat to rent?",
 				"button": "Become a Host"
+			},
+			"to_ambassador": {
+				"button": "Upgrade to Brand Ambassador"
 			}
 		}
 	},

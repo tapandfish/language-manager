@@ -197,6 +197,9 @@
 			"to_host": {
 				"message": "Sei un charter o hai una barca da affittare?",
 				"button": "Diventa un Host"
+			},
+			"to_ambassador": {
+				"button": "Diventa un Brand Ambassador"
 			}
 		},
 		"profile_completion": "Completamento profilo"
