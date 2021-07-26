@@ -231,7 +231,8 @@
 			"icons": {
 				"meet": "Meet",
 				"fish": "Fish",
-				"share": "Share"
+				"share": "Share",
+				"book": "Book"
 			},
 			"host_description": {
 				"private": {
@@ -248,7 +249,7 @@
 				"header": "The most loved Fishing Destinations",
 				"action": "See all Destinations"
 			},
-			"parallax": "Shared experiences – meet your private fisher all over the world, share the costs and get ready for unique experiences!",
+			"parallax": "Book your fishing experience all over the world",
 			"post_gallery": {
 				"pre_header": "Fishing in the world",
 				"header": "Latest articles",
