@@ -186,6 +186,20 @@
 					"button": "Salva",
 					"wrong_password": "Password errata"
 				}
+			},
+			"published_events": {
+				"card": {
+					"draft": "Bozza",
+					"admin_review": "Revisione Admin",
+					"edit": "Modifica",
+					"view": "Guarda",
+					"active": "Attivo",
+					"inactive": "Inattivo",
+					"change_status": "Cambia stato"
+				},
+				"title": "I tuoi eventi",
+				"subtitle": "Guarda e gestisci tutti i tuoi eventi",
+				"no_events": "Non hai ancora creato nessun evento"
 			}
 		},
 		"title": "Utente",

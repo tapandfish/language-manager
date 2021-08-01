@@ -185,6 +185,20 @@
 					"button": "Change",
 					"wrong_password": "Wrong password"
 				}
+			},
+			"published_events": {
+				"title": "Your events",
+				"subtitle": "View and manage all your events",
+				"no_events": "You haven't created any event yet",
+				"card": {
+					"draft": "Draft",
+					"admin_review": "Admin Review",
+					"edit": "Edit",
+					"view": "View",
+					"active": "Active",
+					"inactive": "Not active",
+					"change_status": "Change status"
+				}
 			}
 		},
 		"revert": {
