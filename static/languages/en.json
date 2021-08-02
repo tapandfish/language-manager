@@ -199,6 +199,45 @@
 					"inactive": "Not active",
 					"change_status": "Change status"
 				}
+			},
+			"create_event": {
+				"navigation": {
+					"previous": "Previous",
+					"next": "Next",
+					"create": "Create",
+					"menu": {
+						"info": "Basic info",
+						"media": "Pictures",
+						"fishing": "Fishing",
+						"description": "Description",
+						"availability": "Availability"
+					}
+				},
+				"info": {
+					"title": "General information",
+					"name_label": "Event name",
+					"name_placeholder": "Insert event name",
+					"boat_label": "Boat",
+					"boat_placeholder": "Do you have a boat?",
+					"yes": "Yes",
+					"no": "No",
+					"boat_info": "Boat information",
+					"category": "Category",
+					"categories": {
+						"FISHING": "Fishing",
+						"FISHING_SEA": "Fishing and sea activities",
+						"FISHING_EAT": "Fish & eat",
+						"FISHING_tooltip": "Select this if the event includes only fishing activities.",
+						"FISHING_SEA_tooltip": "Select this if the event includes fishing activities as well as additional experiences (snorkeling, dolphin watching, trips).",
+						"FISHING_EAT_tooltip": "Select this if the event includes fishing activities as well as cooking and eating the catch."
+					},
+					"activities_label": "Sea activities",
+					"activities": {
+						"SNORKELING": "snorkeling",
+						"DOLPHINS_WHALES": "dolphin and whale watching",
+						"TRIP": "trips"
+					}
+				}
 			}
 		},
 		"revert": {
