@@ -237,6 +237,79 @@
 						"DOLPHINS_WHALES": "dolphin and whale watching",
 						"TRIP": "trips"
 					}
+				},
+				"media": {
+					"upload_images": "Upload images",
+					"no_image_error": "Please add at least one image",
+					"remove_tooltip": "Remove image"
+				},
+				"guide_for_host": "Host guidebook",
+				"fishing": {
+					"title": "Technique",
+					"SEA": "Sea",
+					"RIVER_LAKE": "River/Lake",
+					"sea_techniques": {
+						"SPEARFISHING": "spearfishing",
+						"SURF_CASTING": "surf casting",
+						"SPINNING": "spinning",
+						"BEACH_LEDGERING": "beach ledgering",
+						"JIGGING": "jigging",
+						"LIVE_TROLLING": "live trolling",
+						"COASTAL_TROLLING": "coastal trolling",
+						"OFFSHORE_TROLLING": "offshore trolling",
+						"TUNA_FISHING": "tuna fishing",
+						"BOAT_FISHING": "boat fishing",
+						"STREET_FISHING": "street fishing",
+						"KAYAK_FISHING": "kayak fishing"
+					},
+					"river_lake_techniques": {
+						"RIVER_TROUT_SALMON": "river trout/salmon",
+						"LAKE_TROUT_SALMON": "lake trout/salmon",
+						"SPINNING": "spinning",
+						"CARPFISHING": "carpfishing",
+						"FLYFISHING": "flyfishing",
+						"RIVER_GENERIC": "river generic",
+						"LAKE_GENERIC": "lake generic"
+					},
+					"services_label": "Services",
+					"services": {
+						"SERVICE1": "service",
+						"SERVICE2": "service",
+						"SERVICE3": "service",
+						"SERVICE4": "service",
+						"SERVICE5": "service",
+						"SERVICE6": "service"
+					}
+				},
+				"description": {
+					"title": "Description",
+					"placeholder": "Insert event description"
+				},
+				"availability": {
+					"price_title": "Price and Seats",
+					"total_price": "Total price in &euro;",
+					"price_placeholder": "Insert price",
+					"max_people": "Maximum amount of people",
+					"max_people_placeholder": "Insert number",
+					"availability": "Availability",
+					"specific": {
+						"menu": "Specific date",
+						"title": "Specific availability",
+						"description": "Is the event available only on a specific date?",
+						"details": "Select the date it will be available on"
+					},
+					"weekly": {
+						"menu": "Weekly",
+						"title": "Weekly availability",
+						"description": "Is the event available every week?",
+						"details": "Deselect the days it's not available"
+					},
+					"custom": {
+						"menu": "Custom",
+						"title": "Custom availability",
+						"description": "Is the event available only on a range of dates?",
+						"details": "Select the starting and ending dates for your event"
+					}
 				}
 			}
 		},
@@ -670,6 +743,24 @@
 			"TOILET": "Toilet",
 			"ICEBOX": "Icebox",
 			"FRIDGE": "Fridge"
+		}
+	},
+	"weekdays": {
+		"MONDAY": "Monday",
+		"TUESDAY": "Tuesday",
+		"WEDNESDAY": "Wednesday",
+		"THURSDAY": "Thursday",
+		"FRIDAY": "Friday",
+		"SATURDAY": "Saturday",
+		"SUNDAY": "Sunday",
+		"short": {
+			"MONDAY": "Mon",
+			"TUESDAY": "Tue",
+			"WEDNESDAY": "Wed",
+			"THURSDAY": "Thu",
+			"FRIDAY": "Fri",
+			"SATURDAY": "Sat",
+			"SUNDAY": "Sun"
 		}
 	}
 }

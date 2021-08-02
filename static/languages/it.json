@@ -238,6 +238,79 @@
 					"boat_info": "Informazioni barca",
 					"category": "Categoria",
 					"activities_label": "Attività marine"
+				},
+				"media": {
+					"upload_images": "Carica immagini",
+					"no_image_error": "Per favore aggiungi almeno un'immagine",
+					"remove_tooltip": "Rimuovi immagine"
+				},
+				"fishing": {
+					"sea_techniques": {
+						"SPEARFISHING": "pesca subacquea",
+						"SURF_CASTING": "surf casting",
+						"SPINNING": "spinning",
+						"BEACH_LEDGERING": "beach ledgering",
+						"LIVE_TROLLING": "live trolling",
+						"JIGGING": "jigging",
+						"COASTAL_TROLLING": "traina costiera",
+						"OFFSHORE_TROLLING": "traina d'altura",
+						"TUNA_FISHING": "pesca al tonno",
+						"BOAT_FISHING": "boat fishing",
+						"STREET_FISHING": "street fishing",
+						"KAYAK_FISHING": "kayak fishing"
+					},
+					"river_lake_techniques": {
+						"RIVER_TROUT_SALMON": "trota/salmone di fiume",
+						"LAKE_TROUT_SALMON": "trota/salmone di lago",
+						"SPINNING": "spinning",
+						"CARPFISHING": "carpfishing",
+						"FLYFISHING": "flyfishing",
+						"RIVER_GENERIC": "fiume generico",
+						"LAKE_GENERIC": "lago generico"
+					},
+					"services": {
+						"SERVICE1": "servizio",
+						"SERVICE2": "servizio",
+						"SERVICE3": "servizio",
+						"SERVICE4": "servizio",
+						"SERVICE5": "servizio",
+						"SERVICE6": "servizio"
+					},
+					"title": "Tecnica",
+					"SEA": "Mare",
+					"RIVER_LAKE": "Fiume/Lago",
+					"services_label": "Servizi"
+				},
+				"guide_for_host": "Guida per l'host",
+				"description": {
+					"title": "Descrizione",
+					"placeholder": "Inserisci la descrizione dell'evento"
+				},
+				"availability": {
+					"specific": {
+						"menu": "Specifica",
+						"title": "Disponibilità specifica",
+						"description": "L'evento è disponibile per un solo giorno specifico?",
+						"details": "Seleziona il giorno in cui sarà disponibile"
+					},
+					"weekly": {
+						"menu": "Settimanale",
+						"title": "Disponibilità settimanale",
+						"description": "L'evento è disponibile tutte le settimane?",
+						"details": "Deseleziona i giorni in cui non è disponibile"
+					},
+					"custom": {
+						"menu": "Personalizzata",
+						"title": "Disponibilità personalizzata",
+						"description": "L'evento è disponibile solo in un intervallo di date?",
+						"details": "Seleziona il giorno di inizio e il giorno di fine evento"
+					},
+					"price_title": "Prezzo e Posti",
+					"total_price": "Prezzo totale in &euro;",
+					"price_placeholder": "Inserisci prezzo",
+					"max_people": "Numero di posti massimo",
+					"max_people_placeholder": "Inserisci il numero di posti massimo",
+					"availability": "Disponibilità"
 				}
 			}
 		},
@@ -673,5 +746,23 @@
 		"length": "Lunghezza",
 		"year": "Anno modello",
 		"equipment": "Equipaggiamento"
+	},
+	"weekdays": {
+		"short": {
+			"MONDAY": "Lun",
+			"TUESDAY": "Mar",
+			"WEDNESDAY": "Mer",
+			"THURSDAY": "Gio",
+			"FRIDAY": "Ven",
+			"SATURDAY": "Sab",
+			"SUNDAY": "Dom"
+		},
+		"MONDAY": "Lunedì",
+		"TUESDAY": "Martedì",
+		"WEDNESDAY": "Mercoledì",
+		"THURSDAY": "Giovedì",
+		"FRIDAY": "Venerdì",
+		"SATURDAY": "Sabato",
+		"SUNDAY": "Domenica"
 	}
 }
