@@ -648,5 +648,30 @@
 			"header": "Recupera account",
 			"description": ""
 		}
+	},
+	"boat": {
+		"form": {
+			"kind_placeholder": "Scegli il tipo di barca",
+			"manufacturer_placeholder": "Inserisci il produttore",
+			"length_placeholder": "Inserisci la lunghezza",
+			"year_placeholder": "Seleziona l'anno"
+		},
+		"equipments": {
+			"GPS": "GPS",
+			"DEPTH_SOUNDER": "Ecoscandaglio",
+			"VHF": "VHF",
+			"RADAR": "Radar",
+			"SHOWER": "Doccia",
+			"KITCHEN": "Cucina",
+			"SUNDECK": "Prendisole",
+			"TOILET": "Bagno",
+			"ICEBOX": "Ghiacciaia",
+			"FRIDGE": "Frigo"
+		},
+		"kind": "Tipo barca",
+		"manufacturer": "Produttore",
+		"length": "Lunghezza",
+		"year": "Anno modello",
+		"equipment": "Equipaggiamento"
 	}
 }

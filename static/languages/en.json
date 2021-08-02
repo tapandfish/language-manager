@@ -646,5 +646,30 @@
 			"header": "Restore account",
 			"description": ""
 		}
+	},
+	"boat": {
+		"form": {
+			"kind_placeholder": "Select your boat type",
+			"manufacturer_placeholder": "What's the manufacturer?",
+			"length_placeholder": "Boat length",
+			"year_placeholder": "Specify the year"
+		},
+		"kind": "Boat kind",
+		"manufacturer": "Manufacturer",
+		"length": "Length",
+		"year": "Model year",
+		"equipment": "Equipment",
+		"equipments": {
+			"GPS": "GPS",
+			"DEPTH_SOUNDER": "Depth sounder",
+			"VHF": "VHF",
+			"RADAR": "Radar",
+			"SHOWER": "Shower",
+			"KITCHEN": "Kitchen",
+			"SUNDECK": "Sundeck",
+			"TOILET": "Toilet",
+			"ICEBOX": "Icebox",
+			"FRIDGE": "Fridge"
+		}
 	}
 }
