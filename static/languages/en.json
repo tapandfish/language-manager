@@ -310,7 +310,8 @@
 						"description": "Is the event available only on a range of dates?",
 						"details": "Select the starting and ending dates for your event"
 					}
-				}
+				},
+				"extreme_error": "A major unknown exception has been raised while trying to create this event. Please try again later, maybe after reloading the page. If the error persist please contact support."
 			}
 		},
 		"revert": {
