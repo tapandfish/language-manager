@@ -200,6 +200,45 @@
 				"title": "I tuoi eventi",
 				"subtitle": "Guarda e gestisci tutti i tuoi eventi",
 				"no_events": "Non hai ancora creato nessun evento"
+			},
+			"create_event": {
+				"navigation": {
+					"menu": {
+						"info": "Info base",
+						"media": "Immagini",
+						"fishing": "Fishing",
+						"description": "Descrizione",
+						"availability": "Disponibilità"
+					},
+					"previous": "Indietro",
+					"next": "Avanti",
+					"create": "Crea"
+				},
+				"info": {
+					"categories": {
+						"FISHING": "Pesca",
+						"FISHING_SEA": "Pesca e attività marine",
+						"FISHING_EAT": "Fish & eat",
+						"FISHING_tooltip": "Seleziona questa categoria se l'evento comprende esclusivamente attività di pesca sportiva.",
+						"FISHING_SEA_tooltip": "Seleziona questa categoria se l'evento comprende attività di pesca e esperienze aggiuntive (es: snorkeling/dolphin watching/escursioni).",
+						"FISHING_EAT_tooltip": "Seleziona questa categoria se l'evento comprende attività di pesca e di cucina/consumo in loco del pescato."
+					},
+					"activities": {
+						"SNORKELING": "snorkeling",
+						"DOLPHINS_WHALES": "dolphin e whale watching",
+						"TRIP": "escursioni"
+					},
+					"title": "Informazioni generali",
+					"name_label": "Nome evento",
+					"name_placeholder": "Inserisci il nome dell'evento",
+					"boat_label": "Barca",
+					"boat_placeholder": "Hai una barca?",
+					"yes": "Sì",
+					"no": "No",
+					"boat_info": "Informazioni barca",
+					"category": "Categoria",
+					"activities_label": "Attività marine"
+				}
 			}
 		},
 		"title": "Utente",
