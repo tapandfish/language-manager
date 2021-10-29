@@ -313,6 +313,12 @@
 					"availability": "Disponibilità"
 				},
 				"extreme_error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto."
+			},
+			"reviews": {
+				"received": {
+					"title": "Recensioni ricevute",
+					"subtitle": "Leggi tutte le recensioni ricevute"
+				}
 			}
 		},
 		"title": "Utente",

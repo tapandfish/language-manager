@@ -312,6 +312,12 @@
 					}
 				},
 				"extreme_error": "A major unknown exception has been raised while trying to create this event. Please try again later, maybe after reloading the page. If the error persist please contact support."
+			},
+			"reviews": {
+				"received": {
+					"title": "Received reviews",
+					"subtitle": "Read all the reviews you received from guests"
+				}
 			}
 		},
 		"revert": {
