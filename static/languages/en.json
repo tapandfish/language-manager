@@ -730,14 +730,11 @@
 	"boat": {
 		"form": {
 			"kind_placeholder": "Select your boat type",
-			"manufacturer_placeholder": "What's the manufacturer?",
 			"length_placeholder": "Boat length",
-			"year_placeholder": "Specify the year"
+			"motorization_placeholder": "Insert motorization"
 		},
 		"kind": "Boat kind",
-		"manufacturer": "Manufacturer",
 		"length": "Length",
-		"year": "Model year",
 		"equipment": "Equipment",
 		"equipments": {
 			"GPS": "GPS",
@@ -750,7 +747,8 @@
 			"TOILET": "Toilet",
 			"ICEBOX": "Icebox",
 			"FRIDGE": "Fridge"
-		}
+		},
+		"motorization": "Motorization"
 	},
 	"weekdays": {
 		"MONDAY": "Monday",
@@ -769,5 +767,8 @@
 			"SATURDAY": "Sat",
 			"SUNDAY": "Sun"
 		}
+	},
+	"units": {
+		"horse_power": "hp"
 	}
 }

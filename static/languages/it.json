@@ -732,9 +732,8 @@
 	"boat": {
 		"form": {
 			"kind_placeholder": "Scegli il tipo di barca",
-			"manufacturer_placeholder": "Inserisci il produttore",
 			"length_placeholder": "Inserisci la lunghezza",
-			"year_placeholder": "Seleziona l'anno"
+			"motorization_placeholder": "Inserisci la motorizzazione"
 		},
 		"equipments": {
 			"GPS": "GPS",
@@ -749,10 +748,9 @@
 			"FRIDGE": "Frigo"
 		},
 		"kind": "Tipo barca",
-		"manufacturer": "Produttore",
 		"length": "Lunghezza",
-		"year": "Anno modello",
-		"equipment": "Equipaggiamento"
+		"equipment": "Equipaggiamento",
+		"motorization": "Motorizzazione"
 	},
 	"weekdays": {
 		"short": {
@@ -771,5 +769,8 @@
 		"FRIDAY": "Venerdì",
 		"SATURDAY": "Sabato",
 		"SUNDAY": "Domenica"
+	},
+	"units": {
+		"horse_power": "cv"
 	}
 }
