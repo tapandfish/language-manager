@@ -785,6 +785,11 @@
 		"information": "Informazioni evento",
 		"other_from_host": "Altri eventi dell'host",
 		"reviews": "Recensioni",
-		"explore_others": "Esplora altri eventi"
+		"explore_others": "Esplora altri eventi",
+		"error": {
+			"title": "Questo evento non esiste",
+			"check_link": "Controlla che il link sia corretto"
+		},
+		"boat_info": "Informazioni barca"
 	}
 }

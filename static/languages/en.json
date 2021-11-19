@@ -783,6 +783,11 @@
 			"professional": "Professional host",
 			"private": "Private host",
 			"no_reviews": "No reviews"
+		},
+		"boat_info": "Boat information",
+		"error": {
+			"title": "This event does not exist",
+			"check_link": "Check if the link is correct"
 		}
 	}
 }
