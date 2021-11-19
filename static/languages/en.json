@@ -770,5 +770,19 @@
 	},
 	"units": {
 		"horse_power": "hp"
+	},
+	"event": {
+		"details": "Event details",
+		"boat": "Boat",
+		"information": "Event information",
+		"other_from_host": "Other events from this host",
+		"reviews": "Reviews",
+		"explore_others": "Explore other events",
+		"host": {
+			"title": "The host",
+			"professional": "Professional host",
+			"private": "Private host",
+			"no_reviews": "No reviews"
+		}
 	}
 }

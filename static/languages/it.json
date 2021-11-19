@@ -772,5 +772,19 @@
 	},
 	"units": {
 		"horse_power": "cv"
+	},
+	"event": {
+		"host": {
+			"title": "L'host",
+			"professional": "Host professionista",
+			"private": "Host privato",
+			"no_reviews": "Nessuna recensione"
+		},
+		"details": "Dettagli evento",
+		"boat": "Barca",
+		"information": "Informazioni evento",
+		"other_from_host": "Altri eventi dell'host",
+		"reviews": "Recensioni",
+		"explore_others": "Esplora altri eventi"
 	}
 }
