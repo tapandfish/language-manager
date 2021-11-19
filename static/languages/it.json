@@ -790,6 +790,7 @@
 			"title": "Questo evento non esiste",
 			"check_link": "Controlla che il link sia corretto"
 		},
-		"boat_info": "Informazioni barca"
+		"boat_info": "Informazioni barca",
+		"see_all_pictures": "Guarda tutte le foto"
 	}
 }
