@@ -727,6 +727,11 @@
 			"title": "TapAndFish - Recupera account",
 			"header": "Recupera account",
 			"description": ""
+		},
+		"search": {
+			"title": "TapAndFish - Cerca evento",
+			"header": "Cerca evento",
+			"description": "Inizia a cercare tra fantastiche esperienze di pesca e conosci persone nuove!"
 		}
 	},
 	"boat": {
