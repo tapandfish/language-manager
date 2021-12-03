@@ -99,7 +99,8 @@
 		"hint": "Hint",
 		"drag_n_drop": "Drop files anywhere to upload or",
 		"propicNeedsVerified": "You need to verify your account in order to change profile picture.",
-		"usernameUsed": "This username is already in use"
+		"usernameUsed": "This username is already in use",
+		"pick_date": "Pick a date"
 	},
 	"signup": "Create account",
 	"signin": "Login",
@@ -800,6 +801,14 @@
 			"title": "This event does not exist",
 			"check_link": "Check if the link is correct"
 		},
-		"see_all_pictures": "See all pictures"
+		"see_all_pictures": "See all pictures",
+		"book": {
+			"date_book": "Pick a date and book!",
+			"n_people": "Number of participants",
+			"cost": "Event cost",
+			"cost_per_person": "Cost per person",
+			"total": "Total price",
+			"book": "Book event"
+		}
 	}
 }

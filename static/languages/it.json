@@ -101,7 +101,8 @@
 		"hint": "Consigli utili",
 		"drag_n_drop": "Trascina un file per caricare oppure",
 		"propicNeedsVerified": "Il tuo account deve essere verificato perché tu possa cambiare immagine profilo.",
-		"usernameUsed": "Questo username è già utilizzato da un altro host"
+		"usernameUsed": "Questo username è già utilizzato da un altro host",
+		"pick_date": "Seleziona una data"
 	},
 	"signup": "Registrati",
 	"signin": "Accedi",
@@ -802,6 +803,14 @@
 			"check_link": "Controlla che il link sia corretto"
 		},
 		"boat_info": "Informazioni barca",
-		"see_all_pictures": "Guarda tutte le foto"
+		"see_all_pictures": "Guarda tutte le foto",
+		"book": {
+			"date_book": "Scegli una data e prenota!",
+			"n_people": "Numero di partecipanti",
+			"cost": "Costo uscita",
+			"cost_per_person": "Costo per persona",
+			"total": "Totale",
+			"book": "Acquista evento"
+		}
 	}
 }
