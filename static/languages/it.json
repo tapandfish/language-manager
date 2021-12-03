@@ -310,7 +310,13 @@
 					"price_placeholder": "Inserisci prezzo",
 					"max_people": "Numero di posti massimo",
 					"max_people_placeholder": "Inserisci il numero di posti massimo",
-					"availability": "Disponibilità"
+					"availability": "Disponibilità",
+					"expenses": "Costo uscita",
+					"price_per_person": "Costo per persona",
+					"expenses_placeholder": "Spese in &euro;",
+					"price_per_person_placeholder": "Costo in &euro;",
+					"expenses_tooltip": "Il costo totale dell'uscita, che non cambia in base al numero di iscritti. Per esempio, potrebbe trattarsi del costo del carburante per la barca. Il totale verrà diviso equamente tra i guest.",
+					"price_per_person_tooltip": "Si tratta di un costo addizionale per ogni iscritto, per esempio le spese per l'affitto di strumentazione (canne da pesca e simili)."
 				},
 				"extreme_error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto."
 			},
