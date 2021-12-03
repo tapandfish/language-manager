@@ -811,6 +811,27 @@
 			"cost_per_person": "Costo per persona",
 			"total": "Totale",
 			"book": "Acquista evento"
+		},
+		"banners": {
+			"draft": {
+				"confirmation": {
+					"title": "Pubblica evento",
+					"message": "Continuando invii il tuo evento perché possa essere approvato da uno dei nostri admin. In caso di successo, l'evento diventerà visibile a tutti, anche se lo disabiliti.",
+					"cancel": "Annulla",
+					"publish": "Pubblica"
+				},
+				"content": "Questa è l'anteprima della bozza di un evento. Sottomettilo all'approvazione degli admin per pubblicarlo.",
+				"edit": "Modifica",
+				"publish": "Pubblica"
+			},
+			"review": {
+				"content": "Questo evento è in corso di revisione da parte dei nostri admin.",
+				"edit": "Modifica"
+			},
+			"public": {
+				"content": "Stai guardando uno dei tuoi eventi",
+				"manage": "Gestisci"
+			}
 		}
 	}
 }

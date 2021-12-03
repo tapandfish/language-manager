@@ -809,6 +809,27 @@
 			"cost_per_person": "Cost per person",
 			"total": "Total price",
 			"book": "Book event"
+		},
+		"banners": {
+			"draft": {
+				"content": "You are now watching a preview of a draft event. Submit the event for approval to publish it.",
+				"edit": "Edit",
+				"publish": "Publish",
+				"confirmation": {
+					"title": "Publish event",
+					"message": "By continuing, you submit your event to the approval of one of our admins. If approved your event will then be visible to everyone, even if you disable it.",
+					"cancel": "Cancel",
+					"publish": "Publish"
+				}
+			},
+			"review": {
+				"content": "This event is currently being reviewed by our admins in order to be published.",
+				"edit": "Edit"
+			},
+			"public": {
+				"content": "You are watching one of your events.",
+				"manage": "Manage"
+			}
 		}
 	}
 }
