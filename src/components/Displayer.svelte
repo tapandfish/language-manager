@@ -2,7 +2,9 @@
 	export let data, english, location;
 
 	for(let key in english) {
-		if(Array.isArray(english[key]) && !data[key]) {
+		if(english[key] === null) {
+			data[key] = null;
+		} else if(Array.isArray(english[key]) && !data[key]) {
 			data[key] = [];
 		} else if(typeof english[key] === 'object' && !data[key]) {
 			data[key] = {};

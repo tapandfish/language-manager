@@ -674,8 +674,8 @@
 	"seo": {
 		"home": {
 			"title": "TapAndFish",
-			"header": {},
-			"description": "Prenota la tua esperienza di pesca. Trova guide professioniste e pescatori privati. Vicino a te"
+			"description": "Prenota la tua esperienza di pesca. Trova guide professioniste e pescatori privati. Vicino a te",
+			"header": null
 		},
 		"signin": {
 			"title": "TapAndFish - Accedi",
