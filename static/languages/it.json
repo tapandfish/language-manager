@@ -102,7 +102,8 @@
 		"drag_n_drop": "Trascina un file per caricare oppure",
 		"propicNeedsVerified": "Il tuo account deve essere verificato perché tu possa cambiare immagine profilo.",
 		"usernameUsed": "Questo username è già utilizzato da un altro host",
-		"pick_date": "Seleziona una data"
+		"pick_date": "Seleziona una data",
+		"location": "Luogo"
 	},
 	"signup": "Registrati",
 	"signin": "Accedi",
@@ -838,6 +839,7 @@
 				"content": "Stai guardando uno dei tuoi eventi",
 				"manage": "Gestisci"
 			}
-		}
+		},
+		"no_location": "Nessuna posizione disponibile"
 	}
 }

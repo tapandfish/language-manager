@@ -100,7 +100,8 @@
 		"drag_n_drop": "Drop files anywhere to upload or",
 		"propicNeedsVerified": "You need to verify your account in order to change profile picture.",
 		"usernameUsed": "This username is already in use",
-		"pick_date": "Pick a date"
+		"pick_date": "Pick a date",
+		"location": "Location"
 	},
 	"signup": "Create account",
 	"signin": "Login",
@@ -836,6 +837,7 @@
 				"content": "You are watching one of your events.",
 				"manage": "Manage"
 			}
-		}
+		},
+		"no_location": "No location available"
 	}
 }
