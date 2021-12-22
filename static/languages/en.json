@@ -839,5 +839,24 @@
 			}
 		},
 		"no_location": "No location available"
+	},
+	"search": {
+		"location": "Location",
+		"n_people": "N. people",
+		"more_filters": "More filters",
+		"search": "Search",
+		"results": "Here's what we found for you:",
+		"no_results": "We couldn't find any event matching your search, try changing some of the filters.",
+		"modal": {
+			"title": "Filters",
+			"radius": "Radius",
+			"price_range": "Price range",
+			"languages": "Languages",
+			"categories": "Categories",
+			"any": "Any",
+			"technique": "Fishing technique",
+			"close": "Close",
+			"save": "Save changes"
+		}
 	}
 }

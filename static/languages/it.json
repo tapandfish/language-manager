@@ -841,5 +841,24 @@
 			}
 		},
 		"no_location": "Nessuna posizione disponibile"
+	},
+	"search": {
+		"modal": {
+			"title": "Filtri",
+			"radius": "Raggio",
+			"price_range": "Intervallo di prezzo",
+			"languages": "Lingue",
+			"categories": "Categoria",
+			"any": "Qualsiasi",
+			"technique": "Tecnica di pesca",
+			"close": "Chiudi",
+			"save": "Salva modifiche"
+		},
+		"location": "Luogo",
+		"n_people": "N. persone",
+		"more_filters": "Più filtri",
+		"search": "Cerca",
+		"results": "Ecco cosa abbiamo trovato per te:",
+		"no_results": "Non siamo riusciti a trovare nessun evento che rispettasse tutte le tue richieste, prova a cambiare qualcuno dei filtri."
 	}
 }
