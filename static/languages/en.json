@@ -857,6 +857,12 @@
 			"technique": "Fishing technique",
 			"close": "Close",
 			"save": "Save changes"
+		},
+		"order_by": {
+			"order_by": "Order by",
+			"DISTANCE": "Distance",
+			"PRICE_LOW": "Price: low to high",
+			"PRICE_HIGH": "Price: high to low"
 		}
 	}
 }

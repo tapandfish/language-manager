@@ -859,6 +859,12 @@
 		"more_filters": "Più filtri",
 		"search": "Cerca",
 		"results": "Ecco cosa abbiamo trovato per te:",
-		"no_results": "Non siamo riusciti a trovare nessun evento che rispettasse tutte le tue richieste, prova a cambiare qualcuno dei filtri."
+		"no_results": "Non siamo riusciti a trovare nessun evento che rispettasse tutte le tue richieste, prova a cambiare qualcuno dei filtri.",
+		"order_by": {
+			"order_by": "Ordina per",
+			"DISTANCE": "Distanza",
+			"PRICE_LOW": "Prezzo crescente",
+			"PRICE_HIGH": "Prezzo decrescente"
+		}
 	}
 }
