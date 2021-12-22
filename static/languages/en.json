@@ -237,7 +237,13 @@
 						"SNORKELING": "snorkeling",
 						"DOLPHINS_WHALES": "dolphin and whale watching",
 						"TRIP": "trips"
-					}
+					},
+					"add_new_boat": "Add new boat",
+					"location_label": "Location",
+					"location_placeholder": "Event location",
+					"boat_name_label": "Boat name",
+					"boat_name_placeholder": "Name",
+					"boat_name_tooltip": "If you set a name for this boat, we will save its details for future events"
 				},
 				"media": {
 					"upload_images": "Upload images",

@@ -238,7 +238,13 @@
 					"no": "No",
 					"boat_info": "Informazioni barca",
 					"category": "Categoria",
-					"activities_label": "Attività marine"
+					"activities_label": "Attività marine",
+					"add_new_boat": "Aggiungi una nuova barca",
+					"location_label": "Luogo",
+					"location_placeholder": "Luogo dove si svolge l'evento",
+					"boat_name_label": "Nome della barca",
+					"boat_name_placeholder": "Nome",
+					"boat_name_tooltip": "Se inserisci un nome per questa barca, ne salveremo i dettagli per eventi futuri"
 				},
 				"media": {
 					"upload_images": "Carica immagini",
