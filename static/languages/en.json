@@ -842,7 +842,7 @@
 	},
 	"search": {
 		"location": "Location",
-		"n_people": "N. people",
+		"n_people": "N.",
 		"more_filters": "More filters",
 		"search": "Search",
 		"results": "Here's what we found for you:",
@@ -864,5 +864,7 @@
 			"PRICE_LOW": "Price: low to high",
 			"PRICE_HIGH": "Price: high to low"
 		}
-	}
+	},
+	"n_people_unit": "person",
+	"n_people_unit_plural": "people"
 }

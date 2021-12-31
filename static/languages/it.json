@@ -855,7 +855,7 @@
 			"save": "Salva modifiche"
 		},
 		"location": "Luogo",
-		"n_people": "N. persone",
+		"n_people": "N.",
 		"more_filters": "Più filtri",
 		"search": "Cerca",
 		"results": "Ecco cosa abbiamo trovato per te:",
@@ -866,5 +866,7 @@
 			"PRICE_LOW": "Prezzo crescente",
 			"PRICE_HIGH": "Prezzo decrescente"
 		}
-	}
+	},
+	"n_people_unit": "persona",
+	"n_people_unit_plural": "persone"
 }
