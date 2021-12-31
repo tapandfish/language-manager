@@ -863,8 +863,8 @@
 			"DISTANCE": "Distance",
 			"PRICE_LOW": "Price: low to high",
 			"PRICE_HIGH": "Price: high to low"
-		}
-	},
-	"n_people_unit": "person",
-	"n_people_unit_plural": "people"
+		},
+		"n_people_unit": "person",
+		"n_people_unit_plural": "people"
+	}
 }

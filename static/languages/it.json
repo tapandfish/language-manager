@@ -865,8 +865,8 @@
 			"DISTANCE": "Distanza",
 			"PRICE_LOW": "Prezzo crescente",
 			"PRICE_HIGH": "Prezzo decrescente"
-		}
-	},
-	"n_people_unit": "persona",
-	"n_people_unit_plural": "persone"
+		},
+		"n_people_unit": "persona",
+		"n_people_unit_plural": "persone"
+	}
 }
