@@ -449,7 +449,7 @@
 			"question": "What is TapAndFish?",
 			"description": "It's the leading platform to search and book charters and fishing guides.[br]TapAndFish is also promoting sharing economy: the price for the majority of events is set with the intent of splitting the expenses between participants.",
 			"hosts": {
-				"question": "Do you want to go fishing? Here is what we offer you.",
+				"question": "Do you want to go fishing? Here is what we offer you:",
 				"private": {
 					"description": "Private host fisher:",
 					"list": [

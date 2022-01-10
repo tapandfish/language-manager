@@ -18,12 +18,12 @@
 	},
 	"ctas": {
 		"become_host": {
-			"text": "Vuoi diventare un[br]host fisher privato?",
-			"button": "Stima le mie entrate"
+			"text": "Vuoi diventare un[br]host fisher ?",
+			"button": "Entra nella community"
 		},
 		"boat_owner": {
-			"text": "Sei il proprietario della barca?",
-			"button": "Stima i miei profitti"
+			"text": "Vuoi diventare un host fisher?",
+			"button": "Entra nella community"
 		},
 		"book_now": {
 			"text": "Sei curioso di scoprire[br]le esperienze offerte[br]su TapAndFish?",
@@ -44,8 +44,8 @@
 	},
 	"contacts": {
 		"title": "Contatti",
-		"headline": "Lorem ipsum dolor sit amet.",
-		"description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"headline": "Compila i campi e contattaci.",
+		"description": "Ti risponderemo il prima possibile.",
 		"form": {
 			"full_name": "Nome e cognome:",
 			"phone": "Tel:",
@@ -233,7 +233,7 @@
 					"title": "Informazioni generali",
 					"name_label": "Nome evento",
 					"name_placeholder": "Inserisci il nome dell'evento",
-					"boat_label": "Barca",
+					"boat_label": "Userai una barca?",
 					"boat_placeholder": "Hai una barca?",
 					"yes": "Sì",
 					"no": "No",
@@ -277,11 +277,11 @@
 						"LAKE_GENERIC": "lago generico"
 					},
 					"services": {
-						"SERVICE1": "servizio",
-						"SERVICE2": "servizio",
-						"SERVICE3": "servizio",
-						"SERVICE4": "servizio",
-						"SERVICE5": "servizio",
+						"SERVICE1": "condivisione del pescato",
+						"SERVICE2": "attrezzatura a disposizione di tutti i partecipanti",
+						"SERVICE3": "colazione",
+						"SERVICE4": "drink & snack",
+						"SERVICE5": "altro",
 						"SERVICE6": "servizio"
 					},
 					"title": "Tecnica",
@@ -319,8 +319,8 @@
 					"max_people": "Numero di posti massimo",
 					"max_people_placeholder": "Inserisci il numero di posti massimo",
 					"availability": "Disponibilità",
-					"expenses": "Costo uscita",
-					"price_per_person": "Costo per persona",
+					"expenses": "Costo uscita (una persona inclusa)",
+					"price_per_person": "Costo per partecipante aggiuntivo",
 					"expenses_placeholder": "Spese in &euro;",
 					"price_per_person_placeholder": "Costo in &euro;",
 					"expenses_tooltip": "Il costo totale dell'uscita, che non cambia in base al numero di iscritti. Per esempio, potrebbe trattarsi del costo del carburante per la barca. Il totale verrà diviso equamente tra i guest.",
@@ -345,8 +345,8 @@
 		},
 		"upgrade": {
 			"to_host": {
-				"message": "Sei un charter o hai una barca da affittare?",
-				"button": "Diventa un Host",
+				"message": "Vuoi pubblicare un evento?",
+				"button": "Pubblica annuncio",
 				"page": {
 					"title": "Diventa un Host",
 					"subtitle": "Inserisci tutte le tue informazioni e inizia a pubblicare eventi!",
@@ -384,7 +384,7 @@
 			"discover": {
 				"header": "Scopri più di 1000 esperienze",
 				"action": "Vedi tutte le esperienze",
-				"description": "Prenota un pescatore privato o professionista in tutto il mondo, scegli l'esperienza che incontra le tue necessità e preparati per avventure uniche"
+				"description": ""
 			},
 			"fullscreen": {
 				"header": "Prenota la tua esperienza di pesca",
@@ -439,7 +439,7 @@
 				"description": "Se sei un pescatore esperto o una guida di pesca, scegli TapAndFish:"
 			},
 			"title": "Chi siamo",
-			"header": "TapAndFish: una piattaforma tutta italiana che ti porta a pesca nel Mondo",
+			"header": "TapAndFish: una community che ti porta a pesca nel Mondo",
 			"description": "Con TapAndFish puoi prenotare il tuo viaggio o le tue battute di pesca in maniera rapida, efficace e sicura.",
 			"action": "Prenota la tua prima esperienza",
 			"parallax": "Affidati a TapAndFish[br]il nostro team di esperti farà della pesca il lavoro dei tuoi sogni!",
@@ -449,9 +449,16 @@
 			"hosts": {
 				"private": {
 					"list": [
-						"Ogni evento riporta in descrizione <kbd>utente privato</kbd>",
+						"L'evento riporta in descrizione <kbd>utente privato</kbd>",
 						"Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
-						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
+						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
+						null,
+						null,
+						{},
+						[],
+						[],
+						{},
+						{}
 					],
 					"description": "Host fisher privato:"
 				},
@@ -464,13 +471,13 @@
 					],
 					"description": "Host fisher professionista:"
 				},
-				"question": "Stai cercando un host fisher privato o professionista?"
+				"question": "Vuoi andare a pescare? Ecco cosa ti proponiamo:"
 			},
 			"title": "Fishing",
 			"header": "Con TapAndFish pescare non è mai stato così semplice!",
 			"question": "Che cos'è TapAndFish?",
 			"description": "È la piattaforma leader per la ricerca e la prenotazione di charter e guide di pesca.[br]TapAndFish, inoltre, è promotore della sharing economy: il prezzo della maggior parte degli eventi, infatti, viene stabilito con l'obiettivo di ripartire le spese fra i partecipanti.",
-			"users_say": "Cosa dicono gli utenti"
+			"users_say": ""
 		},
 		"howitworks": {
 			"guest": {
@@ -534,7 +541,7 @@
 				"sea": "Mare",
 				"river_lake": "Fiume o lago",
 				"food_fishing": "Food & Fishing",
-				"publish": "Pubblica annuncio"
+				"publish": "Calcola"
 			},
 			"icons": [
 				{
@@ -581,7 +588,7 @@
 						},
 						{
 							"title": "Visibilità",
-							"content": "Se il tuo sogno è quello di diventare un fishing brand ambassador questo è il posto che fa per te! Accumulando recensioni positive raggiungerai il livello di *TapAndFish Pro Ambassador."
+							"content": "TapAndFish ti da la visibilità di cui hai bisogno. Accumulando recensioni positive raggiungerai il livello di *TapAndFish Pro Ambassador."
 						}
 					],
 					"name": "Vantaggi per gli host fisher privati"
