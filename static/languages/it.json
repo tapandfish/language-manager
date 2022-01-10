@@ -53,7 +53,7 @@
 			"message": "Messaggio:",
 			"send": "Invia"
 		},
-		"privacy_notice": "* 100% Privacy garantita, leggi la nostra <a href=\"/terms/#privacy\" target=\"_blank\">Privacy Policy</a>."
+		"privacy_notice": "* 100% Privacy garantita, leggi la nostra [a]Privacy Policy[/a]."
 	},
 	"forms": {
 		"name": "Nome",
