@@ -19,11 +19,11 @@
 	"ctas": {
 		"become_host": {
 			"text": "Do you want to be[br]a host fisher?",
-			"button": "Estimate my profits"
+			"button": "Join the community"
 		},
 		"boat_owner": {
-			"text": "Do you own a boat?",
-			"button": "Estimate my profits"
+			"text": "Do you want to become a fisher host?",
+			"button": "Join the community\n"
 		},
 		"book_now": {
 			"text": "Are you curious to learn all[br]the experiences TapAndFish[br]has to offer?",
@@ -44,8 +44,8 @@
 	},
 	"contacts": {
 		"title": "Contacts",
-		"headline": "Lorem ipsum dolor sit amet.",
-		"description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"headline": "Fill in the fields and contact us.",
+		"description": "We will get back to you as soon as possible.",
 		"form": {
 			"full_name": "Full name:",
 			"phone": "Phone:",
@@ -126,7 +126,7 @@
 			"reviews": "Reviews",
 			"alerts": "Alerts",
 			"logout": "Logout",
-			"create_event": "Create event",
+			"create_event": "<strong>Create event</strong>",
 			"published_events": "Published events"
 		},
 		"tabs": {
@@ -219,7 +219,7 @@
 					"title": "General information",
 					"name_label": "Event name",
 					"name_placeholder": "Insert event name",
-					"boat_label": "Boat",
+					"boat_label": "Will you use a boat?",
 					"boat_placeholder": "Do you have a boat?",
 					"yes": "Yes",
 					"no": "No",
@@ -281,11 +281,11 @@
 					},
 					"services_label": "Services",
 					"services": {
-						"SERVICE1": "service",
-						"SERVICE2": "service",
-						"SERVICE3": "service",
-						"SERVICE4": "service",
-						"SERVICE5": "service",
+						"SERVICE1": "sharing the catch",
+						"SERVICE2": "equipment available to all participants\n",
+						"SERVICE3": "breakfast",
+						"SERVICE4": "drink and snack",
+						"SERVICE5": "altro",
 						"SERVICE6": "service"
 					}
 				},
@@ -318,8 +318,8 @@
 						"description": "Is the event available only on a range of dates?",
 						"details": "Select the starting and ending dates for your event"
 					},
-					"expenses": "Total cost",
-					"price_per_person": "Price per person",
+					"expenses": "Total cost (one person included)",
+					"price_per_person": "Additional partecipant cost",
 					"expenses_placeholder": "Expenses in &euro;",
 					"price_per_person_placeholder": "Price in &euro;",
 					"expenses_tooltip": "This is the total cost of the experience, which does not change with the number of guests. For example, it could be the cost of the fuel for the boat. This amount will be divided evenly between the guests.",
@@ -344,8 +344,8 @@
 		"profile_completion": "Profile completion",
 		"upgrade": {
 			"to_host": {
-				"message": "Are you a charter? Do you have a boat to rent?",
-				"button": "Become a Host",
+				"message": "Do you want to publish an event?",
+				"button": "Publish an event",
 				"page": {
 					"title": "Become a host",
 					"subtitle": "Fill in your host info and start publishing events!",
@@ -382,7 +382,7 @@
 			"discover": {
 				"header": "Discover more than 1000 experiences",
 				"action": "See all Experiences",
-				"description": "Book your Private or your Professional Host Fisher all over the world, chose the best experience that fits your need and get ready for unique adventures"
+				"description": ""
 			},
 			"fullscreen": {
 				"header": "Book your fishing experience",
@@ -404,7 +404,7 @@
 				},
 				"professional": {
 					"title": "Professional Guides and Charters:",
-					"description": "Tayloramade solutions for an unforgettable experience, meet our certified guides and discover new techniques"
+					"description": "Tayloramade solutions for an unforgettable experience, meet our certified guides and discover new techniques!"
 				}
 			},
 			"image_gallery": {
@@ -415,13 +415,13 @@
 			"parallax": "Book your fishing experience all over the world",
 			"post_gallery": {
 				"pre_header": "Fishing in the world",
-				"header": "Latest articles",
-				"action": "See all articles"
+				"header": "Our brand ambassadors",
+				"action": "See all "
 			}
 		},
 		"about": {
 			"title": "About us",
-			"header": "TapAndFish: an Italian platform that takes you fishing all around the World",
+			"header": "TapAndFish: a platform that takes you fishing all around the World!",
 			"description": "With TapAndFish you can book your fishing trip fast and safely.",
 			"action": "Book your first experience",
 			"guest": {
@@ -449,13 +449,22 @@
 			"question": "What is TapAndFish?",
 			"description": "It's the leading platform to search and book charters and fishing guides.[br]TapAndFish is also promoting sharing economy: the price for the majority of events is set with the intent of splitting the expenses between participants.",
 			"hosts": {
-				"question": "Are you looking for a private or professional fisher?",
+				"question": "Do you want to go fishing? Here is what we offer you.",
 				"private": {
 					"description": "Private host fisher:",
 					"list": [
-						"Every event is tagged with <kbd>private user</kbd>",
+						"The event is tagged with <kbd>private user</kbd>",
 						"After you've seen the price, you can message the host, to ask for some proof of expenses and get more info on the event.",
-						"Bookings and payments can be canceled up to 48 hours before the event. Our client support is always available."
+						"Bookings and payments can be canceled up to 48 hours before the event. Our client support is always available.",
+						"",
+						"",
+						{},
+						[],
+						[],
+						{},
+						{},
+						"",
+						""
 					]
 				},
 				"professional": {
@@ -468,7 +477,7 @@
 					]
 				}
 			},
-			"users_say": "What users say about us"
+			"users_say": ""
 		},
 		"howitworks": {
 			"title": "How it works",
@@ -536,7 +545,7 @@
 				"sea": "Sea",
 				"river_lake": "River or lake",
 				"food_fishing": "Food & Fishing",
-				"publish": "Publish ad"
+				"publish": "Calculate"
 			},
 			"icons": [
 				{
@@ -585,7 +594,7 @@
 						},
 						{
 							"title": "Visibility",
-							"content": "If your dream is to become a fishing brand ambassador, this is the right place for you! Collecting positive feedback you will get the status of TapAndFish Pro Ambassador"
+							"content": "TapAndFish gives you the visibility you need. Collecting positive feedback you will get the status of TapAndFish Pro Ambassador"
 						}
 					]
 				},

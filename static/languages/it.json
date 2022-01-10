@@ -402,11 +402,11 @@
 			"host_description": {
 				"private": {
 					"title": "Host Fisher privato:",
-					"description": "Dividi i costi con un pescatore locale, una soluzione economica per una fantastica giornata di pesca! È molto semplice: trova un compagno, contattalo, mettetevi d'accordo sul costo e andate a pescare!"
+					"description": "Condividi i costi con un pescatore locale, una soluzione economica per una fantastica giornata di pesca! È molto semplice: trova un compagno, contattalo, mettetevi d'accordo sul costo e andate a pescare!"
 				},
 				"professional": {
 					"title": "Guide professioniste e charter:",
-					"description": "Soluzioni su misura per un'esperienza indimenticabile, conosci le nostre guide certificate e scopri nuove tecniche"
+					"description": "Soluzioni su misura per un'esperienza indimenticabile, conosci le nostre guide certificate e scopri nuove tecniche!"
 				}
 			},
 			"image_gallery": {
@@ -443,7 +443,7 @@
 			"description": "Con TapAndFish puoi prenotare il tuo viaggio o le tue battute di pesca in maniera rapida, efficace e sicura.",
 			"action": "Prenota la tua prima esperienza",
 			"parallax": "Affidati a TapAndFish[br]il nostro team di esperti farà della pesca il lavoro dei tuoi sogni!",
-			"ambassadors": "I nostri brand ambassador Tap and Fish"
+			"ambassadors": "I nostri brand ambassador TapAndFish"
 		},
 		"gofishing": {
 			"hosts": {
@@ -623,7 +623,7 @@
 					"content": "Dopo l’esperienza ti verrà accreditato l’importo pattuito direttamente sul tuo account. TapAndFish, facile!",
 					"image_alt": "Ricevi pagamento"
 				},
-				"header": "Condividi le spese o diventa una guida tap andfish in 3 passaggi"
+				"header": "Condividi le spese o diventa una guida TapAndFish in 3 passaggi"
 			},
 			"ambassador": {
 				"list": [
