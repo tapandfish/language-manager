@@ -18,7 +18,7 @@
 	},
 	"ctas": {
 		"become_host": {
-			"text": "Vuoi diventare un[br]host fisher ?",
+			"text": "Vuoi diventare un[br]host fisher?",
 			"button": "Entra nella community"
 		},
 		"boat_owner": {
@@ -277,12 +277,11 @@
 						"LAKE_GENERIC": "lago generico"
 					},
 					"services": {
-						"SERVICE1": "condivisione del pescato",
-						"SERVICE2": "attrezzatura a disposizione di tutti i partecipanti",
-						"SERVICE3": "colazione",
-						"SERVICE4": "drink & snack",
-						"SERVICE5": "altro",
-						"SERVICE6": "servizio"
+						"SHARING_CATCH": "condivisione del pescato",
+						"EQUIPMENT": "attrezzatura a disposizione di tutti i partecipanti",
+						"BREAKFAST": "colazione",
+						"DRINKS_SNACKS": "drink & snack",
+						"OTHER": "altro"
 					},
 					"title": "Tecnica",
 					"SEA": "Mare",
@@ -383,8 +382,7 @@
 		"home": {
 			"discover": {
 				"header": "Scopri più di 1000 esperienze",
-				"action": "Vedi tutte le esperienze",
-				"description": ""
+				"action": "Vedi tutte le esperienze"
 			},
 			"fullscreen": {
 				"header": "Prenota la tua esperienza di pesca",
@@ -451,14 +449,7 @@
 					"list": [
 						"L'evento riporta in descrizione <kbd>utente privato</kbd>",
 						"Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
-						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
-						null,
-						null,
-						{},
-						[],
-						[],
-						{},
-						{}
+						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
 					],
 					"description": "Host fisher privato:"
 				},
@@ -476,8 +467,7 @@
 			"title": "Fishing",
 			"header": "Con TapAndFish pescare non è mai stato così semplice!",
 			"question": "Che cos'è TapAndFish?",
-			"description": "È la piattaforma leader per la ricerca e la prenotazione di charter e guide di pesca.[br]TapAndFish, inoltre, è promotore della sharing economy: il prezzo della maggior parte degli eventi, infatti, viene stabilito con l'obiettivo di ripartire le spese fra i partecipanti.",
-			"users_say": ""
+			"description": "È la piattaforma leader per la ricerca e la prenotazione di charter e guide di pesca.[br]TapAndFish, inoltre, è promotore della sharing economy: il prezzo della maggior parte degli eventi, infatti, viene stabilito con l'obiettivo di ripartire le spese fra i partecipanti."
 		},
 		"howitworks": {
 			"guest": {
@@ -588,7 +578,7 @@
 						},
 						{
 							"title": "Visibilità",
-							"content": "TapAndFish ti da la visibilità di cui hai bisogno. Accumulando recensioni positive raggiungerai il livello di *TapAndFish Pro Ambassador."
+							"content": "TapAndFish ti dà la visibilità di cui hai bisogno. Accumulando recensioni positive raggiungerai il livello di *TapAndFish Pro Ambassador."
 						}
 					],
 					"name": "Vantaggi per gli host fisher privati"

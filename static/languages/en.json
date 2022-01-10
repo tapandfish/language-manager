@@ -23,7 +23,7 @@
 		},
 		"boat_owner": {
 			"text": "Do you want to become a fisher host?",
-			"button": "Join the community\n"
+			"button": "Join the community"
 		},
 		"book_now": {
 			"text": "Are you curious to learn all[br]the experiences TapAndFish[br]has to offer?",
@@ -126,7 +126,7 @@
 			"reviews": "Reviews",
 			"alerts": "Alerts",
 			"logout": "Logout",
-			"create_event": "<strong>Create event</strong>",
+			"create_event": "Create event",
 			"published_events": "Published events"
 		},
 		"tabs": {
@@ -281,12 +281,11 @@
 					},
 					"services_label": "Services",
 					"services": {
-						"SERVICE1": "sharing the catch",
-						"SERVICE2": "equipment available to all participants\n",
-						"SERVICE3": "breakfast",
-						"SERVICE4": "drink and snack",
-						"SERVICE5": "altro",
-						"SERVICE6": "service"
+						"SHARING_CATCH": "sharing the catch",
+						"EQUIPMENT": "equipment available to all participants",
+						"BREAKFAST": "breakfast",
+						"DRINKS_SNACKS": "drinks and snacks",
+						"OTHER": "other"
 					}
 				},
 				"description": {
@@ -381,8 +380,7 @@
 		"home": {
 			"discover": {
 				"header": "Discover more than 1000 experiences",
-				"action": "See all Experiences",
-				"description": ""
+				"action": "See all Experiences"
 			},
 			"fullscreen": {
 				"header": "Book your fishing experience",
@@ -455,16 +453,7 @@
 					"list": [
 						"The event is tagged with <kbd>private user</kbd>",
 						"After you've seen the price, you can message the host, to ask for some proof of expenses and get more info on the event.",
-						"Bookings and payments can be canceled up to 48 hours before the event. Our client support is always available.",
-						"",
-						"",
-						{},
-						[],
-						[],
-						{},
-						{},
-						"",
-						""
+						"Bookings and payments can be canceled up to 48 hours before the event. Our client support is always available."
 					]
 				},
 				"professional": {
@@ -476,8 +465,7 @@
 						"You can message freely with all our guides to request a tailored experience!"
 					]
 				}
-			},
-			"users_say": ""
+			}
 		},
 		"howitworks": {
 			"title": "How it works",
