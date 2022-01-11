@@ -249,7 +249,8 @@
 				"media": {
 					"upload_images": "Upload images",
 					"no_image_error": "Please add at least one image",
-					"remove_tooltip": "Remove image"
+					"remove_tooltip": "Remove image",
+					"hint": "testo da inserire"
 				},
 				"guide_for_host": "Host guidebook",
 				"fishing": {
@@ -286,11 +287,14 @@
 						"BREAKFAST": "breakfast",
 						"DRINKS_SNACKS": "drinks and snacks",
 						"OTHER": "other"
-					}
+					},
+					"sea_hint": "testo da inserire",
+					"river_lake_hint": "testo da inserire"
 				},
 				"description": {
 					"title": "Description",
-					"placeholder": "Insert event description"
+					"placeholder": "Insert event description",
+					"hint": "testo da inserire"
 				},
 				"availability": {
 					"price_title": "Price and Seats",

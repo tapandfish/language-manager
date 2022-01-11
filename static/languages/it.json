@@ -250,7 +250,8 @@
 				"media": {
 					"upload_images": "Carica immagini",
 					"no_image_error": "Per favore aggiungi almeno un'immagine",
-					"remove_tooltip": "Rimuovi immagine"
+					"remove_tooltip": "Rimuovi immagine",
+					"hint": "testo da inserire"
 				},
 				"fishing": {
 					"sea_techniques": {
@@ -286,12 +287,15 @@
 					"title": "Tecnica",
 					"SEA": "Mare",
 					"RIVER_LAKE": "Fiume/Lago",
-					"services_label": "Servizi"
+					"services_label": "Servizi",
+					"sea_hint": "testo da inserire",
+					"river_lake_hint": "testo da inserire"
 				},
 				"guide_for_host": "Guida per l'host",
 				"description": {
 					"title": "Descrizione",
-					"placeholder": "Inserisci la descrizione dell'evento"
+					"placeholder": "Inserisci la descrizione dell'evento",
+					"hint": "testo da inserire"
 				},
 				"availability": {
 					"specific": {
