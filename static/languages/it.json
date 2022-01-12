@@ -251,7 +251,7 @@
 					"upload_images": "Carica immagini",
 					"no_image_error": "Per favore aggiungi almeno un'immagine",
 					"remove_tooltip": "Rimuovi immagine",
-					"hint": "testo da inserire"
+					"hint": "Inserisci immagini nitide che rappresentino l'evento che vuoi pubblicare, se hai una barca che userai aggiungi una foto"
 				},
 				"fishing": {
 					"sea_techniques": {
@@ -288,14 +288,14 @@
 					"SEA": "Mare",
 					"RIVER_LAKE": "Fiume/Lago",
 					"services_label": "Servizi",
-					"sea_hint": "testo da inserire",
-					"river_lake_hint": "testo da inserire"
+					"sea_hint": "Spunta la o le tecniche che potrai utilizzare nel tuo evento",
+					"river_lake_hint": "Spunta la o le tecniche che potrai utilizzare nel tuo evento"
 				},
 				"guide_for_host": "Guida per l'host",
 				"description": {
 					"title": "Descrizione",
 					"placeholder": "Inserisci la descrizione dell'evento",
-					"hint": "testo da inserire"
+					"hint": "Descrivi lo svolgimento dell'evento, le prede che potresti catturare e aggiungi informazioni utili"
 				},
 				"availability": {
 					"specific": {
@@ -326,8 +326,8 @@
 					"price_per_person": "Costo per partecipante aggiuntivo",
 					"expenses_placeholder": "Spese in &euro;",
 					"price_per_person_placeholder": "Costo in &euro;",
-					"expenses_tooltip": "Il costo totale dell'uscita, che non cambia in base al numero di iscritti. Per esempio, potrebbe trattarsi del costo del carburante per la barca. Il totale verrà diviso equamente tra i guest.",
-					"price_per_person_tooltip": "Si tratta di un costo addizionale per ogni iscritto, per esempio le spese per l'affitto di strumentazione (canne da pesca e simili)."
+					"expenses_tooltip": "Il costo totale dell'uscita (un ospite incluso), che non cambia in base al numero di iscritti. Per esempio, potrebbe trattarsi del costo del carburante per la barca. Il totale verrà diviso equamente tra i guest.",
+					"price_per_person_tooltip": "Si tratta di un costo addizionale per ogni iscritto oltre al primo, servirà per coprire ad esempio le spese per l'affitto di strumentazione aggiuntiva (canne da pesca e simili)."
 				},
 				"extreme_error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto."
 			},
@@ -353,10 +353,10 @@
 				"page": {
 					"title": "Diventa un Host",
 					"subtitle": "Inserisci tutte le tue informazioni e inizia a pubblicare eventi!",
-					"type_choice": "Sei un capitano o un charter operator?",
-					"private": "Capitano",
+					"type_choice": "Sei un pescatore privato o professionista?",
+					"private": "Privato",
 					"private_tooltip": "Seleziona questa voce se sei una guida di pesca privata e non esegui attività di charter/guida professionalmente.",
-					"professional": "Charter Operator",
+					"professional": "Professionista",
 					"professional_tooltip": "Seleziona questa voce se sei un charter o una guida professionista."
 				}
 			},

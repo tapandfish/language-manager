@@ -250,7 +250,7 @@
 					"upload_images": "Upload images",
 					"no_image_error": "Please add at least one image",
 					"remove_tooltip": "Remove image",
-					"hint": "testo da inserire"
+					"hint": "Insert clear images that represent the event you want to publish, if you have a boat add a photo."
 				},
 				"guide_for_host": "Host guidebook",
 				"fishing": {
@@ -288,13 +288,13 @@
 						"DRINKS_SNACKS": "drinks and snacks",
 						"OTHER": "other"
 					},
-					"sea_hint": "testo da inserire",
-					"river_lake_hint": "testo da inserire"
+					"sea_hint": "Check the technique or techniques that you can use in your event",
+					"river_lake_hint": "Check the technique or techniques that you can use in your event"
 				},
 				"description": {
 					"title": "Description",
 					"placeholder": "Insert event description",
-					"hint": "testo da inserire"
+					"hint": "Describe the course of the event, the fish you might catch and add useful information"
 				},
 				"availability": {
 					"price_title": "Price and Seats",
@@ -325,8 +325,8 @@
 					"price_per_person": "Additional partecipant cost",
 					"expenses_placeholder": "Expenses in &euro;",
 					"price_per_person_placeholder": "Price in &euro;",
-					"expenses_tooltip": "This is the total cost of the experience, which does not change with the number of guests. For example, it could be the cost of the fuel for the boat. This amount will be divided evenly between the guests.",
-					"price_per_person_tooltip": "This is an added cost for each guest, it generally refers to the gear, such as the rent for an additional fishing rod."
+					"expenses_tooltip": "This is the total cost of the experience (one person included), which does not change with the number of guests. For example, it could be the cost of the fuel for the boat. This amount will be divided evenly between the guests.",
+					"price_per_person_tooltip": "This is an added cost for each other guest more than one, it generally refers to the gear, such as the rent for an additional fishing rod."
 				},
 				"extreme_error": "A major unknown exception has been raised while trying to create this event. Please try again later, maybe after reloading the page. If the error persist please contact support."
 			},
@@ -352,10 +352,10 @@
 				"page": {
 					"title": "Become a host",
 					"subtitle": "Fill in your host info and start publishing events!",
-					"type_choice": "Are you a captain or a charter operator?",
-					"private": "Captain",
+					"type_choice": "Are you a private or professional fisherman?",
+					"private": "Private",
 					"private_tooltip": "Check this if you are a private guide and don't do charting/guiding as a profession.",
-					"professional": "Charter Operator",
+					"professional": "Professional",
 					"professional_tooltip": "Check this if you are a charter or a professional guide."
 				}
 			},
