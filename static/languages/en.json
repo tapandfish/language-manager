@@ -328,7 +328,11 @@
 					"expenses_tooltip": "This is the total cost of the experience (one person included), which does not change with the number of guests. For example, it could be the cost of the fuel for the boat. This amount will be divided evenly between the guests.",
 					"price_per_person_tooltip": "This is an added cost for each other guest more than one, it generally refers to the gear, such as the rent for an additional fishing rod."
 				},
-				"extreme_error": "A major unknown exception has been raised while trying to create this event. Please try again later, maybe after reloading the page. If the error persist please contact support."
+				"extreme_error": "A major unknown exception has been raised while trying to create this event. Please try again later, maybe after reloading the page. If the error persist please contact support.",
+				"boat_types": {
+					"BOAT": "Boat",
+					"SAILING_BOAT": "Sailing boat"
+				}
 			},
 			"reviews": {
 				"received": {
