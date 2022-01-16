@@ -873,5 +873,12 @@
 		},
 		"n_people_unit": "persona",
 		"n_people_unit_plural": "persone"
+	},
+	"feedback": {
+		"open_button": "Feedback",
+		"title": "Dacci una mano!",
+		"description": "Se vuoi segnalare un bug o semplicemente lasciarci un suggerimento, questo è il posto perfetto per farlo! Se invece hai bisogno di un aiuto per qualcosa, [a]contattaci[/a], ti risponderemo il prima possibile.",
+		"additional_data": "Allega informazioni anonime riguardo il tipo di dispositivo e il browser che stai utilizzando. Ci aiutano a diagnosticare meglio gli errori che incontri",
+		"send_button": "Invia feedback"
 	}
 }
