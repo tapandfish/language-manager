@@ -339,6 +339,22 @@
 					"title": "Received reviews",
 					"subtitle": "Read all the reviews you received from guests"
 				}
+			},
+			"dashboard": {
+				"cards": [
+					{
+						"title": "Voce1",
+						"description": "Testo"
+					},
+					{
+						"title": "Voce2",
+						"description": "Testo"
+					},
+					{
+						"title": "Voce3",
+						"description": "Testo"
+					}
+				]
 			}
 		},
 		"revert": {

@@ -340,6 +340,22 @@
 					"title": "Recensioni ricevute",
 					"subtitle": "Leggi tutte le recensioni ricevute"
 				}
+			},
+			"dashboard": {
+				"cards": [
+					{
+						"title": "Voce1",
+						"description": "Testo"
+					},
+					{
+						"description": "Testo",
+						"title": "Voce2"
+					},
+					{
+						"description": "Testo",
+						"title": "Voce3"
+					}
+				]
 			}
 		},
 		"title": "Utente",
