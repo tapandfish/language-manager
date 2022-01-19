@@ -342,20 +342,36 @@
 				}
 			},
 			"dashboard": {
-				"cards": [
-					{
-						"title": "Voce1",
-						"description": "Testo"
-					},
-					{
-						"description": "Testo",
-						"title": "Voce2"
-					},
-					{
-						"description": "Testo",
-						"title": "Voce3"
-					}
-				]
+				"cards": {
+					"host": [
+						{
+							"title": "Voce1",
+							"description": "Testo"
+						},
+						{
+							"title": "Voce2",
+							"description": "Testo"
+						},
+						{
+							"title": "Voce3",
+							"description": "Testo"
+						}
+					],
+					"guest": [
+						{
+							"title": "Voce1",
+							"description": "Testo"
+						},
+						{
+							"title": "Voce2",
+							"description": "Testo"
+						},
+						{
+							"title": "Voce3",
+							"description": "Testo"
+						}
+					]
+				}
 			}
 		},
 		"title": "Utente",
