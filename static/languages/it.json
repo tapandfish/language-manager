@@ -372,6 +372,20 @@
 						}
 					]
 				}
+			},
+			"billing": {
+				"receive": {
+					"title": "Ricevi denaro",
+					"description": "Configura come riceverai i guadagni dai tuoi eventi.",
+					"already_configured": "Hai già configurato il tuo account per ricevere pagamenti all'account PayPal collegato al seguente indirizzo email:",
+					"connect": "Collega con PayPal",
+					"connect_new": "Collega un altro account PayPal",
+					"agreement": "Cliccando questo pulsante accetti di condividere le tue informazioni con PayPal"
+				},
+				"send": {
+					"title": "Pagamenti",
+					"description": "Collega un account PayPal per velocizzare il processo di pagamento."
+				}
 			}
 		},
 		"title": "Utente",
@@ -393,7 +407,19 @@
 					"private": "Privato",
 					"private_tooltip": "Seleziona questa voce se sei una guida di pesca privata e non esegui attività di charter/guida professionalmente.",
 					"professional": "Professionista",
-					"professional_tooltip": "Seleziona questa voce se sei un charter o una guida professionista."
+					"professional_tooltip": "Seleziona questa voce se sei un charter o una guida professionista.",
+					"success": {
+						"title": "Complimenti! Sei ufficialmente un host!",
+						"description": "Torna sulla tua pagina utente e comincia a pubblicare eventi!",
+						"action": "Torna al tuo profilo"
+					},
+					"unverified": {
+						"description": "Devi verificare il tuo indirizzo email prima di poter diventare host"
+					},
+					"already_host": {
+						"title": "Sei già un host!",
+						"action": "Torna al tuo profilo"
+					}
 				}
 			},
 			"to_ambassador": {
@@ -401,7 +427,33 @@
 				"action": "Crea evento"
 			}
 		},
-		"profile_completion": "Completamento profilo"
+		"profile_completion": "Completamento profilo",
+		"onboard": {
+			"success": {
+				"title": "Complimenti! Adesso puoi pubblicare eventi e iniziare a guadagnare!",
+				"description": "Torna sulla tua pagina utente e comincia a pubblicare eventi!",
+				"action": "Torna al tuo profilo"
+			},
+			"errors": {
+				"verification": {
+					"title": "Devi verificare il tuo indirizzo email PayPal.",
+					"description": "Verifica il tuo indirizzo email e riprova!",
+					"action": "Riprova"
+				},
+				"permissions": {
+					"action": "Torna al tuo profilo",
+					"title": "Devi garantire i permessi.",
+					"description": "Torna indietro e accetta tutti i permessi richiesti durante il processo di login al tuo account PayPal."
+				},
+				"generic": {
+					"action": "Torna al tuo profilo",
+					"title": "Errore generico.",
+					"description": "Per qualche ragione l'operazione è fallita, riprova più tardi o contatta il supporto."
+				}
+			},
+			"title": "Informazioni pagamenti",
+			"description": "I tuoi dettagli PayPal"
+		}
 	},
 	"pages": {
 		"recover": {

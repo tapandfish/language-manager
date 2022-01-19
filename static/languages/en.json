@@ -371,6 +371,20 @@
 						}
 					]
 				}
+			},
+			"billing": {
+				"receive": {
+					"title": "Receive money",
+					"description": "Configure how you will receive money from your events.",
+					"already_configured": "You have already configured your account to receive payments to the PayPal account linked to the following email address:",
+					"connect": "Connect with PayPal",
+					"connect_new": "Connect to another PayPal account",
+					"agreement": "By clicking this button you agree to share your data with PayPal"
+				},
+				"send": {
+					"title": "Billing",
+					"description": "Connect to a PayPal account to speed up the payment process."
+				}
 			}
 		},
 		"revert": {
@@ -392,12 +406,50 @@
 					"private": "Private",
 					"private_tooltip": "Check this if you are a private guide and don't do charting/guiding as a profession.",
 					"professional": "Professional",
-					"professional_tooltip": "Check this if you are a charter or a professional guide."
+					"professional_tooltip": "Check this if you are a charter or a professional guide.",
+					"success": {
+						"title": "Congratulations! You are now a host!",
+						"description": "Go back to your user page and start publishing events!",
+						"action": "Back to account"
+					},
+					"unverified": {
+						"description": "You must verify your email address in order to become host."
+					},
+					"already_host": {
+						"title": "You are already a host!",
+						"action": "Go back to your profile"
+					}
 				}
 			},
 			"to_ambassador": {
 				"button": "Upgrade to Brand Ambassador",
 				"action": "Create event"
+			}
+		},
+		"onboard": {
+			"title": "Payment informations",
+			"description": "Your details payment via PayPal",
+			"success": {
+				"title": "Congratulations! You can now publish events and start earning money!",
+				"description": "Go back to your user page and start publish events!",
+				"action": "Back to account"
+			},
+			"errors": {
+				"verification": {
+					"title": "You need to verify your PayPal email address.",
+					"description": "Go verify your email and hit retry!",
+					"action": "Retry"
+				},
+				"permissions": {
+					"title": "You need to grant permissions.",
+					"description": "Go back and accept all the requirements during the signin process.",
+					"action": "Back to account"
+				},
+				"generic": {
+					"title": "Generic error.",
+					"description": "For some reason this failed, try again later or contact support.",
+					"action": "Back to account"
+				}
 			}
 		}
 	},
