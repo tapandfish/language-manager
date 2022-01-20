@@ -53,7 +53,8 @@
 			"message": "Message:",
 			"send": "Send"
 		},
-		"privacy_notice": "* 100% Privacy Guaranteed, view our [a]Privacy Policy[/a] here."
+		"privacy_notice": "* 100% Privacy Guaranteed, view our [a]Privacy Policy[/a] here.",
+		"success": "Thank you, the message has been sent!"
 	},
 	"forms": {
 		"name": "Name",
