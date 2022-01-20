@@ -345,30 +345,30 @@
 				"cards": {
 					"host": [
 						{
-							"title": "Voce1",
-							"description": "Testo"
+							"title": "Payments",
+							"description": "View all payments "
 						},
 						{
-							"title": "Voce2",
-							"description": "Testo"
+							"title": "Events",
+							"description": "Look at my events"
 						},
 						{
-							"title": "Voce3",
-							"description": "Testo"
+							"title": "Bookings",
+							"description": "Check reservations"
 						}
 					],
 					"guest": [
 						{
-							"title": "Voce1",
-							"description": "Testo"
+							"title": "Payments",
+							"description": "View all payments "
 						},
 						{
-							"title": "Voce2",
-							"description": "Testo"
+							"title": "Evevnts",
+							"description": "Book an event"
 						},
 						{
-							"title": "Voce3",
-							"description": "Testo"
+							"title": "Bookings",
+							"description": "Check reservations"
 						}
 					]
 				}

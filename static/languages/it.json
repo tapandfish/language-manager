@@ -346,30 +346,30 @@
 				"cards": {
 					"host": [
 						{
-							"title": "Voce1",
-							"description": "Testo"
+							"title": "Pagamenti",
+							"description": "Visualizza tutti i pagamenti"
 						},
 						{
-							"title": "Voce2",
-							"description": "Testo"
+							"title": "Eventi",
+							"description": "Guarda i miei eventi"
 						},
 						{
-							"title": "Voce3",
-							"description": "Testo"
+							"title": "Prenotazioni",
+							"description": "Visualizza le prenotazioni"
 						}
 					],
 					"guest": [
 						{
-							"title": "Voce1",
-							"description": "Testo"
+							"title": "Pagamenti",
+							"description": "Visualizza tutti i pagamenti"
 						},
 						{
-							"title": "Voce2",
-							"description": "Testo"
+							"title": "Eventi",
+							"description": "Prenota un evento"
 						},
 						{
-							"title": "Voce3",
-							"description": "Testo"
+							"title": "Prenotazioni",
+							"description": "Visualizza le prenotazioni"
 						}
 					]
 				}
