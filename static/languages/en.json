@@ -128,7 +128,8 @@
 			"alerts": "Alerts",
 			"logout": "Logout",
 			"create_event": "Create event",
-			"published_events": "Published events"
+			"published_events": "Published events",
+			"bookings": "Bookings"
 		},
 		"tabs": {
 			"manage": {
@@ -363,7 +364,7 @@
 							"description": "View all payments "
 						},
 						{
-							"title": "Evevnts",
+							"title": "Events",
 							"description": "Book an event"
 						},
 						{
