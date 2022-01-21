@@ -68,7 +68,7 @@
 		"emailError": "Inserisci un'indirizzo email valido",
 		"emailUsed": "L'email inserita è già utilizzata da un'account",
 		"emailConfirmationError": "Gli indirizzi email non corrispondono",
-		"passwordError": "La password deve essere lunga almeno 6 caratteri e deve contenere almeno una lettera maiuscola, una minuscola e un numero",
+		"passwordError": "La password deve essere lunga almeno 6 caratteri e deve contenere almeno una lettera maiuscola, una minuscola, un numero e un carattere speciale.",
 		"passwordConfirmationError": "Le password non corrispondono",
 		"acceptTerms": "Dichiaro di accettare i <a href='/terms' target='_blank'>Termini di Servizio e l'Informativa sulla Privacy</a>",
 		"acceptTermsError": "You must accept the terms",
@@ -333,7 +333,7 @@
 				},
 				"extreme_error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto.",
 				"boat_types": {
-					"BOAT": "Barca",
+					"BOAT": "Barca a motore",
 					"SAILING_BOAT": "Barca a vela"
 				}
 			},
