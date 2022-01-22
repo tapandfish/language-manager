@@ -542,6 +542,7 @@
 				"private": {
 					"list": [
 						"L'evento riporta in descrizione <kbd>utente privato</kbd>",
+						"Il prezzo dell'evento è calcolato in base alle spese dell'host.",
 						"Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
 						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
 					],

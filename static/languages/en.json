@@ -546,6 +546,7 @@
 					"description": "Private host fisher:",
 					"list": [
 						"The event is tagged with <kbd>private user</kbd>",
+						"The price of the event is calculated based on the host's expenses.",
 						"After you've seen the price, you can message the host, to ask for some proof of expenses and get more info on the event.",
 						"Bookings and payments can be canceled up to 48 hours before the event. Our client support is always available."
 					]
