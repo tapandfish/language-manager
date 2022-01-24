@@ -232,6 +232,7 @@
 				"send": {}
 			}
 		},
+		"title": "Utilisateur",
 		"revert": {},
 		"upgrade": {
 			"to_host": {
@@ -250,9 +251,11 @@
 				"permissions": {},
 				"generic": {}
 			}
-		},
-		"title": "Utilisateur"
+		}
 	},
+	"title": "TapAndFish",
+	"signup": "Créer un compte",
+	"signin": "Connectez-vous",
 	"pages": {
 		"recover": {},
 		"signin": {},
@@ -400,8 +403,5 @@
 		"modal": {},
 		"order_by": {}
 	},
-	"feedback": {},
-	"title": "TapAndFish",
-	"signup": "Créer un compte",
-	"signin": "Connectez-vous"
+	"feedback": {}
 }
