@@ -1,0 +1,407 @@
+{
+	"menus": {
+		"fishing": "Pêche",
+		"become_fisher": "Devenez un pêcheur hôte",
+		"learn": "Apprendre à pêcher",
+		"signin": "Se connecter",
+		"signup": "Créer un compte",
+		"account": "Compte",
+		"create_event": "Créer un événement",
+		"search_event": "Rechercher un événement"
+	},
+	"footer": {
+		"about_us": "A propos de nous",
+		"how_it_works": "Comment cela fonctionne",
+		"blog": "Blog",
+		"contacts": "Contacts"
+	},
+	"ctas": {
+		"become_host": {
+			"text": "Voulez-vous être [br]un pêcheur d'hôtes ?",
+			"button": "Rejoignez la communauté"
+		},
+		"boat_owner": {
+			"text": "Voulez-vous devenir un hôte de pêche ?"
+		},
+		"book_now": {
+			"text": "Rejoignez la communauté",
+			"button": "Réservez une expérience de pêche près de chez vous"
+		},
+		"insurance_banner": {
+			"text": "Assurance et paiements sécurisés",
+			"button": "Réserver une expérience de pêche"
+		},
+		"discover_estimate": {
+			"text": "Êtes-vous un pêcheur ? Voulez-vous rejoindre l'équipe de TapAndFish ?[br]Inscrivez-vous maintenant en tant que professionnel ou charter privé et publiez votre premier événement !",
+			"button": "En savoir plus et estimer vos bénéfices"
+		},
+		"first_time": {
+			"text": "Première fois sur TapAndFish ?",
+			"button": "Réservez dès maintenant une expérience avec nos ambassadeurs : ils partageront leurs secrets pour des aventures à couper le souffle !"
+		}
+	},
+	"contacts": {
+		"form": {
+			"full_name": "Nom:",
+			"phone": "Téléphone:",
+			"email": "Email:",
+			"message": "Message:",
+			"send": "Envoyer"
+		},
+		"title": "Contacts",
+		"headline": "Remplissez les champs et contactez-nous.",
+		"description": "Nous vous répondrons dans les plus brefs délais.",
+		"privacy_notice": "* La confidentialité est garantie à 100 %. Consultez notre [a]Politique de confidentialité[/a] ici.",
+		"success": "Merci, le message a été envoyé !"
+	},
+	"forms": {
+		"name": "Nom",
+		"surname": "Prénom",
+		"email": "Email",
+		"emailconfirmation": "Confirmer l'email",
+		"password": "Mot de passe",
+		"passwordConfirmation": "Confirmer le mot de passe",
+		"nameError": "Insérer un nom valide",
+		"surnameError": "Insérez un nom de famille valide",
+		"emailError": "Insérez une adresse électronique valide",
+		"emailUsed": "Cette adresse e-mail est déjà utilisée",
+		"emailConfirmationError": "Les deux adresses e-mail ne sont pas égales",
+		"passwordError": "Le mot de passe doit comporter au moins 6 caractères et doit inclure une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial.",
+		"passwordConfirmationError": "Les deux mots de passe ne sont pas égaux",
+		"acceptTerms": "J'accepte les <a href='/terms' target='_blank'>Termes de service et politique de confidentialité</a> de TapAndFish.",
+		"acceptTermsError": "Vous devez accepter les conditions",
+		"signupUnknownError": "Une exception majeure inconnue a été levée lors de votre enregistrement. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le support technique",
+		"signupSuccess": "Votre compte a été créé avec succès, mais il n'a pas encore été vérifié. Nous vous avons envoyé un e-mail contenant un lien pour terminer le processus de vérification. Dès que votre compte sera vérifié, vous pourrez créer ou rejoindre des voyages.",
+		"signinUnknownError": "Une exception majeure inconnue a été levée lors de la tentative de connexion. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le support technique",
+		"signinError": "Courriel ou mot de passe erroné",
+		"recoverUnknownError": "Une exception majeure inconnue a été levée lors de votre enregistrement. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le support technique",
+		"recoverSuccess": "Si un compte est lié à cette adresse électronique, un lien de récupération a été envoyé afin de réinitialiser le mot de passe.",
+		"changePropic": "Modifier la photo de profil",
+		"changePropicDescription": "Sélectionnez une image sur votre appareil et téléchargez-la comme nouvelle photo de profil.<br />PNG, JPEG sont pris en charge, la taille maximale du fichier est de 3MB.",
+		"changePropicUnknownError": "Une exception majeure inconnue a été levée lors de la tentative de mise à jour de votre photo de profil. Veuillez réessayer plus tard.",
+		"changePropicSizeError": "L'image fournie est trop grande, 3MB maximum.",
+		"changePropicRatioError": "La photo de profil doit être \"en quelque sorte\" carrée.",
+		"changePropicFormatError": "Vous ne pouvez télécharger que des fichiers PNG et JPEG.",
+		"chooseFile": "Choisir le fichier",
+		"browse": "Parcourir",
+		"close": "Fermer",
+		"saveChanges": "Sauvegarder les changements",
+		"oldPasswordError": "Votre nouveau mot de passe doit être différent de l'ancien.",
+		"date_from": "De",
+		"date_to": "A",
+		"search": "Recherche",
+		"upload": "Télécharger",
+		"full_name": "Nom complet",
+		"preferred_name": "Nom préféré",
+		"optional": "(facultatif)",
+		"name_tooltip": "Le nom complet est votre nom légal complet, utilisé pour les reçus. Le nom préféré est utilisé dans l'interface du site Web, dans les courriers électroniques et par notre équipe d'assistance lorsque vous la contactez. Si vous ne spécifiez pas de nom préféré, votre prénom sera extrait de votre nom complet.",
+		"hint": "Indice",
+		"drag_n_drop": "Déposez des fichiers n'importe où pour les télécharger ou",
+		"propicNeedsVerified": "Vous devez vérifier votre compte pour pouvoir modifier votre photo de profil.",
+		"usernameUsed": "Ce nom d'utilisateur est déjà utilisé",
+		"pick_date": "Choisissez une date",
+		"location": "Localisation"
+	},
+	"verification": {
+		"success": "Votre compte a été activé avec succès. Maintenant vous n'avez pas de limitation de fonction",
+		"already_done": "Votre compte a déjà été activé",
+		"error": "Le jeton de vérification est soit erroné, soit expiré. Veuillez essayer d'envoyer un autre message de vérification depuis la page de votre compte."
+	},
+	"user": {
+		"verification": {
+			"banner": "Votre compte n'a pas encore été vérifié, ce qui fait que certaines fonctionnalités vous sont bloquées. Veuillez vérifier votre boîte aux lettres électronique pour le lien de vérification. Si vous devez renvoyer l'e-mail de vérification, vous pouvez appuyer sur le bouton suivant :",
+			"sendButton": "Envoyer un e-mail",
+			"sent": "L'e-mail de vérification a été envoyé.",
+			"sendError": "Une exception inattendue a été soulevée lors de l'envoi de l'e-mail. Veuillez réessayer plus tard."
+		},
+		"menu": {
+			"dashboard": "Tableau de bord",
+			"management": "Gestion du profil",
+			"security": "Sécurité",
+			"billing": "Facturation",
+			"reviews": "Critiques",
+			"alerts": "Alertes",
+			"logout": "Sortie de session",
+			"create_event": "Créer un événement",
+			"published_events": "Événements publiés",
+			"bookings": "Réservations"
+		},
+		"tabs": {
+			"manage": {
+				"email": {
+					"title": "Paramètres de messagerie",
+					"yourEmail": "Votre e-mail",
+					"variousEmailsCheckbox": "Recevoir des offres, des suggestions et divers courriels de la plate-forme.",
+					"importantEmailsCheckbox": "Recevoir des courriels sur les nouvelles fonctionnalités de la plate-forme, les améliorations et les mises à jour de sécurité.",
+					"emailDisclaimer": "Vous continuerez à recevoir des courriels critiques concernant la sécurité de votre compte ou les modifications des conditions d'utilisation. Ces messages ne peuvent pas être désactivés. Si vous souhaitez supprimer votre compte, veuillez nous contacter.",
+					"button": "Mise à jour des paramètres",
+					"success": "Vos paramètres de messagerie ont été mis à jour avec succès. Si vous avez changé d'adresse électronique, n'oubliez pas que vous devez vérifier la nouvelle adresse.",
+					"extremeError": "Une exception inconnue majeure a été soulevée lors de la mise à jour de vos paramètres de messagerie. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le support technique.",
+					"subtitle": "Mettez à jour vos paramètres et préférences en matière de courrier électronique"
+				},
+				"info": {
+					"host": {
+						"username": "Nom d'utilisateur de l'hôte",
+						"full_name": "Public host name",
+						"full_name_hint": "Il s'agit du nom que les autres personnes verront lorsqu'elles consulteront votre profil d'hôte. Nous vous conseillons d'utiliser un nom formel et de ne pas utiliser de surnoms.",
+						"languages": "Langues",
+						"phone": "Numéro de téléphone",
+						"description": "Insérez votre biographie",
+						"username_placeholder": "Nom d'utilisateur :",
+						"full_name_placeholder": "Nom",
+						"description_placeholder": "Dites-nous quelque chose sur vous",
+						"phone_hint": "Nous ne partageons votre numéro de téléphone avec personne. Nous ne le demandons que pour vérifier que vous êtes une personne réelle et minimiser le nombre de comptes de spam. La vérification de l'adresse électronique n'est pas forcément suffisante.",
+						"username_hint": "Il s'agit de l'identifiant unique de votre hôte. Votre page d'hôte sera disponible à l'adresse https://tapandfish.com/host/ [nom d'utilisateur].",
+						"username_error": "Le nom d'utilisateur doit comporter au moins 6 caractères et ne peut contenir que des lettres, des chiffres, des points et des traits de soulignement."
+					},
+					"title": "Informations générales",
+					"subtitle": "Insérez vos coordonnées pour que les gens puissent vous connaître.",
+					"success": "Vos informations ont été mises à jour avec succès.",
+					"extremeError": "Une exception majeure inconnue a été soulevée lors de la mise à jour de vos informations. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le service d'assistance."
+				},
+				"propic": {
+					"title": "Photo de profil",
+					"subtitle": "Mettez à jour votre photo de profil en téléchargeant une nouvelle photo."
+				}
+			},
+			"sessions": {
+				"title": "Sessions actives",
+				"description": "La liste suivante contient toutes les sessions actives sur ce compte. Si vous voyez une session non reconnue ou suspecte, veuillez la révoquer. Pour des raisons de sécurité, nous vous suggérons également de changer votre mot de passe immédiatement après.",
+				"reload": "RELOAD",
+				"thisDevice": "Cet appareil",
+				"noLocation": "Localisation non disponible",
+				"revoked": "Révoqué",
+				"extremeError": "Une erreur s'est produite lors de la tentative de récupération des sessions actives. Veuillez réessayer plus tard. Si le problème persiste, veuillez contacter le service d'assistance."
+			},
+			"security": {
+				"password": {
+					"title": "Modifier le mot de passe",
+					"error": "Une erreur s'est produite lors de la tentative de modification de votre mot de passe. Veuillez réessayer plus tard.",
+					"success": "Votre mot de passe a été mis à jour avec succès.",
+					"old_password": "Ancien mot de passe",
+					"new_password": "Nouveau mot de passe",
+					"confirm_password": "Confirmer le nouveau mot de passe",
+					"button": "Changement",
+					"wrong_password": "Mot de passe incorrect"
+				}
+			},
+			"published_events": {
+				"card": {}
+			},
+			"create_event": {
+				"navigation": {
+					"menu": {}
+				},
+				"info": {
+					"categories": {},
+					"activities": {}
+				},
+				"media": {},
+				"fishing": {
+					"sea_techniques": {},
+					"river_lake_techniques": {},
+					"services": {}
+				},
+				"description": {},
+				"availability": {
+					"specific": {},
+					"weekly": {},
+					"custom": {}
+				},
+				"boat_types": {}
+			},
+			"reviews": {
+				"received": {}
+			},
+			"dashboard": {
+				"cards": {
+					"host": [
+						{},
+						{},
+						{}
+					],
+					"guest": [
+						{},
+						{},
+						{}
+					]
+				}
+			},
+			"billing": {
+				"receive": {},
+				"send": {}
+			}
+		},
+		"revert": {},
+		"upgrade": {
+			"to_host": {
+				"page": {
+					"success": {},
+					"unverified": {},
+					"already_host": {}
+				}
+			},
+			"to_ambassador": {}
+		},
+		"onboard": {
+			"success": {},
+			"errors": {
+				"verification": {},
+				"permissions": {},
+				"generic": {}
+			}
+		},
+		"title": "Utilisateur"
+	},
+	"pages": {
+		"recover": {},
+		"signin": {},
+		"home": {
+			"discover": {},
+			"fullscreen": {},
+			"icons": {},
+			"host_description": {
+				"private": {},
+				"professional": {}
+			},
+			"image_gallery": {},
+			"post_gallery": {}
+		},
+		"about": {
+			"guest": {
+				"list": []
+			},
+			"host": {
+				"list": []
+			}
+		},
+		"gofishing": {
+			"hosts": {
+				"private": {
+					"list": []
+				},
+				"professional": {
+					"list": []
+				}
+			}
+		},
+		"howitworks": {
+			"guest": {
+				"list": [
+					{
+						"list": []
+					},
+					{},
+					{},
+					{}
+				]
+			},
+			"host": {
+				"list": [
+					{},
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		"becomehost": {
+			"card": {},
+			"icons": [
+				{},
+				{},
+				{}
+			],
+			"hosts": {
+				"private": {
+					"list": []
+				},
+				"professional": {
+					"list": []
+				}
+			},
+			"advantages": [
+				{
+					"data": [
+						{},
+						{},
+						{}
+					]
+				},
+				{
+					"data": [
+						{},
+						{},
+						{}
+					]
+				}
+			],
+			"tabs": {
+				"publish": {},
+				"price": {},
+				"meet": {}
+			},
+			"ambassador": {
+				"list": [
+					{},
+					{},
+					{},
+					{},
+					{}
+				]
+			}
+		},
+		"signup": {}
+	},
+	"cards": {
+		"ambassador": {},
+		"event": {}
+	},
+	"seo": {
+		"home": {
+			"header": null
+		},
+		"signin": {},
+		"signup": {},
+		"user": {},
+		"user_become_host": {},
+		"about": {},
+		"become_host": {},
+		"blog": {},
+		"contacts": {},
+		"go_fishing": {},
+		"how_it_works": {},
+		"recover": {},
+		"revert": {},
+		"search": {}
+	},
+	"boat": {
+		"form": {},
+		"equipments": {}
+	},
+	"weekdays": {
+		"short": {}
+	},
+	"units": {},
+	"event": {
+		"host": {},
+		"error": {},
+		"book": {},
+		"banners": {
+			"draft": {
+				"confirmation": {}
+			},
+			"review": {},
+			"public": {}
+		}
+	},
+	"search": {
+		"modal": {},
+		"order_by": {}
+	},
+	"feedback": {},
+	"title": "TapAndFish",
+	"signup": "Créer un compte",
+	"signin": "Connectez-vous"
+}
