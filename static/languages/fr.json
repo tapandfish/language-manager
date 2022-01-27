@@ -186,118 +186,397 @@
 				}
 			},
 			"published_events": {
-				"card": {}
+				"card": {
+					"draft": "Draft",
+					"admin_review": "Revue administrative",
+					"edit": "Modifier",
+					"view": "Voir",
+					"active": "Actif",
+					"inactive": "Non actif",
+					"change_status": "Changement de statut"
+				},
+				"title": "Vos activités",
+				"subtitle": "Visualisez et gérez tous vos events",
+				"no_events": "Vous n'avez pas encore créé d'événement"
 			},
 			"create_event": {
 				"navigation": {
-					"menu": {}
+					"menu": {
+						"info": "Informations de base",
+						"media": "Photos",
+						"fishing": "Pêche",
+						"description": "Description",
+						"availability": "Disponibilité"
+					},
+					"previous": "Précédent",
+					"next": "Suivant",
+					"create": "Créer"
 				},
 				"info": {
-					"categories": {},
-					"activities": {}
+					"categories": {
+						"FISHING": "Pêche",
+						"FISHING_SEA": "Pêche et activités maritimes",
+						"FISHING_EAT": "Pêcher et manger",
+						"FISHING_tooltip": "Sélectionnez cette option si l'événement ne comprend que des activités de pêche.",
+						"FISHING_SEA_tooltip": "Sélectionnez cette option si l'événement comprend des activités de pêche ainsi que des expériences supplémentaires (plongée en apnée, observation des dauphins, excursions).",
+						"FISHING_EAT_tooltip": "Sélectionnez cette option si l'événement comprend des activités de pêche ainsi que la cuisson et la consommation des prises."
+					},
+					"activities": {
+						"SNORKELING": "plongée en apnée",
+						"DOLPHINS_WHALES": "observation des dauphins et des baleines",
+						"TRIP": "voyages"
+					},
+					"title": "Informations générales",
+					"name_label": "Nom de l'événement",
+					"name_placeholder": "Insérer le nom de l'événement",
+					"boat_label": "Utiliserez-vous un bateau ?",
+					"boat_placeholder": "Vous avez un bateau ?",
+					"yes": "Oui",
+					"no": "Non",
+					"boat_info": "Informations sur le bateau",
+					"category": "Catégorie",
+					"activities_label": "Activités maritimes",
+					"add_new_boat": "Ajouter un nouveau bateau",
+					"location_label": "Localisation",
+					"location_placeholder": "Lieu de l'événement",
+					"boat_name_label": "Nom du bateau",
+					"boat_name_placeholder": "Nom",
+					"boat_name_tooltip": "Si vous donnez un nom à ce bateau, nous enregistrerons ses détails pour les événements futurs."
 				},
-				"media": {},
+				"media": {
+					"upload_images": "Télécharger des images",
+					"no_image_error": "Veuillez ajouter au moins une image",
+					"remove_tooltip": "Supprimer l'image",
+					"hint": "Insérez des images claires qui représentent l'événement que vous voulez publier, si vous avez un bateau, ajoutez une photo."
+				},
 				"fishing": {
-					"sea_techniques": {},
-					"river_lake_techniques": {},
-					"services": {}
+					"sea_techniques": {
+						"SPEARFISHING": "spearfishing",
+						"SURF_CASTING": "surf casting",
+						"SPINNING": "spinnin",
+						"BEACH_LEDGERING": "mise en scène de la plage",
+						"JIGGING": "jigging",
+						"COASTAL_TROLLING": "pêche côtière à la traîne",
+						"LIVE_TROLLING": "pêche à la traîne ",
+						"OFFSHORE_TROLLING": "trolls offshore",
+						"TUNA_FISHING": "pêche au thon",
+						"BOAT_FISHING": "pêche en bateau",
+						"STREET_FISHING": "pêche dans la rue",
+						"KAYAK_FISHING": "pêche en kayak"
+					},
+					"river_lake_techniques": {
+						"RIVER_TROUT_SALMON": "truite de rivière/saumon",
+						"LAKE_TROUT_SALMON": "truite de lac/saumon",
+						"SPINNING": "spinning",
+						"CARPFISHING": "carpfishing",
+						"FLYFISHING": "pêche à la mouche",
+						"RIVER_GENERIC": "river generic",
+						"LAKE_GENERIC": "générique de lac"
+					},
+					"services": {
+						"SHARING_CATCH": "partager la prise",
+						"EQUIPMENT": "équipement disponible pour tous les participants",
+						"BREAKFAST": "petit-déjeuner",
+						"DRINKS_SNACKS": "boissons et collations",
+						"OTHER": "autre"
+					},
+					"title": "Technique",
+					"SEA": "Mer",
+					"RIVER_LAKE": "Rivière/lac",
+					"services_label": "Services",
+					"sea_hint": "Vérifiez la ou les techniques que vous pouvez utiliser lors de votre événement.",
+					"river_lake_hint": "Vérifiez la ou les techniques que vous pouvez utiliser lors de votre événement."
 				},
-				"description": {},
+				"description": {
+					"title": "Description",
+					"placeholder": "Insérer la description de l'événement",
+					"hint": "Décrivez le déroulement de l'événement, les poissons que vous pourriez attraper et ajoutez des informations utiles."
+				},
 				"availability": {
-					"specific": {},
-					"weekly": {},
-					"custom": {}
+					"specific": {
+						"menu": "Date précise",
+						"title": "Disponibilité spécifique",
+						"description": "L'événement est-il disponible uniquement à une date précise ?",
+						"details": "Sélectionnez la date à laquelle il sera disponible"
+					},
+					"weekly": {
+						"menu": "Semaine",
+						"title": "Disponibilité à la semaine",
+						"description": "L'événement est-il disponible chaque semaine ?",
+						"details": "Désélectionnez les jours où il n'est pas disponible."
+					},
+					"custom": {
+						"menu": "Personnalisé",
+						"title": "Disponibilité personnalisé",
+						"description": "L'événement est-il disponible uniquement pour une série de dates ?",
+						"details": "Sélectionnez les dates de début et de fin de votre événement"
+					},
+					"price_title": "Prix et sièges",
+					"total_price": "Prix total en &euro;",
+					"price_placeholder": "Insérer le prix",
+					"max_people": "Nombre maximal de personnes",
+					"max_people_placeholder": "Insérer le numéro",
+					"availability": "Disponibilité",
+					"expenses": "Coût total (une personne incluse)",
+					"price_per_person": "Coût du participant supplémentaire",
+					"expenses_placeholder": "Dépenses en &euro ;",
+					"price_per_person_placeholder": "Prix en euros ;",
+					"expenses_tooltip": "Il s'agit du coût total de l'expérience (une personne incluse), qui ne change pas en fonction du nombre d'invités. Par exemple, il peut s'agir du coût du carburant pour le bateau. Ce montant sera divisé équitablement entre les invités.",
+					"price_per_person_tooltip": "Il s'agit d'un coût supplémentaire pour chaque invité de plus d'une personne. Il s'agit généralement de l'équipement, tel que la location d'une canne à pêche supplémentaire."
 				},
-				"boat_types": {}
+				"boat_types": {
+					"BOAT": "Bateau à moteur",
+					"SAILING_BOAT": "Embarcation à voile"
+				},
+				"guide_for_host": "Guide de l'hôte",
+				"extreme_error": "Une exception majeure inconnue a été levée lors de la tentative de création de cet événement. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le service d'assistance."
 			},
 			"reviews": {
-				"received": {}
+				"received": {
+					"title": "Critiques reçues",
+					"subtitle": "Lisez toutes les critiques que vous avez reçues des clients"
+				}
 			},
 			"dashboard": {
 				"cards": {
 					"host": [
-						{},
-						{},
-						{}
+						{
+							"title": "Paiements",
+							"description": "Voir tous les paiements "
+						},
+						{
+							"title": "Événements",
+							"description": "Regardez mes événements"
+						},
+						{
+							"title": "Réservations",
+							"description": "Vérifier les réservations"
+						}
 					],
 					"guest": [
-						{},
-						{},
-						{}
+						{
+							"title": "Paiements",
+							"description": "Voir tous les paiements "
+						},
+						{
+							"title": "Événements",
+							"description": "Réserver un événement"
+						},
+						{
+							"title": "Réservations",
+							"description": "Vérifier les réservations"
+						}
 					]
 				}
 			},
 			"billing": {
-				"receive": {},
-				"send": {}
+				"receive": {
+					"title": "Recevoir de l'argent",
+					"description": "Configurez la manière dont vous recevrez l'argent de vos événements.",
+					"already_configured": "Vous avez déjà configuré votre compte pour recevoir des paiements sur le compte PayPal lié à l'adresse électronique suivante :",
+					"connect": "Connectez-vous à PayPal",
+					"connect_new": "Connectez-vous à un autre compte PayPal",
+					"agreement": "En cliquant sur ce bouton, vous acceptez de partager vos données avec PayPal."
+				},
+				"send": {
+					"title": "Facturation",
+					"description": "Connectez-vous à un compte PayPal pour accélérer le processus de paiement."
+				}
 			}
 		},
 		"title": "Utilisateur",
-		"revert": {},
+		"revert": {
+			"title": "Restaurer le compte",
+			"invalid": "Ce lien n'est pas valide. Si le problème persiste, veuillez contacter le service d'assistance.",
+			"description": "Veuillez réinitialiser votre mot de passe, afin que personne ne puisse se connecter sans autorisation. Nous vous suggérons également de vérifier vos coordonnées au cas où quelqu'un aurait changé quelque chose.",
+			"unknownError": "Une exception majeure inconnue a été soulevée lors de la récupération de votre compte. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le support technique",
+			"button": "Restaurer"
+		},
 		"upgrade": {
 			"to_host": {
 				"page": {
-					"success": {},
-					"unverified": {},
-					"already_host": {}
-				}
+					"success": {
+						"title": "Félicitations ! Vous êtes maintenant un hôte !",
+						"description": "Retournez à votre page d'utilisateur et commencez à publier des événements !",
+						"action": "Retour au compte"
+					},
+					"unverified": {
+						"description": "Vous devez vérifier votre adresse électronique afin de devenir hôte."
+					},
+					"already_host": {
+						"title": "Vous êtes déjà un hôte !",
+						"action": "Retournez à votre profil"
+					},
+					"title": "Devenir hôte",
+					"subtitle": "Remplissez vos informations d'hôte et commencez à publier des événements !",
+					"type_choice": "Vous êtes un pêcheur privé ou professionnel ?",
+					"private": "Privé",
+					"private_tooltip": "Cochez cette case si vous êtes un guide privé et que vous ne faites pas de cartographie/guidage en tant que profession.",
+					"professional": "Professionnel",
+					"professional_tooltip": "Vérifiez ceci si vous êtes un charter ou un guide professionnel."
+				},
+				"message": "Voulez-vous publier un événement ?",
+				"button": "Publier un événement"
 			},
-			"to_ambassador": {}
+			"to_ambassador": {
+				"button": "Passer au statut d'ambassadeur de la marque",
+				"action": "Créer un événement"
+			}
 		},
 		"onboard": {
-			"success": {},
+			"success": {
+				"title": "Félicitations ! Vous pouvez maintenant publier des événements et commencer à gagner de l'argent!",
+				"description": "Retournez à votre page d'utilisateur et commencez à publier des événements!",
+				"action": "Retour au compte"
+			},
 			"errors": {
-				"verification": {},
-				"permissions": {},
-				"generic": {}
-			}
-		}
+				"verification": {
+					"title": "Vous devez vérifier votre adresse e-mail PayPal.",
+					"description": "Allez vérifier votre email et appuyez sur réessayer!",
+					"action": "Réessayer"
+				},
+				"permissions": {
+					"title": "Vous devez accorder des autorisations.",
+					"description": "Revenez en arrière et acceptez toutes les exigences pendant le processus de connexion.",
+					"action": "Retour au compte"
+				},
+				"generic": {
+					"title": "Erreur générique.",
+					"description": "Pour une raison quelconque, cette opération a échoué, réessayez plus tard ou contactez l'assistance.",
+					"action": "Retour au compte"
+				}
+			},
+			"title": "Informations sur le paiement",
+			"description": "Vos coordonnées de paiement via PayPal"
+		},
+		"profile_completion": "Achèvement du profil"
 	},
 	"title": "TapAndFish",
 	"signup": "Créer un compte",
 	"signin": "Connectez-vous",
 	"pages": {
-		"recover": {},
-		"signin": {},
+		"recover": {
+			"title": "Récupération du compte",
+			"description": "Si vous avez oublié votre mot de passe, vous pouvez essayer de récupérer votre compte avec votre adresse électronique.",
+			"error": "Une exception majeure inconnue a été levée lors de votre enregistrement. Veuillez réessayer plus tard, peut-être après avoir rechargé la page. Si l'erreur persiste, veuillez contacter le support technique",
+			"success": "Si un compte est lié à cette adresse électronique, un lien de récupération a été envoyé afin de réinitialiser le mot de passe.",
+			"button": "Récupérer",
+			"resetDescription": "Réinitialisez votre mot de passe pour accéder à votre compte."
+		},
+		"signin": {
+			"forgot_password": "Mot de passe oublié?",
+			"no_account": "Vous n'avez pas de compte?",
+			"title": "Remplissez vos informations de connexion",
+			"subtitle": "Connectez-vous et gérez votre compte",
+			"create_account": "Créez-en un!"
+		},
 		"home": {
-			"discover": {},
-			"fullscreen": {},
-			"icons": {},
-			"host_description": {
-				"private": {},
-				"professional": {}
+			"discover": {
+				"header": "Découvrez plus de 1000 expériences",
+				"action": "Voir toutes les expériences"
 			},
-			"image_gallery": {},
-			"post_gallery": {}
+			"fullscreen": {
+				"header": "Réservez votre expérience de pêche",
+				"description": "Trouvez des guides professionnels et des pêcheurs privés. À côté de vous",
+				"location": "Choisissez un lieu",
+				"date": "Choisissez une date",
+				"search": "Recherche"
+			},
+			"icons": {
+				"meet": "Rencontrez",
+				"fish": "Pêche",
+				"share": "Partager",
+				"book": "Livre"
+			},
+			"host_description": {
+				"private": {
+					"title": "Hôte privé Fisher:",
+					"description": "Partagez les coûts avec un pêcheur local, une solution bon marché pour une grande journée de pêche ! C'est très simple : trouvez un copain, discutez avec lui, convenez du prix à partager et partez pêcher!"
+				},
+				"professional": {
+					"title": "Guides professionnels et charters:",
+					"description": "Les solutions Tayloramade pour une expérience inoubliable, rencontrez nos guides certifiés et découvrez de nouvelles techniques!"
+				}
+			},
+			"image_gallery": {
+				"pre_header": "Des paysages étonnants pour des sorties de pêche inoubliables",
+				"header": "Les destinations de pêche les plus appréciées",
+				"action": "Voir toutes les destinations"
+			},
+			"post_gallery": {
+				"pre_header": "La pêche dans le monde",
+				"header": "Nos ambassadeurs ",
+				"action": "Voir tous "
+			},
+			"parallax": "Réservez votre expérience de pêche dans le monde entier"
 		},
 		"about": {
 			"guest": {
-				"list": []
+				"list": [
+					"Partagez les frais avec un pêcheur privé pour être guidé dans des aventures uniques et rares.",
+					"Réservez un charter ou un guide professionnel : sécurité et qualité garanties ! Une expérience de pêche à couper le souffle!",
+					"Pêchez, mangez... et bien plus encore!"
+				],
+				"description": "Si vous êtes un passionné, nous vous proposons de nombreuses options:"
 			},
 			"host": {
-				"list": []
-			}
+				"list": [
+					"Devenez un pêcheur d'accueil ! Laissez-nous faire le reste!",
+					"Démarrez votre entreprise ! Nous vous aiderons à la gérer!",
+					"Vous n'êtes pas un professionnel ? Gagnez en économisant de l'argent ! Partagez les frais ou louez votre bateau, avec ou sans capitaine!"
+				],
+				"description": "Si vous êtes un pêcheur expérimenté ou un charter, choisissez TapAndFish:"
+			},
+			"title": "A propos de nous",
+			"header": "TapAndFish : une plateforme qui vous emmène à la pêche dans le monde entier!",
+			"description": "Avec TapAndFish, vous pouvez réserver votre voyage de pêche rapidement et en toute sécurité.",
+			"action": "Réservez votre première expérience",
+			"parallax": "Choisissez TapAndFish[br]notre équipe d'experts fera de la pêche le métier de vos rêves!",
+			"ambassadors": "Nos ambassadeurs de la marque TapAndFish"
 		},
 		"gofishing": {
 			"hosts": {
 				"private": {
-					"list": []
+					"list": [
+						"L'événement est étiqueté avec <kbd>private user</kbd>.",
+						"Le prix de l'événement est calculé sur la base des dépenses de l'hôte.",
+						"Après avoir pris connaissance du prix, vous pouvez envoyer un message à l'hôte pour lui demander des justificatifs de dépenses et obtenir plus d'informations sur l'événement.",
+						"Les réservations et les paiements peuvent être annulés jusqu'à 48 heures avant l'événement. Notre support client est toujours disponible."
+					],
+					"description": "Hôte privé Fisher:"
 				},
 				"professional": {
-					"list": []
-				}
-			}
+					"list": [
+						"Chaque événement est étiqueté avec <kbd>utilisateur professionnel</kbd>.",
+						"Le prix tient compte d'une expérience garantie avec une assurance incluse.",
+						"Les réservations et les paiements peuvent être annulés jusqu'à 48 heures avant l'événement. Notre support client est toujours disponible.",
+						"Vous pouvez échanger librement des messages avec tous nos guides pour demander une expérience sur mesure!"
+					],
+					"description": "Pêcheur d'accueil professionnel:"
+				},
+				"question": "Vous voulez aller à la pêche ? Voici ce que nous vous proposons:"
+			},
+			"title": "Nos ambassadeurs de la marque TapAndFish",
+			"header": "La pêche n'a jamais été aussi facile!",
+			"question": "Qu'est-ce que TapAndFish?",
+			"description": "C'est la principale plateforme de recherche et de réservation d'affrètements et de guides de pêche.[br]TapAndFish promeut également l'économie de partage : le prix de la majorité des événements est fixé dans l'intention de partager les dépenses entre les participants."
 		},
 		"howitworks": {
 			"guest": {
 				"list": [
 					{
-						"list": []
+						"list": [
+							"<strong>Des événements</strong> bon marché basés sur le partage des dépenses ou sur la location d'un bateau, avec ou sans capitaine.",
+							"<strong>Événements</strong> premium avec des guides professionnels ou des charters."
+						],
+						"name": "Recherche",
+						"content": "Cherchez le pêcheur qui correspond le mieux à vos besoins, pour vous il y a beaucoup de possibilités, comme par exemple:"
 					},
 					{},
 					{},
 					{}
-				]
+				],
+				"nav": "Comment cela fonctionne pour l'invité"
 			},
 			"host": {
 				"list": [
@@ -307,7 +586,8 @@
 					{},
 					{}
 				]
-			}
+			},
+			"title": "Comment cela fonctionne"
 		},
 		"becomehost": {
 			"card": {},
