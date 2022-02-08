@@ -965,5 +965,19 @@
 		"description": "If you encountered a bug or just want to give a suggestion, this is the perfect place to do that! However, if you need help with something, [a]contact us[/a] and we will get back to you as soon as possible.",
 		"additional_data": "Attach anonymous information about the device and browser you are using. This can help us diagnose bugs better",
 		"send_button": "Send feedback"
-	}
+	},
+	"months": [
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December"
+	]
 }
