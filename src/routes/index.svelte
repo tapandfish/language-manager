@@ -20,7 +20,7 @@
 		// Generate new file
 		let newfile = JSON.stringify(languages);
 		newfile = newfile.replace(/\"(\w+)\":/g, '$1:')
-		newfile = 'export default ' + newfile + ';';
+		newfile = 'export default ' + newfile + ' as {[key :string]: {name :string, file :string, flag :string}};';
 
 		// Save file via API
 		fetch('/api/update_languages', {
