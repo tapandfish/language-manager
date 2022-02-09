@@ -1,5 +1,5 @@
 <script context="module">
-	import languages from '../../_languages.js';
+	import languages from '../../_languages.ts';
 
 	export async function preload({ params }) {
 		const { langcode } = params;

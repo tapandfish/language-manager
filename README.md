@@ -19,7 +19,7 @@ When you open some other language page you are able to see the English text and 
 
 Saved language files are in the `/static/languages/` folder.
 
-Saved language db (the list of all languages and properties) is saved as `/src/_languages.js`
+Saved language db (the list of all languages and properties) is saved as `/src/_languages.ts`
 
 ## This is meh
 

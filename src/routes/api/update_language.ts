@@ -1,5 +1,5 @@
 import fs from 'fs';
-import languages from '../../_languages.js';
+import languages from '../../_languages.ts';
 
 export function post(req, res, next) {
 	const { newfile, langcode } = req.body;

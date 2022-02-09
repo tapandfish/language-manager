@@ -790,7 +790,9 @@
 			"description": "Manage your user settings, email, password, security."
 		},
 		"user_become_host": {
-			"header": "Become a Host"
+			"title": "TapAndFish - User",
+			"header": "Become a Host",
+			"description": "Manage your user settings, email, password, security."
 		},
 		"about": {
 			"title": "TapAndFish - About us",

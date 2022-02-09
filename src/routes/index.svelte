@@ -1,5 +1,5 @@
 <script>
-	import languages from '../_languages.js';
+	import languages from '../_languages.ts';
 
 	let newlang = {
 		code: null,

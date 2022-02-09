@@ -26,5 +26,5 @@ jobs:
           title: "Development Build"
           files: |
             ./languages.tar.gz
-            src/_languages.js
+            src/_languages.ts
             src/_lang_type.ts
