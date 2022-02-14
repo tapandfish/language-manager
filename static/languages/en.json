@@ -60,7 +60,7 @@
 		"name": "Name",
 		"surname": "Surname",
 		"email": "Email",
-		"emailconfirmation": "Confirm email",
+		"emailConfirmation": "Confirm email",
 		"password": "Password",
 		"passwordConfirmation": "Confirm password",
 		"nameError": "Insert a valid name",

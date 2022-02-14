@@ -58,7 +58,7 @@
 		"name": "Nom",
 		"surname": "Prénom",
 		"email": "Email",
-		"emailconfirmation": "Confirmer l'email",
+		"emailConfirmation": "Confirmer l'email",
 		"password": "Mot de passe",
 		"passwordConfirmation": "Confirmer le mot de passe",
 		"nameError": "Insérer un nom valide",
