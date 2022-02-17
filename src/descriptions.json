@@ -348,34 +348,34 @@
 			},
 			"dashboard": {
 				"cards": {
-					"host": {
-						"0": {
+					"host": [
+						{
 							"title": null,
 							"description": null
 						},
-						"1": {
+						{
 							"title": null,
 							"description": null
 						},
-						"2": {
+						{
 							"title": null,
 							"description": null
 						}
-					},
-					"guest": {
-						"0": {
+					],
+					"guest": [
+						{
 							"title": null,
 							"description": null
 						},
-						"1": {
+						{
 							"title": null,
 							"description": null
 						},
-						"2": {
+						{
 							"title": null,
 							"description": null
 						}
-					}
+					]
 				}
 			},
 			"billing": {
@@ -522,19 +522,19 @@
 			"action": null,
 			"guest": {
 				"description": null,
-				"list": {
-					"0": null,
-					"1": null,
-					"2": null
-				}
+				"list": [
+					null,
+					null,
+					null
+				]
 			},
 			"host": {
 				"description": null,
-				"list": {
-					"0": null,
-					"1": null,
-					"2": null
-				}
+				"list": [
+					null,
+					null,
+					null
+				]
 			},
 			"parallax": null,
 			"ambassadors": null
@@ -548,21 +548,21 @@
 				"question": null,
 				"private": {
 					"description": null,
-					"list": {
-						"0": null,
-						"1": null,
-						"2": null,
-						"3": null
-					}
+					"list": [
+						null,
+						null,
+						null,
+						null
+					]
 				},
 				"professional": {
 					"description": null,
-					"list": {
-						"0": null,
-						"1": null,
-						"2": null,
-						"3": null
-					}
+					"list": [
+						null,
+						null,
+						null,
+						null
+					]
 				}
 			}
 		},
@@ -570,53 +570,53 @@
 			"title": null,
 			"guest": {
 				"nav": null,
-				"list": {
-					"0": {
+				"list": [
+					{
 						"name": null,
 						"content": null,
-						"list": {
-							"0": null,
-							"1": null
-						}
+						"list": [
+							null,
+							null
+						]
 					},
-					"1": {
+					{
 						"name": null,
 						"content": null
 					},
-					"2": {
+					{
 						"name": null,
 						"content": null
 					},
-					"3": {
+					{
 						"name": null,
 						"content": null
 					}
-				}
+				]
 			},
 			"host": {
 				"nav": null,
-				"list": {
-					"0": {
+				"list": [
+					{
 						"name": null,
 						"content": null
 					},
-					"1": {
+					{
 						"name": null,
 						"content": null
 					},
-					"2": {
+					{
 						"name": null,
 						"content": null
 					},
-					"3": {
+					{
 						"name": null,
 						"content": null
 					},
-					"4": {
+					{
 						"name": null,
 						"content": null
 					}
-				}
+				]
 			}
 		},
 		"becomehost": {
@@ -634,75 +634,75 @@
 				"food_fishing": null,
 				"publish": null
 			},
-			"icons": {
-				"0": {
+			"icons": [
+				{
 					"title": null,
 					"content": null
 				},
-				"1": {
+				{
 					"title": null,
 					"content": null
 				},
-				"2": {
+				{
 					"title": null,
 					"content": null
 				}
-			},
+			],
 			"wanna_join": null,
 			"hosts": {
 				"private": {
 					"description": null,
-					"list": {
-						"0": null,
-						"1": null,
-						"2": null
-					}
+					"list": [
+						null,
+						null,
+						null
+					]
 				},
 				"professional": {
 					"description": null,
-					"list": {
-						"0": null,
-						"1": null,
-						"2": null
-					}
+					"list": [
+						null,
+						null,
+						null
+					]
 				}
 			},
-			"advantages": {
-				"0": {
+			"advantages": [
+				{
 					"name": null,
-					"data": {
-						"0": {
+					"data": [
+						{
 							"title": null,
 							"content": null
 						},
-						"1": {
+						{
 							"title": null,
 							"content": null
 						},
-						"2": {
+						{
 							"title": null,
 							"content": null
 						}
-					}
+					]
 				},
-				"1": {
+				{
 					"name": null,
-					"data": {
-						"0": {
+					"data": [
+						{
 							"title": null,
 							"content": null
 						},
-						"1": {
+						{
 							"title": null,
 							"content": null
 						},
-						"2": {
+						{
 							"title": null,
 							"content": null
 						}
-					}
+					]
 				}
-			},
+			],
 			"tabs": {
 				"header": null,
 				"publish": {
@@ -727,26 +727,26 @@
 			"ambassador": {
 				"header": null,
 				"advantages": null,
-				"list": {
-					"0": {
+				"list": [
+					{
 						"title": null,
 						"content": null
 					},
-					"1": {
+					{
 						"title": null,
 						"content": null
 					},
-					"2": {
+					{
 						"title": null
 					},
-					"3": {
+					{
 						"title": null
 					},
-					"4": {
+					{
 						"title": null,
 						"content": null
 					}
-				}
+				]
 			}
 		},
 		"signup": {
@@ -974,18 +974,18 @@
 		"additional_data": null,
 		"send_button": null
 	},
-	"months": {
-		"0": null,
-		"1": null,
-		"2": null,
-		"3": null,
-		"4": null,
-		"5": null,
-		"6": null,
-		"7": null,
-		"8": null,
-		"9": null,
-		"10": null,
-		"11": null
-	}
+	"months": [
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null
+	]
 }

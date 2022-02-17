@@ -348,34 +348,34 @@
 			},
 			"dashboard": {
 				"cards": {
-					"host": {
-						"0": {
+					"host": [
+						{
 							"title": "Pagamenti",
 							"description": "Visualizza tutti i pagamenti"
 						},
-						"1": {
+						{
 							"title": "Eventi",
 							"description": "Guarda i miei eventi"
 						},
-						"2": {
+						{
 							"title": "Prenotazioni",
 							"description": "Visualizza le prenotazioni"
 						}
-					},
-					"guest": {
-						"0": {
+					],
+					"guest": [
+						{
 							"title": "Pagamenti",
 							"description": "Visualizza tutti i pagamenti"
 						},
-						"1": {
+						{
 							"title": "Eventi",
 							"description": "Prenota un evento"
 						},
-						"2": {
+						{
 							"title": "Prenotazioni",
 							"description": "Visualizza le prenotazioni"
 						}
-					}
+					]
 				}
 			},
 			"billing": {
@@ -522,19 +522,19 @@
 			"action": "Prenota la tua prima esperienza",
 			"guest": {
 				"description": "Se sei un appassionato, ti offriamo moltissime opzioni:",
-				"list": {
-					"0": "Condividi le spese con un pescatore privato per farti guidare alla ricerca di avventure uniche e rare",
-					"1": "Prenota un Charter o una guida professionista: sicurezza e qualità garantite. La pesca mozzafiato!",
-					"2": "Fish and Eat. Pesca, Mangia...e molto di più!"
-				}
+				"list": [
+					"Condividi le spese con un pescatore privato per farti guidare alla ricerca di avventure uniche e rare",
+					"Prenota un Charter o una guida professionista: sicurezza e qualità garantite. La pesca mozzafiato!",
+					"Fish and Eat. Pesca, Mangia...e molto di più!"
+				]
 			},
 			"host": {
 				"description": "Se sei un pescatore esperto o una guida di pesca, scegli TapAndFish:",
-				"list": {
-					"0": "Diventa un host fisher! Al resto ci pensiamo noi!",
-					"1": "Lancia la tua attività! Ti aiuteremo a gestire il tuo business a 360 gradi",
-					"2": "Non sei un professionista? Guadagna Risparmiando! Condividi le spese o affitta la tua imbarcazione, con o senza capitano!"
-				}
+				"list": [
+					"Diventa un host fisher! Al resto ci pensiamo noi!",
+					"Lancia la tua attività! Ti aiuteremo a gestire il tuo business a 360 gradi",
+					"Non sei un professionista? Guadagna Risparmiando! Condividi le spese o affitta la tua imbarcazione, con o senza capitano!"
+				]
 			},
 			"parallax": "Affidati a TapAndFish[br]il nostro team di esperti farà della pesca il lavoro dei tuoi sogni!",
 			"ambassadors": "I nostri brand ambassador TapAndFish"
@@ -548,21 +548,21 @@
 				"question": "Vuoi andare a pescare? Ecco cosa ti proponiamo:",
 				"private": {
 					"description": "Host fisher privato:",
-					"list": {
-						"0": "L'evento riporta in descrizione <kbd>utente privato</kbd>",
-						"1": "Il prezzo dell'evento è calcolato in base alle spese dell'host.",
-						"2": "Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
-						"3": "La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
-					}
+					"list": [
+						"L'evento riporta in descrizione <kbd>utente privato</kbd>",
+						"Il prezzo dell'evento è calcolato in base alle spese dell'host.",
+						"Dopo aver visualizzato il costo di condivisione avrete la possibilità di messaggiare con il vostro Host Fisher. In tal caso potrete richiedere una prova delle spese sostenute e avere più informazioni sull'evento.",
+						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!"
+					]
 				},
 				"professional": {
 					"description": "Host fisher professionista:",
-					"list": {
-						"0": "Ogni evento riporta in descrizione <kbd>utente professionista</kbd>",
-						"1": "Il prezzo dell'evento tiene conto di un'esperienza garantita al 100% con servizi assicurativi inclusi",
-						"2": "La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
-						"3": "Puoi messaggiare gratuitamente con tutte le nostre guide per richiedere soluzioni taylormade!"
-					}
+					"list": [
+						"Ogni evento riporta in descrizione <kbd>utente professionista</kbd>",
+						"Il prezzo dell'evento tiene conto di un'esperienza garantita al 100% con servizi assicurativi inclusi",
+						"La prenotazione e il pagamento possono essere annullati fino a 48 ore prima dell'evento. Il nostro servizio clienti è sempre a vostra disposizione!",
+						"Puoi messaggiare gratuitamente con tutte le nostre guide per richiedere soluzioni taylormade!"
+					]
 				}
 			}
 		},
@@ -570,53 +570,53 @@
 			"title": "Come funziona",
 			"guest": {
 				"nav": "Come funziona per l'Ospite",
-				"list": {
-					"0": {
+				"list": [
+					{
 						"name": "Cerca",
 						"content": "Cerca il pescatore che più si adatta alle tue esigenze, per te moltissime opportunità tra cui:",
-						"list": {
-							"0": "<strong>Eventi economici</strong> basati sulla condivisione delle spese o sull'affitto dell'imbarcazione con o senza capitano",
-							"1": "<strong>Eventi premium</strong> con guide o charter professionisti"
-						}
+						"list": [
+							"<strong>Eventi economici</strong> basati sulla condivisione delle spese o sull'affitto dell'imbarcazione con o senza capitano",
+							"<strong>Eventi premium</strong> con guide o charter professionisti"
+						]
 					},
-					"1": {
+					{
 						"name": "Contatta",
 						"content": "Contatta il tuo Host attraverso i nostri sistemi di prenotazione e di messaggistica istantanea.[br]Ti chiederemo di creare un account per poter salvaguardare i tuoi dati e assicurarti in fase di contatto e pagamento."
 					},
-					"2": {
+					{
 						"name": "Prenota",
 						"content": "Dopo aver verificato la disponibilità e aver concordato i dettagli dell'evento con il tuo Host, effettua la prenotazione.[br]A tal scopo, autorizza il  pagamento online e attendi (massimo 24h) l'accettazione della prenotazione da parte del proprietario.[br]Se la prenotazione viene accettata, l'importo viene addebitato sul tuo conto corrente bancario e ricevi le coordinate del proprietario della barca."
 					},
-					"3": {
+					{
 						"name": "Valuta",
 						"content": "Valuta la tua esperienza fornendo un semplice feedback. [br]Questo ci aiuterà a migliorare costantemente la nostra piattaforma e a offrire un servizio migliore."
 					}
-				}
+				]
 			},
 			"host": {
 				"nav": "Come funziona per l'Host Fisher",
-				"list": {
-					"0": {
+				"list": [
+					{
 						"name": "Registrati",
 						"content": "Registrati sulla Piattaforma gratuitamente (nel caso in cui disponessi di un'imbarcazione ti chiederemo di inserire alcuni dati affinchè tu possa navigare in sicurezza)."
 					},
-					"1": {
+					{
 						"name": "Pubblica",
 						"content": "Pubblica il tuo Annuncio: entra nella tua area privata e clicca su \"Crea il tuo evento\"; verrai guidato automaticamente passo dopo passo per renderlo il più efficace possibile.[br]Una volta fornite tutte le informazioni potrai pubblicarlo on-line e condividerlo con il resto della community."
 					},
-					"2": {
+					{
 						"name": "Gestisci",
 						"content": "Gestisci tutte le prenotazioni e le transazioni da un unico profilo.[br]Ti aiuteremo a raccogliere recensioni e a offrirti il supporto necessario alla tua attività di <strong>Host</strong>."
 					},
-					"3": {
+					{
 						"name": "Incontra",
 						"content": "Dopo aver accettato e convalidato la prenotazione riceverai i contatti del locatario (telefono, e-mail) per stabilire gli ultimi dettagli dell'evento  (luogo e ora dell'appuntamento, definizione itinerario, attrezzatura, ecc..).[br]Ti ricordiamo che il pagamento sarà trasferito sul tuo conto successivamente alla conclusione dell'evento."
 					},
-					"4": {
+					{
 						"name": "Valuta",
 						"content": "Valuta la tua esperienza. Offri un feedback al tuo ospite e alla nostra piattaforma TapAndFish.[br]Ci aiuterai a migliorare il sistema di prenotazione e l'esperienza dell'utente!"
 					}
-				}
+				]
 			}
 		},
 		"becomehost": {
@@ -634,75 +634,75 @@
 				"food_fishing": "Food & Fishing",
 				"publish": "Calcola"
 			},
-			"icons": {
-				"0": {
+			"icons": [
+				{
 					"title": "Perché registrarsi[br]su TapAndFish?",
 					"content": "Sia che siate privati che professionista, avrete moltissimi vantaggi. Oltre a risparmiare o guadagnare, potrete crescere all’interno del nostro network e aspirare a diventare brand ambassador."
 				},
-				"1": {
+				{
 					"title": "TapAndFish assicura[br]gli host fisher",
 					"content": "Assicuriamo tutti i nostri host fisher: l’annullamento dell’evento da parte dell’ospite può avvenire non oltre le 48 ore precedenti."
 				},
-				"2": {
+				{
 					"title": "Ospiti[br]verificati",
 					"content": "Tutti i nostri ospiti sono regolarmente registrati sulla nostra piattaforma. Ci occuperemo personalmente delle transazioni e di garantire un sistema efficiente di prenotazioni."
 				}
-			},
+			],
 			"wanna_join": "Vuoi far parte della piattaforma?[br]Scegli il profilo che fa per te:",
 			"hosts": {
 				"private": {
 					"description": "Host fisher privato",
-					"list": {
-						"0": "Non sei una guida professionista?[br]Non c'è problema! Risparmia condividendo le spese: ti aiuteremo a trovare compagni di pesca grazie alla nostra rete",
-						"1": "Pubblica il tuo primo annuncio definendo il prezzo e il numero di partecipanti e le spese da suddividere.",
-						"2": "Ti offriremo inoltre tutto il supporto necessario per aiutarti a diventare un Brand Ambassador!"
-					}
+					"list": [
+						"Non sei una guida professionista?[br]Non c'è problema! Risparmia condividendo le spese: ti aiuteremo a trovare compagni di pesca grazie alla nostra rete",
+						"Pubblica il tuo primo annuncio definendo il prezzo e il numero di partecipanti e le spese da suddividere.",
+						"Ti offriremo inoltre tutto il supporto necessario per aiutarti a diventare un Brand Ambassador!"
+					]
 				},
 				"professional": {
 					"description": "Host fisher professionista",
-					"list": {
-						"0": "Sei una guida professionista? Gestisci gratuitamente la tua attività sulla nostra piattaforma",
-						"1": "Pubblica i tuoi annunci in tutta libertà, ti offriremo un area dedicata alle prenotazioni e ai pagamenti",
-						"2": "Accettiamo la pubblicazione di ogni tipo di evento (crociere, viaggi, pernottamenti, esperienze gastronomiche), l'importante è pescare!"
-					}
+					"list": [
+						"Sei una guida professionista? Gestisci gratuitamente la tua attività sulla nostra piattaforma",
+						"Pubblica i tuoi annunci in tutta libertà, ti offriremo un area dedicata alle prenotazioni e ai pagamenti",
+						"Accettiamo la pubblicazione di ogni tipo di evento (crociere, viaggi, pernottamenti, esperienze gastronomiche), l'importante è pescare!"
+					]
 				}
 			},
-			"advantages": {
-				"0": {
+			"advantages": [
+				{
 					"name": "Vantaggi per gli host fisher privati",
-					"data": {
-						"0": {
+					"data": [
+						{
 							"title": "Risparmio",
 							"content": "Il prezzo richiesto per uscita tiene conto delle tue spese (attrezzatura e carburante ad esempio)"
 						},
-						"1": {
+						{
 							"title": "Una piattaforma tutta per te",
 							"content": "TapAndFish ti permette di avere un account e una pagina gratuita attraverso cui puoi pubblicare eventi e gestire i pagamenti."
 						},
-						"2": {
+						{
 							"title": "Visibilità",
 							"content": "TapAndFish ti dà la visibilità di cui hai bisogno. Accumulando recensioni positive raggiungerai il livello di *TapAndFish Pro Ambassador."
 						}
-					}
+					]
 				},
-				"1": {
+				{
 					"name": "Vantaggi per gli host fisher professionisti",
-					"data": {
-						"0": {
+					"data": [
+						{
 							"title": "Worldwide connection",
 							"content": "TapAndFish lancia la tua attività in tutto il mondo rendendoti visibile a migliaia di potenziali clienti"
 						},
-						"1": {
+						{
 							"title": "Una piattaforma gratuita",
 							"content": "TapAndFish ti permette di avere un account e una pagina gratuita attraverso cui puoi pubblicare eventi e gestire i pagamenti."
 						},
-						"2": {
+						{
 							"title": "Messaggistica, pagamenti, business management e assistenza",
 							"content": "Questi e molti altri tool ti saranno garantiti fin da subito per far decollare la tua attività!"
 						}
-					}
+					]
 				}
-			},
+			],
 			"tabs": {
 				"header": "Condividi le spese o diventa una guida TapAndFish in 3 passaggi",
 				"publish": {
@@ -727,26 +727,26 @@
 			"ambassador": {
 				"header": "Ogni pescatore Host[br]può diventare un [br]BRAND AMBASSADOR!",
 				"advantages": "I vantaggi:",
-				"list": {
-					"0": {
+				"list": [
+					{
 						"title": "Sponsorizzazione",
 						"content": "(forniremo, attraverso i nostri partner, diversi premi annuali legati alla vostra feedback performance. [a]Consulta le modalità[/a])"
 					},
-					"1": {
+					{
 						"title": "Pacchetti premium",
 						"content": "(maggiore visibilità e vetrina personalizzata)"
 					},
-					"2": {
+					{
 						"title": "Soluzioni booking tailormade"
 					},
-					"3": {
+					{
 						"title": "Assistenza h24 da parte del nostro team"
 					},
-					"4": {
+					{
 						"title": "Posizionamento ottimizzato",
 						"content": "(gli annunci sulla prima pagina di ricerca acquisiscono in media il 57% in più delle prenotazioni)"
 					}
-				}
+				]
 			}
 		},
 		"signup": {
@@ -974,18 +974,18 @@
 		"additional_data": "Allega informazioni anonime riguardo il tipo di dispositivo e il browser che stai utilizzando. Ci aiutano a diagnosticare meglio gli errori che incontri",
 		"send_button": "Invia feedback"
 	},
-	"months": {
-		"0": "Gennaio",
-		"1": "Febbraio",
-		"2": "Marzo",
-		"3": "Aprile",
-		"4": "Maggio",
-		"5": "Giugno",
-		"6": "Luglio",
-		"7": "Agosto",
-		"8": "Settembre",
-		"9": "Ottobre",
-		"10": "Novembre",
-		"11": "Dicembre"
-	}
+	"months": [
+		"Gennaio",
+		"Febbraio",
+		"Marzo",
+		"Aprile",
+		"Maggio",
+		"Giugno",
+		"Luglio",
+		"Agosto",
+		"Settembre",
+		"Ottobre",
+		"Novembre",
+		"Dicembre"
+	]
 }
