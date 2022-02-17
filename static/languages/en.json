@@ -909,7 +909,9 @@
 			"cost": "Event cost",
 			"cost_per_person": "Cost per person",
 			"total": "Total price",
-			"book": "Book event"
+			"book": "Book event",
+			"unavailable": "",
+			"disabled": ""
 		},
 		"banners": {
 			"draft": {
