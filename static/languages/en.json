@@ -941,7 +941,8 @@
 		"no_location": "No location available"
 	},
 	"search": {
-		"location": "Location",
+		"location": "Where",
+		"dates": "When",
 		"n_people": "N.",
 		"more_filters": "More filters",
 		"search": "Search",
