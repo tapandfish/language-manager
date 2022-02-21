@@ -941,7 +941,8 @@
 		"no_location": "Nessuna posizione disponibile"
 	},
 	"search": {
-		"location": "Luogo",
+		"location": "Dove",
+		"dates": "Quando",
 		"n_people": "N.",
 		"more_filters": "Più filtri",
 		"search": "Cerca",
