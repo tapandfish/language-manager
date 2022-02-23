@@ -205,8 +205,17 @@
 					"view": "View",
 					"active": "Active",
 					"inactive": "Not active",
-					"change_status": "Change status"
-				}
+					"change_status": "Change status",
+					"modal": {
+						"activeTitle": "Confirm activation",
+						"inactiveTitle": "Confirm deactivation",
+						"activeDescription": "Activating the event will make it visible in search results and everyone will be able to book a date. (You still have to approve every single booking)",
+						"inactiveDescription": "Deactivating the event will make it hidden in search results and no one will be able to book a date. Note that the event will still be visible to anyone having a direct link.",
+						"cancel": "Cancel",
+						"confirm": "Confirm"
+					}
+				},
+				"old": "Past events"
 			},
 			"create_event": {
 				"navigation": {
