@@ -205,8 +205,17 @@
 					"view": "Guarda",
 					"active": "Attivo",
 					"inactive": "Inattivo",
-					"change_status": "Cambia stato"
-				}
+					"change_status": "Cambia stato",
+					"modal": {
+						"activeTitle": "Conferma attivazione",
+						"inactiveTitle": "Conferma disattivazione",
+						"activeDescription": "Attivare l'evento lo renderà visibile nei risultati di ricerca e chiunque potrà effettuare una prenotazione. (Sarà comunque richiesto che tu approvi ogni singola prenotazione)",
+						"inactiveDescription": "Disattivare l'evento lo renderà nascosto nei risultati di ricerca e nessuno potrà effettuare una prenotazione. Nota che l'evento rimarrà visibile a chiunque possegga il link.",
+						"cancel": "Annulla",
+						"confirm": "Conferma"
+					}
+				},
+				"old": "Eventi passati"
 			},
 			"create_event": {
 				"navigation": {
