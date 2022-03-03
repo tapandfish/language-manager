@@ -343,7 +343,8 @@
 					"expenses_tooltip": "Il costo totale dell'uscita (un ospite incluso), che non cambia in base al numero di iscritti. Per esempio, potrebbe trattarsi del costo del carburante per la barca. Il totale verrà diviso equamente tra i guest.",
 					"price_per_person_tooltip": "Si tratta di un costo addizionale per ogni iscritto oltre al primo, servirà per coprire ad esempio le spese per l'affitto di strumentazione aggiuntiva (canne da pesca e simili).",
 					"experience_cost": "Costo dell'esperienza",
-					"experience_cost_placeholder": "Il costo totale dell'uscita. Il totale verrà diviso equamente tra i guest."
+					"experience_cost_placeholder": "Costo in &euro;",
+					"experience_cost_tooltip": "Il costo totale dell'uscita. Il totale verrà diviso equamente tra i guest."
 				},
 				"extreme_error": "È stato riscontrato un errore di origine sconosciuta. Per favore riprova più tardi, provando anche a ricaricare la pagina. Se il problema persiste contatta il supporto.",
 				"boat_types": {
