@@ -500,9 +500,9 @@
 				"search": "Cerca"
 			},
 			"icons": {
-				"meet": "Meet",
-				"fish": "Fish",
-				"share": "Share",
+				"meet": "Incontra",
+				"fish": "Pesca",
+				"share": "Condividi",
 				"book": "Book"
 			},
 			"host_description": {
