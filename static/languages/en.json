@@ -645,7 +645,8 @@
 				"sea": "Sea",
 				"river_lake": "River or lake",
 				"food_fishing": "Food & Fishing",
-				"publish": "Calculate"
+				"publish": "Publish Ad",
+				"calculate": "Calculate"
 			},
 			"icons": [
 				{
