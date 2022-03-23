@@ -645,7 +645,8 @@
 				"sea": "Mare",
 				"river_lake": "Fiume o lago",
 				"food_fishing": "Food & Fishing",
-				"publish": "Calcola"
+				"publish": "Pubblica annuncio",
+				"calculate": "Calcola"
 			},
 			"icons": [
 				{
