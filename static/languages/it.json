@@ -941,6 +941,10 @@
 					"message": "Continuando invii il tuo evento perché possa essere approvato da uno dei nostri admin. In caso di successo, l'evento diventerà visibile a tutti, anche se lo disabiliti.",
 					"cancel": "Annulla",
 					"publish": "Pubblica"
+				},
+				"error": {
+					"message": "Devi collegare un metodo di pagamento al tuo account prima di poter pubblicare annunci e cominciare a guadagnare. Vai nella tua area personale per collegare un account PayPal.",
+					"button": "Collega un account"
 				}
 			},
 			"review": {
