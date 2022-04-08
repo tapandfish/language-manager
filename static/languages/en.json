@@ -941,6 +941,10 @@
 					"message": "By continuing, you submit your event to the approval of one of our admins. If approved your event will then be visible to everyone, even if you disable it.",
 					"cancel": "Cancel",
 					"publish": "Publish"
+				},
+				"error": {
+					"message": "You must add a payment method to your account before you can publish events and start earning. Go to the user area and connect a PayPal account.",
+					"button": "Link account"
 				}
 			},
 			"review": {
