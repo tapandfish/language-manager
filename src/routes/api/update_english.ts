@@ -36,7 +36,7 @@ function stringify(obj) {
 			elements.push(`${key} ${obj[key]}`);
 		} else if(Array.isArray(obj[key])) {
 			if(typeof obj[key][0] === 'string') {
-				elements.push(`${key} :Array<string>`);
+				elements.push(`${key} :string[]`);
 			} else {
 				elements.push(`${key} :Array<${stringify(obj[key][0])}>`);
 			}
