@@ -1006,5 +1006,27 @@
 		"October",
 		"November",
 		"December"
-	]
+	],
+	"book": {
+		"title": "Book event",
+		"recap": "Booking summary",
+		"details": "Booking details",
+		"date": "Date",
+		"guests": "Guests",
+		"guests_details": "Guests details",
+		"guest_n": "Guest",
+		"guest_name": "Full name",
+		"account_needed": "You need an account in order to book an event",
+		"payment": "Payment details",
+		"success": "Yay! The event has been booked. We now need to wait for the host's approval. Check your emails and the order status on your account page to keep track of the progress",
+		"recap_costs": "Costs summary",
+		"errors": {
+			"403": "You cannot book your own event",
+			"409": "Oops... Someone already booked this date :(",
+			"412": "This event does not accept bookings at the moment. See if the host offers something similar!",
+			"418": "This event does not support that many guests",
+			"422": "This date is not valid for this event",
+			"500": "An error occurred while trying to book this event. Please contact support to report the issue."
+		}
+	}
 }
