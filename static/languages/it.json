@@ -1027,6 +1027,7 @@
 			"418": "Questo evento non supporta così tanti ospiti",
 			"422": "Questa data non è valida per quest'evento",
 			"500": "Si è verificato un errore durante la prenotazione dell'evento. Per favore contatta il supporto per segnalare il problema."
-		}
+		},
+		"verification_needed": "Devi verificare il tuo indirizzo email prima di poter prenotare un evento"
 	}
 }
