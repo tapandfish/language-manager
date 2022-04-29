@@ -4,8 +4,6 @@ name: "pre-release"
 on:
   push:
     branches: [master]
-  workflow_dispatch:
-    branches: [master]
 
 jobs:
   pre-release:
