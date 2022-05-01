@@ -862,7 +862,9 @@
 		"form": {
 			"kind_placeholder": "Scegli il tipo di barca",
 			"length_placeholder": "Inserisci la lunghezza",
-			"motorization_placeholder": "Inserisci la motorizzazione"
+			"motorization_placeholder": "Inserisci la motorizzazione",
+			"insurance": "Dichiaro che la barca è correttamente assicurata secondo le normative vigenti",
+			"insurance_validity": "L'assicurazione è obbligatoria"
 		},
 		"kind": "Tipo barca",
 		"length": "Lunghezza",

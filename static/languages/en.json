@@ -862,7 +862,9 @@
 		"form": {
 			"kind_placeholder": "Select your boat type",
 			"length_placeholder": "Boat length",
-			"motorization_placeholder": "Insert motorization"
+			"motorization_placeholder": "Insert motorization",
+			"insurance": "I declare the boat is properly insured as per current legislation",
+			"insurance_validity": "An insurance statement is required"
 		},
 		"kind": "Boat kind",
 		"length": "Length",
