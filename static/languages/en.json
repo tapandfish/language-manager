@@ -350,7 +350,8 @@
 				"boat_types": {
 					"BOAT": "Motor boat",
 					"SAILING_BOAT": "Sailing boat"
-				}
+				},
+				"error_404": "You can't edit this event because this event does not exist"
 			},
 			"reviews": {
 				"received": {

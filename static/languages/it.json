@@ -350,7 +350,8 @@
 				"boat_types": {
 					"BOAT": "Barca a motore",
 					"SAILING_BOAT": "Barca a vela"
-				}
+				},
+				"error_404": "Non puoi modificare l'evento perché questo evento non esiste"
 			},
 			"reviews": {
 				"received": {
