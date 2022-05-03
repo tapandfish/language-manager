@@ -404,6 +404,20 @@
 					"title": "Billing",
 					"description": "Connect to a PayPal account to speed up the payment process."
 				}
+			},
+			"bookings": {
+				"host": {
+					"title": "Received bookings",
+					"subtitle": "Manage the bookings you received for your orders",
+					"no_bookings": "No bookings",
+					"pending_approval": "Pending approval",
+					"manage": "Manage"
+				},
+				"guest": {
+					"title": "Your bookings",
+					"subtitle": "Manage the bookings you made",
+					"no_bookings": "No bookings"
+				}
 			}
 		},
 		"revert": {
