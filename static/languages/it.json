@@ -404,6 +404,20 @@
 					"title": "Pagamenti",
 					"description": "Collega un account PayPal per velocizzare il processo di pagamento."
 				}
+			},
+			"bookings": {
+				"host": {
+					"title": "Prenotazioni ricevute",
+					"subtitle": "Gestisci le prenotazioni che hai ricevuto per i tuoi eventi",
+					"no_bookings": "Nessuna prenotazione",
+					"pending_approval": "In attesa di conferma",
+					"manage": "Gestisci"
+				},
+				"guest": {
+					"title": "Prenotazioni effettuate",
+					"subtitle": "Gestisci le prenotazioni che hai effettuato",
+					"no_bookings": "Nessuna prenotazione"
+				}
 			}
 		},
 		"revert": {
