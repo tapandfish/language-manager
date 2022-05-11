@@ -419,6 +419,30 @@
 					"no_bookings": "No bookings",
 					"waiting_approval": "Waiting for approval",
 					"info": "More info"
+				},
+				"manage": {
+					"404": "This order does not exist",
+					"title": "Manage booking",
+					"voided": "The order has expired or has been rejected",
+					"accepted": "The order has been accepted, get in touch with the guests to organize the experience",
+					"event": "Event",
+					"confirm_button": "Confirm booking",
+					"reject_button": "Reject order",
+					"pending": "The order is pending approval"
+				},
+				"view": {
+					"404": "This order does not exist",
+					"title": "View booking",
+					"voided": "The order has expired or has been rejected",
+					"pending": "The order is pending approval",
+					"event": "Event"
+				},
+				"recap": {
+					"title": "Booking",
+					"guest": "guest",
+					"guests": "guests",
+					"date": "Date",
+					"price": "Price"
 				}
 			}
 		},

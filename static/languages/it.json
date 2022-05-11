@@ -419,6 +419,30 @@
 					"no_bookings": "Nessuna prenotazione",
 					"waiting_approval": "In attesa di conferma",
 					"info": "Maggiori informazioni"
+				},
+				"manage": {
+					"404": "Quest'ordine non esiste",
+					"title": "Gestisci prenotazione",
+					"voided": "L'ordine è scaduto o è stato rifiutato",
+					"pending": "L'ordine è in attesa di approvazione",
+					"accepted": "L'ordine è stato accettato, contatta gli ospiti per l'organizzazione dell'esperienza",
+					"event": "Evento",
+					"confirm_button": "Conferma prenotazione",
+					"reject_button": "Rifiuta ordine"
+				},
+				"view": {
+					"404": "Quest'ordine non esiste",
+					"title": "Visualizza prenotazione",
+					"voided": "L'ordine è scaduto o è stato rifiutato",
+					"pending": "L'ordine è in attesa di approvazione",
+					"event": "Evento"
+				},
+				"recap": {
+					"title": "Prenotazione",
+					"guest": "ospite",
+					"guests": "ospiti",
+					"date": "Data",
+					"price": "Prezzo"
 				}
 			}
 		},
