@@ -416,7 +416,9 @@
 				"guest": {
 					"title": "Prenotazioni effettuate",
 					"subtitle": "Gestisci le prenotazioni che hai effettuato",
-					"no_bookings": "Nessuna prenotazione"
+					"no_bookings": "Nessuna prenotazione",
+					"waiting_approval": "In attesa di conferma",
+					"info": "Maggiori informazioni"
 				}
 			}
 		},

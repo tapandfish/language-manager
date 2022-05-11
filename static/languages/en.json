@@ -416,7 +416,9 @@
 				"guest": {
 					"title": "Your bookings",
 					"subtitle": "Manage the bookings you made",
-					"no_bookings": "No bookings"
+					"no_bookings": "No bookings",
+					"waiting_approval": "Waiting for approval",
+					"info": "More info"
 				}
 			}
 		},
