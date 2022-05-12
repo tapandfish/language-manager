@@ -428,14 +428,19 @@
 					"event": "Event",
 					"confirm_button": "Confirm booking",
 					"reject_button": "Reject order",
-					"pending": "The order is pending approval"
+					"pending": "The order is pending approval",
+					"verify_order": "Verify order",
+					"code": "Code",
+					"verify": "Verify"
 				},
 				"view": {
 					"404": "This order does not exist",
 					"title": "View booking",
 					"voided": "The order has expired or has been rejected",
 					"pending": "The order is pending approval",
-					"event": "Event"
+					"event": "Event",
+					"verification_code": "Verification code",
+					"verification_code_explaination": "Show the verification code or the QR code to the host when you get to the event location. This will allow them to verify you are the person who booked the event."
 				},
 				"recap": {
 					"title": "Booking",
@@ -443,6 +448,15 @@
 					"guests": "guests",
 					"date": "Date",
 					"price": "Price"
+				},
+				"verify": {
+					"404": "This order does not exist",
+					"title": "Order verification",
+					"wrong_code": "Wrong verification code try again",
+					"success": "Successfully verified order code",
+					"success_event": "This code verifies the event",
+					"success_date": "for the date",
+					"guest_list": "Here is a list of the guests:"
 				}
 			}
 		},
