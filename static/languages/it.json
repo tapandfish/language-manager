@@ -133,7 +133,8 @@
 			"logout": "Logout",
 			"create_event": "Creazione evento",
 			"published_events": "Gestisci eventi",
-			"bookings": "Prenotazioni"
+			"bookings": "Prenotazioni",
+			"messages": "Messaggi"
 		},
 		"tabs": {
 			"manage": {
@@ -458,6 +459,17 @@
 					"success_date": "per la data",
 					"guest_list": "Ecco una lista degli ospiti:"
 				}
+			},
+			"messages": {
+				"title": "Messaggi",
+				"description": "Messaggia con ospiti e host per organizzare e prepararti agli eventi",
+				"unread": "Messaggi non letti",
+				"event": "Evento",
+				"in_date": "in data",
+				"no_chats": "Prenota un evento o ricevi un ordine per cominciare a messaggiare con altri utenti",
+				"cant_load": "Si è verificato un problema mentre tentavamo di caricare questa chat",
+				"message_placeholder": "Messaggio",
+				"send": "Invia"
 			}
 		},
 		"revert": {

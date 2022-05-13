@@ -133,7 +133,8 @@
 			"logout": "Logout",
 			"create_event": "Create event",
 			"published_events": "Manage events",
-			"bookings": "Bookings"
+			"bookings": "Bookings",
+			"messages": "Messages"
 		},
 		"tabs": {
 			"manage": {
@@ -458,6 +459,17 @@
 					"success_date": "for the date",
 					"guest_list": "Here is a list of the guests:"
 				}
+			},
+			"messages": {
+				"title": "Messages",
+				"description": "Message with guests and hosts to organize and prepare for events",
+				"unread": "Unread messages",
+				"event": "Event",
+				"in_date": "in date",
+				"no_chats": "Book an event or receive an order to start messaging with other users",
+				"cant_load": "There was a problem loading this chat",
+				"message_placeholder": "Message",
+				"send": "Send"
 			}
 		},
 		"revert": {
