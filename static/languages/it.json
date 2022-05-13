@@ -432,7 +432,8 @@
 					"pending": "L'ordine è in attesa di approvazione",
 					"verify_order": "Verifica ordine",
 					"code": "Codice",
-					"verify": "Verifica"
+					"verify": "Verifica",
+					"contact": "Contatta ospite"
 				},
 				"view": {
 					"404": "Quest'ordine non esiste",
@@ -441,7 +442,8 @@
 					"pending": "L'ordine è in attesa di approvazione",
 					"event": "Evento",
 					"verification_code": "Codice di verifica",
-					"verification_code_explaination": "Mostra il codice di verifica o il QR all'host quando ti presenti all'evento. In questo modo potrai verificare di essere la persona che ha effettuato la prenotazione."
+					"verification_code_explaination": "Mostra il codice di verifica o il QR all'host quando ti presenti all'evento. In questo modo potrai verificare di essere la persona che ha effettuato la prenotazione.",
+					"contact": "Contatta host"
 				},
 				"recap": {
 					"title": "Prenotazione",

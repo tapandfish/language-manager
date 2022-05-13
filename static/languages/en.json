@@ -432,7 +432,8 @@
 					"pending": "The order is pending approval",
 					"verify_order": "Verify order",
 					"code": "Code",
-					"verify": "Verify"
+					"verify": "Verify",
+					"contact": "Contact guest"
 				},
 				"view": {
 					"404": "This order does not exist",
@@ -441,7 +442,8 @@
 					"pending": "The order is pending approval",
 					"event": "Event",
 					"verification_code": "Verification code",
-					"verification_code_explaination": "Show the verification code or the QR code to the host when you get to the event location. This will allow them to verify you are the person who booked the event."
+					"verification_code_explaination": "Show the verification code or the QR code to the host when you get to the event location. This will allow them to verify you are the person who booked the event.",
+					"contact": "Contact host"
 				},
 				"recap": {
 					"title": "Booking",
