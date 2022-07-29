@@ -399,7 +399,19 @@
 					"already_configured": "You have already configured your account to receive payments to the PayPal account linked to the following email address:",
 					"connect": "Connect with PayPal",
 					"connect_new": "Connect to another PayPal account",
-					"agreement": "By clicking this button you agree to share your data with PayPal"
+					"agreement": "By clicking this button you agree to share your data with PayPal",
+					"total_earnings": "Total earnings",
+					"earnings_details": "Details",
+					"earnings": {
+						"title": "Host earnings",
+						"description": "A detailed list of all the transactions involving you as a recipient",
+						"date": "Date",
+						"event": "Event",
+						"payment_date": "Payment Date",
+						"amount": "Amount",
+						"pending": "Pending",
+						"total": "Total"
+					}
 				},
 				"send": {
 					"title": "Billing",
