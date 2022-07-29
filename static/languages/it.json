@@ -399,7 +399,19 @@
 					"already_configured": "Hai già configurato il tuo account per ricevere pagamenti all'account PayPal collegato al seguente indirizzo email:",
 					"connect": "Collega con PayPal",
 					"connect_new": "Collega un altro account PayPal",
-					"agreement": "Cliccando questo pulsante accetti di condividere le tue informazioni con PayPal"
+					"agreement": "Cliccando questo pulsante accetti di condividere le tue informazioni con PayPal",
+					"total_earnings": "Guadagni totali",
+					"earnings_details": "Dettagli",
+					"earnings": {
+						"title": "Guadagni host",
+						"description": "Una lista dettagliata di tutte le transazioni che ti riguardano come host",
+						"date": "Data",
+						"event": "Evento",
+						"payment_date": "Data del pagamento",
+						"amount": "Ammontare",
+						"pending": "In attesa",
+						"total": "Totale"
+					}
 				},
 				"send": {
 					"title": "Pagamenti",
